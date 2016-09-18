@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="fund-cards">
+    <% @funds.each do |f| %>
+      <div class="row fund-card">
+        <div class="col-sm-3 col-md-3 fund-info">
+          <p class="fund-info-name"><%= f.fund %></p>
+          <p>Fund</p>
+        </div>
+        <div class="col-sm-3 col-md-3 fund-status">
+          <p class="fund-status-invested">
+            <% if f.invested %>
+              <img class="fund-status-invested-icon" src="in.svg">
+              <p>IN as of <%= f.date.strftime("%b %-d, %Y") %></p>
+            <% else %>
+              <img class="fund-status-invested-icon" src="out.svg">
+              <p>OUT as of <%= f.date.strftime("%b %-d, %Y") %></p>
+            <% end %>
+          </p>
+        </div>
+        <div class="col-sm-6 col-md-6 fund-details">
+          <p>Price: <b><%= "$%5.4f" % f.tenth_month_price %></b> (at end of 10 month period)</p>
+          <p>10-month SMA: <b><%= "$%5.4f" % f.ten_month_average %></b></p>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
