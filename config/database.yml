@@ -1,3 +1,7 @@
 development:
   database: db/development.sqlite3
   adapter: sqlite3
+
+production:
+  database: tacticalthrift
+  adapter: postgresql
