@@ -9,10 +9,10 @@
         <div class="col-sm-3 col-md-3 fund-status">
           <p class="fund-status-invested">
             <% if f.invested %>
-              <img class="fund-status-invested-icon" src="in.svg">
+              <img class="fund-status-invested-icon" src="/images/in.svg">
               <p>IN as of <%= f.date.strftime("%b %-d, %Y") %></p>
             <% else %>
-              <img class="fund-status-invested-icon" src="out.svg">
+              <img class="fund-status-invested-icon" src="/images/out.svg">
               <p>OUT as of <%= f.date.strftime("%b %-d, %Y") %></p>
             <% end %>
           </p>
