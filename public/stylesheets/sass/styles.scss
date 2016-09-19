@@ -31,6 +31,14 @@ body {
     height: 80px;
     width: auto;
   }
+
+  .details-price, .details-sma {
+    margin: 1em 0;
+  }
+
+  .details-price-amount, .details-sma-amount {
+    font-weight: bold;
+  }
 }
 
 section#about {

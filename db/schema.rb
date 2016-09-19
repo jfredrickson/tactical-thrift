@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160916163212) do
+ActiveRecord::Schema.define(version: 20160919170816) do
 
   create_table "positions", force: :cascade do |t|
     t.date    "date"
@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 20160916163212) do
     t.boolean "invested"
     t.decimal "ten_month_average"
     t.decimal "tenth_month_price"
+    t.date    "tenth_month_price_date"
   end
 
 end

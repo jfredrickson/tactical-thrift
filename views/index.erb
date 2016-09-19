@@ -15,13 +15,23 @@
               <img class="fund-status-icon" src="/images/out.svg">
               <p class="card-text">OUT as of <%= f.date.strftime("%b %-d, %Y") %></p>
             <% end %>
-            <p class="card-text">
-              <small class="text-muted">
-                Price: <b><%= "$%5.4f" % f.tenth_month_price %></b> (at end of 10 month period)
-                <br>
-                10-month SMA: <b><%= "$%5.4f" % f.ten_month_average %></b>
-              </small>
-            </p>
+            <hr>
+            <div class="row details">
+              <div class="col-lg-6">
+                <div class="details-price">
+                  <div>Price</div>
+                  <div class="details-price-amount"><%= "$%5.4f" % f.tenth_month_price %></div>
+                  <div><small class="text-muted">(<%= f.tenth_month_price_date.strftime("%b %-d, %Y") %>)</small></div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="details-sma">
+                  <div>10-month SMA</div>
+                  <div class="details-sma-amount"><%= "$%5.4f" % f.ten_month_average %></div>
+                  <div><small class="text-muted">(<%= f.tenth_month_price_date.months_ago(9).strftime("%b %Y") %> - <%= f.tenth_month_price_date.strftime("%b %Y") %>)</small></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       <% end %>
