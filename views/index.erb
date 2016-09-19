@@ -10,10 +10,10 @@
             <% if f.fund == "I" %><p class="card-text">International stock fund</p><% end %>
             <% if f.invested %>
               <img class="fund-status-icon" src="/images/in.svg">
-              <p class="card-text">IN as of <%= f.date.strftime("%b %-d, %Y") %></p>
+              <p class="card-text"><strong>Invested</strong> as of <%= f.date.strftime("%b %-d, %Y") %></p>
             <% else %>
               <img class="fund-status-icon" src="/images/out.svg">
-              <p class="card-text">OUT as of <%= f.date.strftime("%b %-d, %Y") %></p>
+              <p class="card-text"><strong>Moved to G Fund</strong> as of <%= f.date.strftime("%b %-d, %Y") %></p>
             <% end %>
             <hr>
             <div class="row details">
