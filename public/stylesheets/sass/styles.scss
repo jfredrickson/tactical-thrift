@@ -49,3 +49,18 @@ section#about {
     margin: 1em auto;
   }
 }
+
+footer {
+  padding: 2em 0;
+  color: white;
+  background-color: #333;
+  text-align: center;
+
+  p {
+    margin: 0;
+  }
+
+  a, a:hover, a:active, a:visited {
+    color: lighten(#0275d8, 40%);
+  }
+}
