@@ -9,6 +9,9 @@ class App < Sinatra::Base
   configure :development do
   end
 
+  configure :production do
+  end
+
   configure do
     set :database_file, "config/database.yml"
     $LOAD_PATH.unshift("#{File.dirname(__FILE__)}/lib")
