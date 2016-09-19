@@ -12,7 +12,7 @@ GEM
       i18n (~> 0.7)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
-    arel (7.1.0)
+    arel (7.1.2)
     concurrent-ruby (1.0.2)
     httparty (0.14.0)
       multi_xml (>= 0.5.2)
@@ -54,6 +54,9 @@ DEPENDENCIES
   sinatra-activerecord
   sqlite3
   tsp_scraper
+
+RUBY VERSION
+   ruby 2.3.1p112
 
 BUNDLED WITH
    1.13.1
