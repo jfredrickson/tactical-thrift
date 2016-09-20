@@ -9,6 +9,7 @@ gem "activerecord"
 gem "sinatra-activerecord"
 gem "sass"
 gem "rake"
+gem "puma"
 
 group :development do
   gem "shotgun"
