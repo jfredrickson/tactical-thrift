@@ -18,8 +18,4 @@ class App < Sinatra::Base
     }.compact
     erb :index
   end
-
-  get "/update" do
-    Position.update_positions
-  end
 end

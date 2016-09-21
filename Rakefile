@@ -6,3 +6,8 @@ namespace :db do
     require "./app"
   end
 end
+
+desc "Download TSP price data and update the investment model"
+task :update_positions do
+  Position.update_positions
+end
