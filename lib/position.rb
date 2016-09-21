@@ -16,7 +16,8 @@ class Position < ActiveRecord::Base
         avg = prices.inject(0) { |sum, data| sum + data[:funds]["#{fund} Fund"] } / 10
         date = prices.last[:date]
         invested = last >= avg
-        Position.create(date: first_day_of_month, fund: fund, invested: invested, ten_month_average: avg, tenth_month_price: last, tenth_month_price_date: date)
+        position = Position.create(date: first_day_of_month, fund: fund, invested: invested, ten_month_average: avg, tenth_month_price: last, tenth_month_price_date: date)
+        puts "Updated position for #{position.date}: #{position.fund} Fund, Invested: #{position.invested}"
       end
     end
   end
