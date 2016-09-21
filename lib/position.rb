@@ -9,6 +9,7 @@ class Position < ActiveRecord::Base
     }.compact!
 
     # Get prices and compute this month's positions.
+    puts "#{funds.count} #{funds.count == 1 ? 'position needs' : 'positions need'} updating for this month."
     unless funds.empty?
       prices = get_month_end_prices(10)
       funds.each do |fund|
