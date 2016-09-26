@@ -20,7 +20,7 @@ class Position < ActiveRecord::Base
         date = prices.last[:date]
         invested = last >= avg
         position = Position.create(date: first_day_of_month, fund: fund, invested: invested, ten_month_average: avg, tenth_month_price: last, tenth_month_price_date: date)
-        puts "Updated position for #{position.date}: #{position.fund} Fund, Invested: #{position.invested}"
+        puts "Updated position for #{position.date}: #{position.fund.name} Fund, Invested: #{position.invested}"
       end
     end
   end
