@@ -1,20 +1,22 @@
 class Position < ActiveRecord::Base
+  belongs_to :fund
+
   def self.update_positions
-    funds = ["C", "S", "I"]
     first_day_of_month = Date.today.beginning_of_month
 
-    # First, check if we already have positions established for this month.
-    funds.collect! { |fund|
-      fund unless Position.exists?(fund: fund, date: first_day_of_month)
-    }.compact!
+    # First, get funds that don't yet have positions established for this month.
+    active_funds = Fund.where(active: true)
+    funds_to_update = active_funds.select do |fund|
+      fund.positions.where(date: first_day_of_month)
+    end
 
     # Get prices and compute this month's positions.
-    puts "#{funds.count} #{funds.count == 1 ? 'position needs' : 'positions need'} updating for this month."
-    unless funds.empty?
+    puts "#{funds_to_update.count} #{funds_to_update.count == 1 ? 'position needs' : 'positions need'} updating for this month."
+    unless funds_to_update.empty?
       prices = get_month_end_prices(10)
-      funds.each do |fund|
-        last = prices.last[:funds]["#{fund} Fund"]
-        avg = prices.inject(0) { |sum, data| sum + data[:funds]["#{fund} Fund"] } / 10
+      funds_to_update.each do |fund|
+        last = prices.last[:funds]["#{fund.name} Fund"]
+        avg = prices.inject(0) { |sum, data| sum + data[:funds]["#{fund.name} Fund"] } / 10
         date = prices.last[:date]
         invested = last >= avg
         position = Position.create(date: first_day_of_month, fund: fund, invested: invested, ten_month_average: avg, tenth_month_price: last, tenth_month_price_date: date)

@@ -4,18 +4,14 @@ class App < Sinatra::Base
   register Sinatra::ActiveRecordExtension
 
   get "/" do
-    fund_names = ["C", "S", "I"]
-
-    # Make sure we have the latest positions. If not, update them.
     first_day_of_month = Date.today.beginning_of_month
-    if Position.where(date: first_day_of_month).count != fund_names.count
+
+    # Make sure we have the latest position for each fund. If not, update them.
+    if Position.where(date: first_day_of_month).count < Fund.where(active: true).count
       Position.update_positions
     end
 
-    # Get the positions and render them.
-    @funds = fund_names.collect { |fund_name|
-      Position.find_by(fund: fund_name, date: first_day_of_month)
-    }.compact
+    @positions = Position.where(date: first_day_of_month)
     erb :index
   end
 end

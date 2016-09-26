@@ -10,15 +10,23 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160919170816) do
+ActiveRecord::Schema.define(version: 20160924212326) do
+
+  create_table "funds", force: :cascade do |t|
+    t.string  "name"
+    t.string  "description"
+    t.date    "inception_date"
+    t.boolean "active"
+  end
 
   create_table "positions", force: :cascade do |t|
     t.date    "date"
-    t.string  "fund"
     t.boolean "invested"
     t.decimal "ten_month_average"
     t.decimal "tenth_month_price"
     t.date    "tenth_month_price_date"
+    t.integer "fund_id"
+    t.index ["fund_id"], name: "index_positions_on_fund_id"
   end
 
 end
