@@ -7,7 +7,7 @@ class Position < ActiveRecord::Base
     # First, get funds that don't yet have positions established for this month.
     active_funds = Fund.where(active: true)
     funds_to_update = active_funds.select do |fund|
-      fund.positions.where(date: first_day_of_month)
+      fund if fund.positions.where(date: first_day_of_month).empty?
     end
 
     # Get prices and compute this month's positions.
