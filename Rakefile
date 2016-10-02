@@ -7,7 +7,12 @@ namespace :db do
   end
 end
 
-desc "Download TSP price data and update the investment model"
+desc "Update the investment model for this month"
 task :update_positions do
   Position.update_positions
+end
+
+desc "Populate the database with positions for all previous months"
+task :populate_positions do
+  Position.populate_positions
 end
