@@ -1,0 +1,29 @@
+<div class="container">
+  <p><a href="/">Back</a></p>
+
+  <% @funds.each do |fund| %>
+    <h2><%= fund.name %> Fund History</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>10-month End Price</th>
+          <th>10-month SMA</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% fund.positions.order(date: :asc).each do |position| %>
+          <tr>
+            <td><%= position.date.strftime("%b %-d, %Y") %></td>
+            <td><%= position.tenth_month_price %></td>
+            <td><%= position.ten_month_average %></td>
+            <td><%= position.invested ? "Invested" : "Moved to G" %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  <% end %>
+
+  <p><a href="/">Back</a></p>
+</div>

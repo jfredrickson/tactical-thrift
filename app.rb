@@ -14,4 +14,9 @@ class App < Sinatra::Base
     @positions = Position.where(date: first_day_of_month)
     erb :index
   end
+
+  get "/history" do
+    @funds = Fund.where(active: true)
+    erb :history
+  end
 end
