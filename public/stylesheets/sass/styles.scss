@@ -54,7 +54,6 @@ footer {
   padding: 2em 0;
   color: white;
   background-color: #333;
-  text-align: center;
 
   p {
     margin: 0;
@@ -68,5 +67,9 @@ footer {
     vertical-align: middle;
     height: 25px;
     width: auto;
+  }
+
+  .footer-beta {
+    text-align: right;
   }
 }
