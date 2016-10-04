@@ -19,6 +19,7 @@ GEM
     i18n (0.7.0)
     minitest (5.9.0)
     multi_xml (0.5.5)
+    newrelic_rpm (3.16.3.323)
     pg (0.18.4)
     puma (3.6.0)
     rack (1.6.4)
@@ -49,6 +50,7 @@ PLATFORMS
 DEPENDENCIES
   activerecord
   activesupport
+  newrelic_rpm
   pg
   puma
   rake
@@ -63,4 +65,4 @@ RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.13.1
+   1.13.2

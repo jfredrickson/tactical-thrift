@@ -10,6 +10,7 @@ class App < Sinatra::Base
   end
 
   configure :production do
+    require "newrelic_rpm"
   end
 
   configure do
