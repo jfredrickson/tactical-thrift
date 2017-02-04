@@ -14,7 +14,7 @@ rake db:setup
 bundle exec shotgun
 ```
 
-Then open up http://localhost:9393 in your browser.
+Then open up [http://localhost:9393](http://localhost:9393) in your browser.
 
 You can also have the app download the full TSP price history and compute the model's historical positions by running `rake populate_positions`.
 
