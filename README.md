@@ -10,7 +10,7 @@ To run the app after cloning this repository:
 
 ```
 bundle install
-rake db:setup
+bundle exec rake db:setup
 bundle exec shotgun
 ```
 
