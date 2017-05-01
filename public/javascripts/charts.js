@@ -5,10 +5,10 @@ $(document).ready(function () {
     var data = {
       labels: [],
       datasets: []
-    }
+    };
     var smaDataset = {
       type: "line",
-      label: "SMA",
+      label: "10-month SMA",
       data: [],
       fill: false,
       borderColor: "rgb(33, 133, 181)",
