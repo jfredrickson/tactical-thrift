@@ -10,6 +10,7 @@ gem "sinatra-activerecord"
 gem "sass"
 gem "rake"
 gem "puma"
+gem "tilt-jbuilder", require: "sinatra/jbuilder"
 
 group :development do
   gem "shotgun"

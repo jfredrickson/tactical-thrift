@@ -19,4 +19,16 @@ class App < Sinatra::Base
     @funds = Fund.where(active: true)
     erb :history
   end
+
+  get "/charts" do
+    @funds = Fund.where(active: true)
+    erb :charts
+  end
+
+  get "/data/:fund.json" do
+    year_ago = Date.today.beginning_of_month - 12.months
+    fund = Fund.find_by(name: params["fund"].upcase)
+    @positions = Position.where("date > ?", year_ago).where(fund: fund).order(:date)
+    jbuilder :data
+  end
 end
