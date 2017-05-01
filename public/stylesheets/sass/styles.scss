@@ -3,13 +3,30 @@ body {
 }
 
 .site-header {
-  margin: 3em 0;
+  margin: 1.5em 0;
   text-align: center;
 
   h1 {
     font-size: 3em;
     font-weight: bold;
   }
+}
+
+nav {
+  margin-bottom: 2em;
+
+  a span {
+    padding-bottom: 3px;
+  }
+
+  .active a span {
+    border-bottom: 3px solid #1468cc;
+  }
+}
+
+.navbar-brand {
+  width: 0;
+  margin: 0;
 }
 
 .fund-card {

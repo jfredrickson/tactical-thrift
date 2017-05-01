@@ -10,8 +10,6 @@
   <link rel="stylesheet" href="/stylesheets/styles.css">
 </head>
 <body>
-  <div class="background"></div>
-
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
@@ -21,6 +19,28 @@
         </div>
       </div>
     </div>
+  </div>
+
+  <div class="container">
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="/">&nbsp;</a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item <%= 'active' if @page == 'Home' %>">
+            <a class="nav-link" href="/"><span>Home</span></a>
+          </li>
+          <li class="nav-item <%= 'active' if @page == 'Charts' %>">
+            <a class="nav-link" href="/charts"><span>Charts</span></a>
+          </li>
+          <li class="nav-item <%= 'active' if @page == 'History' %>">
+            <a class="nav-link" href="/history"><span>History</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </div>
 
   <%= yield %>

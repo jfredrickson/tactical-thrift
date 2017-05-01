@@ -12,16 +12,19 @@ class App < Sinatra::Base
     end
 
     @positions = Position.where(date: first_day_of_month)
+    @page = "Home"
     erb :index
   end
 
   get "/history" do
     @funds = Fund.where(active: true)
+    @page = "History"
     erb :history
   end
 
   get "/charts" do
     @funds = Fund.where(active: true)
+    @page = "Charts"
     erb :charts
   end
 
