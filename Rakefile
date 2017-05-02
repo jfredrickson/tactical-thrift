@@ -16,3 +16,6 @@ desc "Populate the database with positions for all previous months"
 task :populate_positions do
   Position.populate_positions
 end
+
+task :default do
+end
