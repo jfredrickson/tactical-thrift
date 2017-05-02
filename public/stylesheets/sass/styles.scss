@@ -2,11 +2,16 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+h1, h2, h3, h4 {
+  margin-top: 2em;
+}
+
 .site-header {
   margin: 1.5em 0;
   text-align: center;
 
   h1 {
+    margin: 0;
     font-size: 3em;
     font-weight: bold;
   }
@@ -37,6 +42,7 @@ nav {
   margin-bottom: 1em;
 
   h2 {
+    margin: 0;
     font-size: 3em;
     color: white;
     background-color: #1468cc;
@@ -65,6 +71,12 @@ nav {
   margin: 1em;
 }
 
+h3.history-year {
+  margin-top: 0.5em;
+  font-size: 1em;
+  font-weight: bold;
+}
+
 section#about {
   margin: 4em 0;
 
@@ -75,6 +87,7 @@ section#about {
 }
 
 footer {
+  margin-top: 2em;
   padding: 2em 0;
   color: white;
   background-color: #333;
