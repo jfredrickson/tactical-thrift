@@ -11,14 +11,14 @@ $(document).ready(function () {
       label: "10-month SMA",
       data: [],
       fill: false,
-      borderColor: "rgb(33, 133, 181)",
-      pointRadius: 0
+      borderColor: "rgb(33, 133, 181)"
     };
     var priceDataset = {
-      type: "bar",
+      type: "line",
       label: "Price",
       data: [],
-      backgroundColor: "rgba(35, 139, 69, 0.5)"
+      backgroundColor: "rgba(35, 139, 69, 0.3)",
+      borderColor: "rgb(35, 139, 69)"
     };
     positions.forEach(function (position) {
       var date = formatDate(position.date);
@@ -34,7 +34,7 @@ $(document).ready(function () {
 
   function renderChart(targetElement, data) {
     var chart = new Chart(targetElement, {
-      type: "bar",
+      type: "line",
       data: data
     });
   }
