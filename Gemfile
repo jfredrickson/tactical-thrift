@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby ">= 2.3.3"
+ruby ">= 2.6.3"
 
 gem "sinatra"
 gem "tsp_scraper"
