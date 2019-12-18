@@ -32,7 +32,7 @@ GEM
     pg (1.1.4)
     puma (4.2.1)
       nio4r (~> 2.0)
-    rack (2.0.7)
+    rack (2.0.8)
     rack-protection (2.0.7)
       rack
     rake (13.0.0)
