@@ -1,2 +1,4 @@
 language: ruby
 sudo: required
+before_install:
+  - gem install bundler
