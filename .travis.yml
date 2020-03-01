@@ -1,6 +1,7 @@
 language: ruby
+rvm:
+  - 2.6.5
 before_install:
   - gem install bundler
 install:
-  - gem install bundler
   - bundle install --jobs=3 --retry=3
