@@ -20,7 +20,7 @@ You can also have the app download the full TSP price history and compute the mo
 
 ## License
 
-Copyright (C) 2016 Jeff Fredrickson
+Copyright (C) 2016-2020 Jeff Fredrickson
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
