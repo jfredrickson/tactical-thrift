@@ -10,17 +10,17 @@ To run the app after cloning this repository:
 
 ```
 bundle install
-bundle exec rake db:setup
+ENV=development bundle exec rake db:setup
 bundle exec shotgun
 ```
 
 Then open up [http://localhost:9393](http://localhost:9393) in your browser.
 
-You can also have the app download the full TSP price history and compute the model's historical positions by running `rake populate_positions`.
+You can also have the app download the full TSP price history and compute the model's historical positions by running `bundle exec rake populate_positions`.
 
 ## License
 
-Copyright (C) 2016 Jeff Fredrickson
+Copyright (C) 2016-2020 Jeff Fredrickson
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
