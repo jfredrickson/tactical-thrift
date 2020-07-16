@@ -16,8 +16,8 @@ class Position < ActiveRecord::Base
     unless funds_to_update.empty?
       prices = get_month_end_prices(10)
       funds_to_update.each do |fund|
-        last = prices.last[:funds]["#{fund.name} Fund"]
-        avg = prices.inject(0) { |sum, data| sum + data[:funds]["#{fund.name} Fund"] } / 10
+        last = prices.last[:funds][fund.name]
+        avg = prices.inject(0) { |sum, data| sum + data[:funds][fund.name] } / 10
         date = prices.last[:date]
         invested = last >= avg
         position = Position.create(date: first_day_of_month, fund: fund, invested: invested, ten_month_average: avg, tenth_month_price: last, tenth_month_price_date: date)
@@ -39,8 +39,8 @@ class Position < ActiveRecord::Base
         if index >= 10
           unless Position.exists?(fund: fund, date: first_day_of_month)
             ten_month_prices = prices[index - 10, 10]
-            last = price[:funds]["#{fund.name} Fund"]
-            avg = ten_month_prices.inject(0) { |sum, data| sum + data[:funds]["#{fund.name} Fund"] } / 10
+            last = price[:funds]["#{fund.name}"]
+            avg = ten_month_prices.inject(0) { |sum, data| sum + data[:funds][fund.name] } / 10
             invested = last >= avg
             position = Position.create(date: first_day_of_month, fund: fund, invested: invested, ten_month_average: avg, tenth_month_price: last, tenth_month_price_date: price[:date])
             puts "Updated position for #{position.date}: #{position.fund.name} Fund, Invested: #{position.invested}"
