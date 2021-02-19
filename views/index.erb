@@ -1,40 +1,38 @@
 <div class="container">
-  <div class="card-deck-wrapper">
-    <div class="card-deck">
-      <% @positions.each do |position| %>
-        <div class="card text-xs-center fund-card">
-          <h2 class="card-header"><b><%= position.fund.name %></b> Fund</h3>
-          <div class="card-block">
-            <p class="card-text"><%= position.fund.description %></p>
-            <% if position.invested %>
-              <img class="fund-status-icon" src="/images/in.svg">
-              <p class="card-text"><strong>Invested</strong> as of <%= position.date.strftime("%b %-d, %Y") %></p>
-            <% else %>
-              <img class="fund-status-icon" src="/images/out.svg">
-              <p class="card-text"><strong>Moved to G Fund</strong> as of <%= position.date.strftime("%b %-d, %Y") %></p>
-            <% end %>
-            <hr>
-            <div class="row details">
-              <div class="col-lg-6">
-                <div class="details-price">
-                  <div>Price</div>
-                  <div class="details-price-amount"><%= "$%5.4f" % position.tenth_month_price %></div>
-                  <div><small class="text-muted">(<%= position.tenth_month_price_date.strftime("%b %-d, %Y") %>)</small></div>
-                </div>
+  <div class="card-deck">
+    <% @positions.each do |position| %>
+      <div class="card fund-card">
+        <h2 class="card-header"><b><%= position.fund.name %></b> Fund</h3>
+        <div class="card-body">
+          <p class="card-text"><%= position.fund.description %></p>
+          <% if position.invested %>
+            <img class="fund-status-icon" src="/images/in.svg">
+            <p class="card-text"><strong>Invested</strong> as of <%= position.date.strftime("%b %-d, %Y") %></p>
+          <% else %>
+            <img class="fund-status-icon" src="/images/out.svg">
+            <p class="card-text"><strong>Moved to G Fund</strong> as of <%= position.date.strftime("%b %-d, %Y") %></p>
+          <% end %>
+          <hr>
+          <div class="row details">
+            <div class="col-lg-6">
+              <div class="details-price">
+                <div>Price</div>
+                <div class="details-price-amount"><%= "$%5.4f" % position.tenth_month_price %></div>
+                <div><small class="text-muted">(<%= position.tenth_month_price_date.strftime("%b %-d, %Y") %>)</small></div>
               </div>
-              <div class="col-lg-6">
-                <div class="details-sma">
-                  <div>10-month SMA</div>
-                  <div class="details-sma-amount"><%= "$%5.4f" % position.ten_month_average %></div>
-                  <div><small class="text-muted">(<%= position.tenth_month_price_date.months_ago(9).strftime("%b %Y") %> - <%= position.tenth_month_price_date.strftime("%b %Y") %>)</small></div>
-                </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="details-sma">
+                <div>10-month SMA</div>
+                <div class="details-sma-amount"><%= "$%5.4f" % position.ten_month_average %></div>
+                <div><small class="text-muted">(<%= position.tenth_month_price_date.months_ago(9).strftime("%b %Y") %> - <%= position.tenth_month_price_date.strftime("%b %Y") %>)</small></div>
               </div>
             </div>
           </div>
         </div>
-      <% end %>
-    </div>
-  </div>
+      </div>
+    <% end %>
+</div>
 
   <div class="history">
     <p style="text-align: center;"><a class="btn btn-outline-primary" href="/charts">Charts for all funds</a></p>
