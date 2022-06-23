@@ -10,8 +10,6 @@ const Daily = require('../models/daily')
 
 dayjs.extend(utc)
 
-console.log('Database:', config.mongoUrl)
-
 mongoose.connect(config.mongoUrl, async (err, db) => {
   let latestPrices
   const lastArg = process.argv.at(-1)

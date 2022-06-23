@@ -10,8 +10,6 @@ const Daily = require('../models/daily')
 
 dayjs.extend(utc)
 
-console.log('Database:', config.mongoUrl)
-
 mongoose.connect(config.mongoUrl, async (err, db) => {
   // Earliest data available from TSP is June 2, 2003
   const earliestDate = dayjs.utc("2003-06-02")
