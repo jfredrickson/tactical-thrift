@@ -22,6 +22,7 @@
     "node": "18.x"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "dayjs": "^1.11.3",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",

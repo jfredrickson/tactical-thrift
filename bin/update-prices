@@ -4,7 +4,7 @@ const config = require('../config')
 const mongoose = require('mongoose')
 const dayjs = require('dayjs')
 const utc = require('dayjs/plugin/utc')
-const fs = require('fs')
+const axios = require('axios')
 const scraper = require('tsp-scraper')
 const Daily = require('../models/daily')
 
@@ -15,9 +15,18 @@ console.log('Database:', config.mongoUrl)
 mongoose.connect(config.mongoUrl, async (err, db) => {
   let latestPrices
   const lastArg = process.argv.at(-1)
-  if (lastArg.match(/\.json$/)) {
-    console.log('Reading prices from file:', lastArg)
-    latestPrices = JSON.parse(fs.readFileSync(lastArg))
+  if (lastArg.match(/^http/)) {
+    console.log('Reading prices from URL:', lastArg)
+    await axios
+      .get(lastArg)
+      .then(res => {
+        latestPrices = res.data
+      })
+      .catch(err => {
+        console.error(err)
+        mongoose.connection.close()
+        process.exit(1)
+      })
   } else {
     console.log('Scraping prices from TSP')
     latestPrices = await scraper.scrape()
