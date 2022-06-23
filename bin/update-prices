@@ -1,0 +1,30 @@
+#!/usr/bin/env node
+
+const config = require('../config')
+const mongoose = require('mongoose')
+const dayjs = require('dayjs')
+const utc = require('dayjs/plugin/utc')
+const scraper = require('tsp-scraper')
+const Daily = require('../models/daily')
+
+dayjs.extend(utc)
+
+console.log('Database:', config.mongoUrl)
+
+mongoose.connect(config.mongoUrl, async (err, db) => {
+  // Manually load from JSON while tsp.gov is having issues
+  // const fs = require('fs')
+  // const latestPrices = JSON.parse(fs.readFileSync('all_share_prices.json'))
+  const latestPrices = await scraper.scrape()
+
+  for (dailyPrices of latestPrices) {
+    const updatedDaily = await Daily.findOneAndUpdate({ date: dailyPrices.date }, dailyPrices, { upsert: true })
+    if (updatedDaily === null) {
+      console.log('Creating', dayjs.utc(dailyPrices.date).format("YYYY-MM-DD"))
+    } else {
+      console.log('Updating', dayjs.utc(updatedDaily.date).format("YYYY-MM-DD"))
+    }
+  }
+
+  mongoose.connection.close()
+})

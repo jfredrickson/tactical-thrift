@@ -1,0 +1,36 @@
+{
+  "name": "tactical-thrift",
+  "version": "2.0.0",
+  "description": "Suggests a possible Thrift Savings Plan allocation.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "scss": "sass --watch public/stylesheets/sass/styles.scss public/stylesheets/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfredrickson/tactical-thrift.git"
+  },
+  "author": "Jeff Fredrickson <jeff.fredrickson@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jfredrickson/tactical-thrift/issues"
+  },
+  "homepage": "https://github.com/jfredrickson/tactical-thrift#readme",
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "mongoose": "^6.4.0",
+    "sass": "^1.53.0",
+    "tsp-scraper": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

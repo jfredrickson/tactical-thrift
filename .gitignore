@@ -1,3 +1,2 @@
-db/*.sqlite3
-.sass-cache
-.ruby-version
+/node_modules/
+.env

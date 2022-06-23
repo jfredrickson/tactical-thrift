@@ -1,0 +1,8 @@
+<div class="container">
+  {{#each funds}}
+    <h2>{{this.name}} Fund</h2>
+    <div class="chart-wrapper">
+      <canvas class="chart" data-fund="{{this.name}}"></canvas>
+    </div>
+  {{/each}}
+</div>

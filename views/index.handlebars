@@ -1,0 +1,59 @@
+<div class="container">
+  <div class="alert alert-warning" role="alert">
+    <p><strong>This website may not be 100% reliable at this time.</strong></p>
+    <p>TSP recently released a major overhaul of <a href="https://www.tsp.gov/">their website</a>, and they have been experiencing technical problems. This has affected Tactical Thrift's ability to retrieve share price data. Tactical Thrift relies on those numbers to work properly, so the numbers here might not be updated in a timely manner.</p>
+    <p>Please bear with me as we ride out TSP's growing pains.</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="card-deck">
+    {{#each positions}}
+      <div class="card fund-card">
+        <h2 class="card-header"><b>{{this.fund}}</b> Fund</h3>
+        <div class="card-body">
+          <p class="card-text">{{this.description}}</p>
+          {{#if this.invested}}
+            <img class="fund-status-icon" src="/images/in.svg">
+            <p class="card-text"><strong>Invested</strong> as of {{formatDate this.date "MMM D, YYYY"}}</p>
+          {{else}}
+            <img class="fund-status-icon" src="/images/out.svg">
+            <p class="card-text"><strong>Moved to G Fund</strong> as of {{formatDate this.date "MMM D, YYYY"}}</p>
+          {{/if}}
+          <hr>
+          <div class="row details">
+            <div class="col-lg-6">
+              <div class="details-price">
+                <div>Price</div>
+                <div class="details-price-amount">{{formatCurrency tenthMonthPrice}}</div>
+                <div><small class="text-muted">({{formatDate this.tenthMonthPriceDate "MMM D, YYYY"}})</small></div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="details-sma">
+                <div>10-month SMA</div>
+                <div class="details-sma-amount">{{formatCurrency tenMonthAverage}}</div>
+                <div><small class="text-muted">({{formatDate this.firstMonthPriceDate "MMM D, YYYY"}} - {{formatDate this.tenthMonthPriceDate "MMM D, YYYY"}})</small></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+</div>
+
+<div class="container">
+  <section id="about">
+    <h2>How it works</h2>
+    <p>This is a TSP investment model based on Mebane Faber's paper, <i><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=962461">A Quantitative Approach to Tactical Asset Allocation</a></i>. Faber describes an investment system that is based on comparing the current price of a fund to the 10-month simple moving average (SMA) of that fund, and making a buy/sell decision based on that comparison.</p>
+    <p>Applied to the TSP, this means we watch the C, S, and I funds. If the price of any of these funds drops below its 10-month SMA, we move money from that fund to the G fund. Conversely, if a fund's price rises above its 10-month SMA, we move money from the G fund to that stock fund. You decide how much of your investment you want to allocate to each fund. The F fund and the L funds are not a part of this model.</p>
+    <p>Faber's model only looks at the prices once a month after the final trading day of the month. This is a perfect fit for the TSP since we are only allowed two trades per month plus one move to the G Fund per month.</p>
+    <p>I originally learned of this model from a <a href="https://federalnewsradio.com/federal-report/2016/07/want-more-control-over-your-investments/">Federal News Radio article</a>, which describes in detail how Faber's model can be applied to the TSP.</p>
+    <p>If you are considering following this model for your investments, there are a few things you should keep in mind:</p>
+    <ul>
+      <li>Everyone's investment needs are different. This model may or may not fit your needs.</li>
+      <li>I am just a human pounding away at a keyboard. Humans make mistakes. You should verify the numbers for yourself rather than relying on my calculations.</li>
+    </ul>
+  </section>
+</div>

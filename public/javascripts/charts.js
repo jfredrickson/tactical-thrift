@@ -17,15 +17,15 @@ $(document).ready(function () {
       type: "line",
       label: "Price",
       data: [],
-      backgroundColor: "rgba(35, 139, 69, 0.3)",
+      fill: false,
       borderColor: "rgb(35, 139, 69)"
     };
     positions.forEach(function (position) {
       var date = formatDate(position.date);
       var status = position.invested ? "Invested" : "Move to G";
       data.labels.push([date, status]);
-      smaDataset.data.push(position.sma);
-      priceDataset.data.push(position.price);
+      smaDataset.data.push(position.tenMonthAverage);
+      priceDataset.data.push(position.tenthMonthPrice);
     });
     data.datasets.push(smaDataset);
     data.datasets.push(priceDataset);
@@ -50,8 +50,7 @@ $(document).ready(function () {
   $("canvas.chart").each(function () {
     var fund = $(this).data("fund");
     var targetElement = $(this);
-    $.getJSON("/data/" + fund + ".json", function (json) {
-      var positions = json["positions"];
+    $.getJSON("/data/" + fund + ".json", { months: 12 }, function (positions) {
       var data = buildChartData(positions);
       renderChart(targetElement, data);
     });

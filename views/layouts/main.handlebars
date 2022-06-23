@@ -15,7 +15,7 @@
       <div class="col-sm-12">
         <div class="site-header">
           <h1>Tactical Thrift</h1>
-          <p class="text-muted">A TSP investment model based on <i><a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=962461">A Quantitative Approach to Tactical Asset Allocation</a></i> by Mebane Faber.</p>
+          <p class="text-muted">A TSP investment model based on <i><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=962461">A Quantitative Approach to Tactical Asset Allocation</a></i> by Mebane Faber.</p>
         </div>
       </div>
     </div>
@@ -29,13 +29,13 @@
       <a class="navbar-brand" href="/">&nbsp;</a>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item <%= 'active' if @page == 'Home' %>">
+          <li class="nav-item {{#if homeActive }}active{{/if}}">
             <a class="nav-link" href="/"><span>Home</span></a>
           </li>
-          <li class="nav-item <%= 'active' if @page == 'Charts' %>">
+          <li class="nav-item {{#if chartsActive }}active{{/if}}">
             <a class="nav-link" href="/charts"><span>Charts</span></a>
           </li>
-          <li class="nav-item <%= 'active' if @page == 'History' %>">
+          <li class="nav-item {{#if historyActive }}active{{/if}}">
             <a class="nav-link" href="/history"><span>History</span></a>
           </li>
         </ul>
@@ -43,7 +43,7 @@
     </nav>
   </div>
 
-  <%= yield %>
+  {{{body}}}
 
   <footer class="mt-auto">
     <div class="container">
