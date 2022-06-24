@@ -18,15 +18,9 @@ jobs:
         with:
           node-version: "18"
       - run: npm install tsp-scraper
-      - run: node update-prices
-      - name: commit changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add prices.json
-          git commit -m "update prices.json"
-      - name: push changes
-        uses: ad-m/github-push-action@master
+      - run: node update-prices > prices.json
+      - uses: EndBug/add-and-commit@v9
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: github-pages
+          add: prices.json
+          message: update prices.json
+          push: true
