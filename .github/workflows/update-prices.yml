@@ -4,17 +4,17 @@ on:
   schedule:
     # 6:00 and 12:00 UTC daily
     - cron: "0 6,12 * * *"
-    # Every 3 minutes, only for testing
-    - cron: "*/3 * * * *"
+    # Every 5 minutes, only for testing
+    - cron: "*/5 * * * *"
 
 jobs:
-  scheduled-job:
+  scheduled-prices-update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           ref: github-pages
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v3
         with:
           node-version: "18"
       - run: npm install tsp-scraper
@@ -26,7 +26,7 @@ jobs:
           git add prices.json
           git commit -m "update prices.json"
       - name: push changes
-        uses: ad-m/github-push-action@v0.6.0
+        uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: github-pages
