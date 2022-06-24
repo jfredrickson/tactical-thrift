@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: "18"
       - run: npm install tsp-scraper
-      - run: node update-prices > prices.json
+      - run: node update-prices
       - uses: EndBug/add-and-commit@v9
         with:
           add: prices.json
