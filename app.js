@@ -6,7 +6,6 @@ const mongoose = require('mongoose')
 const dayjs = require('dayjs')
 const utc = require('dayjs/plugin/utc')
 const Fund = require('./models/fund')
-const Daily = require('./models/daily')
 const Position = require('./models/position')
 
 const app = express()
