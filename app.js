@@ -80,6 +80,21 @@ app.get('/data/:fund.json', async (req, res) => {
   res.json(positions)
 })
 
+// Gracefully handle signals
+// https://help.heroku.com/D5GK0FHU/how-can-my-node-app-gracefully-shutdown-when-receiving-sigterm
+process
+  .on('SIGTERM', shutdown('SIGTERM'))
+  .on('SIGINT', shutdown('SIGINT'))
+  .on('uncaughtException', shutdown('uncaughtException'));
+
+function shutdown(signal) {
+  return (err) => {
+    console.log('Received signal:', signal);
+    if (err) console.error(err.stack || err);
+    process.exit(err ? 1 : 0);
+  };
+}
+
 const server = app.listen(config.port, () => {
   console.log(`Listening on port ${server.address().port} (environment: ${process.env.NODE_ENV})`)
 })
