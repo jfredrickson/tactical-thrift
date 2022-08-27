@@ -1,43 +1,19 @@
 #!/usr/bin/env node
 
-const config = require('../config')
-const mongoose = require('mongoose')
-const dayjs = require('dayjs')
-const utc = require('dayjs/plugin/utc')
-const axios = require('axios')
+const path = require('path')
+const fs = require('fs')
 const scraper = require('tsp-scraper')
-const Daily = require('../models/daily')
 
-dayjs.extend(utc)
+const pricesFile = path.join(__dirname, '..', '_data', 'prices.json')
+const existingPrices = JSON.parse(fs.readFileSync(pricesFile, 'utf-8'))
 
-mongoose.connect(config.mongoUrl, async (err, db) => {
-  let latestPrices
-  const lastArg = process.argv.at(-1)
-  if (lastArg.match(/^http/)) {
-    console.log('Reading prices from URL:', lastArg)
-    await axios
-      .get(lastArg)
-      .then(res => {
-        latestPrices = res.data
-      })
-      .catch(err => {
-        console.error(err)
-        mongoose.connection.close()
-        process.exit(1)
-      })
-  } else {
-    console.log('Scraping prices from TSP')
-    latestPrices = await scraper.scrape()
-  }
-
-  for (dailyPrices of latestPrices) {
-    const updatedDaily = await Daily.findOneAndUpdate({ date: dailyPrices.date }, dailyPrices, { upsert: true })
-    if (updatedDaily === null) {
-      console.log('Creating', dayjs.utc(dailyPrices.date).format("YYYY-MM-DD"))
-    } else {
-      console.log('Updating', dayjs.utc(updatedDaily.date).format("YYYY-MM-DD"))
+scraper.scrape().then((latestPrices) => {
+  const updatedPrices = latestPrices.reduce((accumulator, newPrice) => {
+    if (!existingPrices.some(existingPrice => existingPrice.date === newPrice.date)) {
+      accumulator.push(newPrice)
     }
-  }
+    return accumulator
+  }, [...existingPrices])
 
-  mongoose.connection.close()
+  fs.writeFileSync(pricesFile, JSON.stringify(updatedPrices, null, 2))
 })

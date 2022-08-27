@@ -1,7 +1,11 @@
 $(document).ready(function () {
   var charts = [];
 
-  function buildChartData(positions) {
+  function buildChartData(fundName, allPositions) {
+    const positions = allPositions
+      .filter(position => position.fund === fundName)
+      .slice(-12);
+
     var data = {
       labels: [],
       datasets: []
@@ -48,10 +52,10 @@ $(document).ready(function () {
   }
 
   $("canvas.chart").each(function () {
-    var fund = $(this).data("fund");
+    var fundName = $(this).data("fund");
     var targetElement = $(this);
-    $.getJSON("/data/" + fund + ".json", { months: 12 }, function (positions) {
-      var data = buildChartData(positions);
+    $.getJSON("/data/positions.json", function (positions) {
+      var data = buildChartData(fundName, positions);
       renderChart(targetElement, data);
     });
   });

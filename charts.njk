@@ -1,0 +1,13 @@
+---
+title: Charts
+layout: default
+---
+
+<div class="container">
+  {% for fund in funds %}
+    <h2>{{ fund.name }} Fund</h2>
+    <div class="chart-wrapper">
+      <canvas class="chart" data-fund="{{ fund.name }}"></canvas>
+    </div>
+  {% endfor %}
+</div>

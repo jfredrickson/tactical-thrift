@@ -1,0 +1,32 @@
+---
+title: History
+layout: default
+---
+
+<div class="container">
+  {% for fund in funds %}
+    <h2>{{ fund.name }} Fund</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>10-month End Price</th>
+          <th>10-month SMA</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for position in positions | reverse %}
+          {% if position.fund == fund.name %}
+            <tr>
+              <td>{{ position.date | formatDate("MMM D, YYYY") }}</td>
+              <td>{{ position.tenthMonthPrice | formatCurrency }}</td>
+              <td>{{ position.tenMonthAverage | formatCurrency }}</td>
+              <td>{% if position.invested %}Invested{% else %}Moved to G{% endif %}</td>
+            </tr>
+          {% endif %}
+        {% endfor %}
+      </tbody>
+    </table>
+  {% endfor %}
+</div>

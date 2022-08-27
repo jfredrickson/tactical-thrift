@@ -1,69 +1,74 @@
 #!/usr/bin/env node
 
-const config = require('../config')
-const mongoose = require('mongoose')
-const dayjs = require('dayjs')
-const utc = require('dayjs/plugin/utc')
-const Fund = require('../models/fund')
-const Position = require('../models/position')
-const Daily = require('../models/daily')
+const path = require('path')
+const fs = require('fs')
+const dayjs = require('dayjs');
+const utc = require('dayjs/plugin/utc');
+const isBetween = require('dayjs/plugin/isBetween');
+const prices = require('../_data/prices.json');
+const funds = require('../_data/funds.json');
 
-dayjs.extend(utc)
+dayjs.extend(utc);
+dayjs.extend(isBetween);
 
-mongoose.connect(config.mongoUrl, async (err, db) => {
-  // Earliest data available from TSP is June 2, 2003
-  const earliestDate = dayjs.utc("2003-06-02")
-  const latestDate = dayjs.utc().subtract(1, 'month').endOf('month')
-  const numMonths = latestDate.diff(earliestDate, 'month')
+const positionsFile = path.join(__dirname, '..', '_data', 'positions.json')
 
-  // Get all month end prices
-  const monthEndPrices = []
-  for (let i = numMonths; i > 0; i--) {
-    const startDate = dayjs.utc().subtract(i, 'month').startOf('month')
-    const endDate = dayjs.utc().subtract(i, 'month').endOf('month')
-    const monthlyData = await Daily.find({ date: { "$gte": startDate, "$lte": endDate } }).sort({ date: 'desc' })
-    monthEndPrices.push(monthlyData[0])
+// Earliest data available from TSP is June 2, 2003
+const earliestDate = dayjs.utc("2003-06-02");
+const latestDate = dayjs.utc().subtract(1, 'month').endOf('month');
+const numMonths = latestDate.diff(earliestDate, 'month');
+
+// Get all month end prices
+const monthEndPrices = [];
+for (let i = numMonths; i > 0; i--) {
+  const startDate = dayjs.utc().subtract(i, 'month').startOf('month');
+  const endDate = dayjs.utc().subtract(i, 'month').endOf('month');
+  const monthlyData = prices.filter(price => {
+    return dayjs.utc(price.date).isBetween(startDate, endDate, 'day', '[]');
+  });
+  monthlyData.sort((price1, price2) => {
+    return price1.date.localeCompare(price2.date);
+  });
+  monthlyData.reverse();
+  const monthEndPrice = monthlyData[0];
+  monthEndPrices.push(monthEndPrice);
+}
+
+// Get all fund names
+const fundNames = funds.map(fund => fund.name);
+
+let positions = [];
+let index = 0;
+for (const monthEndPrice of monthEndPrices) {
+  index++;
+  // Don't calculate positions the first 9 months of fund price history
+  // since we need at least 10 months of history to determine a position
+  if (index < 10) { continue }
+
+  const date = dayjs.utc(monthEndPrice.date).add(1, 'month').startOf('month');
+  const tenMonthPrices = monthEndPrices.slice(index - 10, index);
+
+  for (const fund of fundNames) {
+    const tenMonthAverage = tenMonthPrices.reduce((sum, daily) => {
+      const price = Number(daily.prices.find(item => item.fund === fund).price);
+      return sum + price;
+    }, 0) / 10;
+
+    const tenthMonthPrice = tenMonthPrices.at(-1).prices.find(item => item.fund === fund).price;
+    const tenthMonthPriceDate = tenMonthPrices.at(-1).date;
+    const invested = tenthMonthPrice >= tenMonthAverage;
+
+    const position = {
+      date,
+      fund,
+      invested,
+      tenMonthAverage,
+      tenthMonthPrice,
+      tenthMonthPriceDate
+    };
+
+    positions.push(position);
   }
+}
 
-  // Get all fund names
-  const fundNames = (await Fund.find({ active: true })).map(fund => fund.name)
-
-  let index = 0
-  for (const monthEndPrice of monthEndPrices) {
-    index++
-    // Don't calculate positions the first 9 months of fund price history
-    // since we need at least 10 months of history to determine a position
-    if (index < 10) { continue }
-
-    const date = dayjs.utc(monthEndPrice.date).add(1, 'month').startOf('month')
-    const tenMonthPrices = monthEndPrices.slice(index - 10, index)
-    for (const fund of fundNames) {
-      const tenMonthAverage = tenMonthPrices.reduce((sum, daily) => {
-        const price = daily.prices.find(item => item.fund === fund).price
-        return sum + price
-      }, 0) / 10
-
-      const tenthMonthPrice = tenMonthPrices.at(-1).prices.find(item => item.fund === fund).price
-      const tenthMonthPriceDate = tenMonthPrices.at(-1).date
-      const invested = tenthMonthPrice >= tenMonthAverage
-
-      const position = {
-        date,
-        fund,
-        invested,
-        tenMonthAverage,
-        tenthMonthPrice,
-        tenthMonthPriceDate
-      }
-
-      const updatedPosition = await Position.findOneAndUpdate({ date, fund }, position, { upsert: true })
-      if (updatedPosition === null) {
-        console.log('Creating position', JSON.stringify(position))
-      } else {
-        console.log('Updating position', JSON.stringify(position))
-      }
-    }
-  }
-
-  mongoose.connection.close()
-})
+fs.writeFileSync(positionsFile, JSON.stringify(positions, null, 2));

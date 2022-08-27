@@ -1,0 +1,5282 @@
+[
+  {
+    "date": "2004-05-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 11.225,
+    "tenthMonthPrice": "11.6600",
+    "tenthMonthPriceDate": "2004-04-30"
+  },
+  {
+    "date": "2004-05-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 12.128,
+    "tenthMonthPrice": "12.6800",
+    "tenthMonthPriceDate": "2004-04-30"
+  },
+  {
+    "date": "2004-05-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 12.184,
+    "tenthMonthPrice": "13.1300",
+    "tenthMonthPriceDate": "2004-04-30"
+  },
+  {
+    "date": "2004-06-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 11.377,
+    "tenthMonthPrice": "11.8200",
+    "tenthMonthPriceDate": "2004-05-28"
+  },
+  {
+    "date": "2004-06-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 12.346,
+    "tenthMonthPrice": "12.8700",
+    "tenthMonthPriceDate": "2004-05-28"
+  },
+  {
+    "date": "2004-06-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 12.453999999999999,
+    "tenthMonthPrice": "13.1700",
+    "tenthMonthPriceDate": "2004-05-28"
+  },
+  {
+    "date": "2004-07-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 11.531,
+    "tenthMonthPrice": "12.0400",
+    "tenthMonthPriceDate": "2004-06-30"
+  },
+  {
+    "date": "2004-07-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 12.555000000000001,
+    "tenthMonthPrice": "13.2200",
+    "tenthMonthPriceDate": "2004-06-30"
+  },
+  {
+    "date": "2004-07-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 12.736999999999998,
+    "tenthMonthPrice": "13.5500",
+    "tenthMonthPriceDate": "2004-06-30"
+  },
+  {
+    "date": "2004-08-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 11.657999999999998,
+    "tenthMonthPrice": "11.6500",
+    "tenthMonthPriceDate": "2004-07-30"
+  },
+  {
+    "date": "2004-08-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 12.706,
+    "tenthMonthPrice": "12.4900",
+    "tenthMonthPriceDate": "2004-07-30"
+  },
+  {
+    "date": "2004-08-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 12.935999999999998,
+    "tenthMonthPrice": "13.0400",
+    "tenthMonthPriceDate": "2004-07-30"
+  },
+  {
+    "date": "2004-09-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 11.729999999999999,
+    "tenthMonthPrice": "11.6900",
+    "tenthMonthPriceDate": "2004-08-31"
+  },
+  {
+    "date": "2004-09-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 12.773,
+    "tenthMonthPrice": "12.4900",
+    "tenthMonthPriceDate": "2004-08-31"
+  },
+  {
+    "date": "2004-09-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 13.080999999999998,
+    "tenthMonthPrice": "13.1700",
+    "tenthMonthPriceDate": "2004-08-31"
+  },
+  {
+    "date": "2004-10-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 11.804999999999998,
+    "tenthMonthPrice": "11.8200",
+    "tenthMonthPriceDate": "2004-09-30"
+  },
+  {
+    "date": "2004-10-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 12.847999999999999,
+    "tenthMonthPrice": "12.9800",
+    "tenthMonthPriceDate": "2004-09-30"
+  },
+  {
+    "date": "2004-10-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 13.227,
+    "tenthMonthPrice": "13.4400",
+    "tenthMonthPriceDate": "2004-09-30"
+  },
+  {
+    "date": "2004-11-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 11.84,
+    "tenthMonthPrice": "12.0000",
+    "tenthMonthPriceDate": "2004-10-29"
+  },
+  {
+    "date": "2004-11-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 12.922,
+    "tenthMonthPrice": "13.2200",
+    "tenthMonthPriceDate": "2004-10-29"
+  },
+  {
+    "date": "2004-11-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 13.334,
+    "tenthMonthPrice": "13.9700",
+    "tenthMonthPriceDate": "2004-10-29"
+  },
+  {
+    "date": "2004-12-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 11.902999999999999,
+    "tenthMonthPrice": "12.4900",
+    "tenthMonthPriceDate": "2004-11-30"
+  },
+  {
+    "date": "2004-12-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 13.044,
+    "tenthMonthPrice": "14.1400",
+    "tenthMonthPriceDate": "2004-11-30"
+  },
+  {
+    "date": "2004-12-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 13.51,
+    "tenthMonthPrice": "14.8300",
+    "tenthMonthPriceDate": "2004-11-30"
+  },
+  {
+    "date": "2005-01-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 11.992,
+    "tenthMonthPrice": "12.9100",
+    "tenthMonthPriceDate": "2004-12-31"
+  },
+  {
+    "date": "2005-01-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 13.201999999999998,
+    "tenthMonthPrice": "14.7300",
+    "tenthMonthPriceDate": "2004-12-31"
+  },
+  {
+    "date": "2005-01-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 13.722,
+    "tenthMonthPrice": "15.4800",
+    "tenthMonthPriceDate": "2004-12-31"
+  },
+  {
+    "date": "2005-02-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 12.067999999999998,
+    "tenthMonthPrice": "12.6000",
+    "tenthMonthPriceDate": "2005-01-31"
+  },
+  {
+    "date": "2005-02-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 13.305000000000001,
+    "tenthMonthPrice": "14.2300",
+    "tenthMonthPriceDate": "2005-01-31"
+  },
+  {
+    "date": "2005-02-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 13.897,
+    "tenthMonthPrice": "15.1900",
+    "tenthMonthPriceDate": "2005-01-31"
+  },
+  {
+    "date": "2005-03-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 12.187999999999999,
+    "tenthMonthPrice": "12.8600",
+    "tenthMonthPriceDate": "2005-02-28"
+  },
+  {
+    "date": "2005-03-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 13.489,
+    "tenthMonthPrice": "14.5200",
+    "tenthMonthPriceDate": "2005-02-28"
+  },
+  {
+    "date": "2005-03-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 14.169,
+    "tenthMonthPrice": "15.8500",
+    "tenthMonthPriceDate": "2005-02-28"
+  },
+  {
+    "date": "2005-04-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 12.27,
+    "tenthMonthPrice": "12.6400",
+    "tenthMonthPriceDate": "2005-03-31"
+  },
+  {
+    "date": "2005-04-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 13.627,
+    "tenthMonthPrice": "14.2500",
+    "tenthMonthPriceDate": "2005-03-31"
+  },
+  {
+    "date": "2005-04-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 14.397,
+    "tenthMonthPrice": "15.4500",
+    "tenthMonthPriceDate": "2005-03-31"
+  },
+  {
+    "date": "2005-05-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 12.306000000000001,
+    "tenthMonthPrice": "12.4000",
+    "tenthMonthPriceDate": "2005-04-29"
+  },
+  {
+    "date": "2005-05-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 13.677000000000001,
+    "tenthMonthPrice": "13.7200",
+    "tenthMonthPriceDate": "2005-04-29"
+  },
+  {
+    "date": "2005-05-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 14.551999999999998,
+    "tenthMonthPrice": "15.1000",
+    "tenthMonthPriceDate": "2005-04-29"
+  },
+  {
+    "date": "2005-06-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 12.419999999999998,
+    "tenthMonthPrice": "12.7900",
+    "tenthMonthPriceDate": "2005-05-31"
+  },
+  {
+    "date": "2005-06-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 13.883000000000001,
+    "tenthMonthPrice": "14.5500",
+    "tenthMonthPriceDate": "2005-05-31"
+  },
+  {
+    "date": "2005-06-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 14.751999999999999,
+    "tenthMonthPrice": "15.0400",
+    "tenthMonthPriceDate": "2005-05-31"
+  },
+  {
+    "date": "2005-07-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 12.532000000000002,
+    "tenthMonthPrice": "12.8100",
+    "tenthMonthPriceDate": "2005-06-30"
+  },
+  {
+    "date": "2005-07-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 14.138,
+    "tenthMonthPrice": "15.0400",
+    "tenthMonthPriceDate": "2005-06-30"
+  },
+  {
+    "date": "2005-07-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 14.966999999999999,
+    "tenthMonthPrice": "15.3200",
+    "tenthMonthPriceDate": "2005-06-30"
+  },
+  {
+    "date": "2005-08-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 12.678,
+    "tenthMonthPrice": "13.2800",
+    "tenthMonthPriceDate": "2005-07-29"
+  },
+  {
+    "date": "2005-08-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 14.428,
+    "tenthMonthPrice": "15.8800",
+    "tenthMonthPriceDate": "2005-07-29"
+  },
+  {
+    "date": "2005-08-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 15.201999999999998,
+    "tenthMonthPrice": "15.7900",
+    "tenthMonthPriceDate": "2005-07-29"
+  },
+  {
+    "date": "2005-09-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 12.794,
+    "tenthMonthPrice": "13.1600",
+    "tenthMonthPriceDate": "2005-08-31"
+  },
+  {
+    "date": "2005-09-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 14.678,
+    "tenthMonthPrice": "15.7200",
+    "tenthMonthPriceDate": "2005-08-31"
+  },
+  {
+    "date": "2005-09-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 15.434999999999999,
+    "tenthMonthPrice": "16.3000",
+    "tenthMonthPriceDate": "2005-08-31"
+  },
+  {
+    "date": "2005-10-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 12.872,
+    "tenthMonthPrice": "13.2700",
+    "tenthMonthPriceDate": "2005-09-30"
+  },
+  {
+    "date": "2005-10-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 14.848999999999998,
+    "tenthMonthPrice": "15.8500",
+    "tenthMonthPriceDate": "2005-09-30"
+  },
+  {
+    "date": "2005-10-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 15.642,
+    "tenthMonthPrice": "16.9000",
+    "tenthMonthPriceDate": "2005-09-30"
+  },
+  {
+    "date": "2005-11-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 12.886,
+    "tenthMonthPrice": "13.0500",
+    "tenthMonthPriceDate": "2005-10-31"
+  },
+  {
+    "date": "2005-11-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 14.923999999999998,
+    "tenthMonthPrice": "15.4800",
+    "tenthMonthPriceDate": "2005-10-31"
+  },
+  {
+    "date": "2005-11-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 15.734999999999996,
+    "tenthMonthPrice": "16.4100",
+    "tenthMonthPriceDate": "2005-10-31"
+  },
+  {
+    "date": "2005-12-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 12.979999999999999,
+    "tenthMonthPrice": "13.5400",
+    "tenthMonthPriceDate": "2005-11-30"
+  },
+  {
+    "date": "2005-12-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 15.122,
+    "tenthMonthPrice": "16.2100",
+    "tenthMonthPriceDate": "2005-11-30"
+  },
+  {
+    "date": "2005-12-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 15.896999999999997,
+    "tenthMonthPrice": "16.8100",
+    "tenthMonthPriceDate": "2005-11-30"
+  },
+  {
+    "date": "2006-01-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 13.049000000000001,
+    "tenthMonthPrice": "13.5500",
+    "tenthMonthPriceDate": "2005-12-30"
+  },
+  {
+    "date": "2006-01-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 15.297,
+    "tenthMonthPrice": "16.2700",
+    "tenthMonthPriceDate": "2005-12-30"
+  },
+  {
+    "date": "2006-01-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 16.070999999999998,
+    "tenthMonthPrice": "17.5900",
+    "tenthMonthPriceDate": "2005-12-30"
+  },
+  {
+    "date": "2006-02-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 13.175999999999998,
+    "tenthMonthPrice": "13.9100",
+    "tenthMonthPriceDate": "2006-01-31"
+  },
+  {
+    "date": "2006-02-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 15.608000000000004,
+    "tenthMonthPrice": "17.3600",
+    "tenthMonthPriceDate": "2006-01-31"
+  },
+  {
+    "date": "2006-02-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 16.393,
+    "tenthMonthPrice": "18.6700",
+    "tenthMonthPriceDate": "2006-01-31"
+  },
+  {
+    "date": "2006-03-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 13.330000000000002,
+    "tenthMonthPrice": "13.9400",
+    "tenthMonthPriceDate": "2006-02-28"
+  },
+  {
+    "date": "2006-03-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 15.954999999999998,
+    "tenthMonthPrice": "17.1900",
+    "tenthMonthPriceDate": "2006-02-28"
+  },
+  {
+    "date": "2006-03-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 16.744999999999997,
+    "tenthMonthPrice": "18.6200",
+    "tenthMonthPriceDate": "2006-02-28"
+  },
+  {
+    "date": "2006-04-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 13.462999999999997,
+    "tenthMonthPrice": "14.1200",
+    "tenthMonthPriceDate": "2006-03-31"
+  },
+  {
+    "date": "2006-04-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 16.285,
+    "tenthMonthPrice": "17.8500",
+    "tenthMonthPriceDate": "2006-03-31"
+  },
+  {
+    "date": "2006-04-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 17.165000000000003,
+    "tenthMonthPrice": "19.2400",
+    "tenthMonthPriceDate": "2006-03-31"
+  },
+  {
+    "date": "2006-05-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 13.612999999999996,
+    "tenthMonthPrice": "14.3100",
+    "tenthMonthPriceDate": "2006-04-28"
+  },
+  {
+    "date": "2006-05-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 16.572,
+    "tenthMonthPrice": "17.9100",
+    "tenthMonthPriceDate": "2006-04-28"
+  },
+  {
+    "date": "2006-05-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 17.65,
+    "tenthMonthPrice": "20.1700",
+    "tenthMonthPriceDate": "2006-04-28"
+  },
+  {
+    "date": "2006-06-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 13.675,
+    "tenthMonthPrice": "13.9000",
+    "tenthMonthPriceDate": "2006-05-31"
+  },
+  {
+    "date": "2006-06-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 16.697,
+    "tenthMonthPrice": "17.1300",
+    "tenthMonthPriceDate": "2006-05-31"
+  },
+  {
+    "date": "2006-06-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 18.01,
+    "tenthMonthPrice": "19.3900",
+    "tenthMonthPriceDate": "2006-05-31"
+  },
+  {
+    "date": "2006-07-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 13.75,
+    "tenthMonthPrice": "13.9100",
+    "tenthMonthPriceDate": "2006-06-30"
+  },
+  {
+    "date": "2006-07-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 16.846,
+    "tenthMonthPrice": "17.2100",
+    "tenthMonthPriceDate": "2006-06-30"
+  },
+  {
+    "date": "2006-07-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 18.319,
+    "tenthMonthPrice": "19.3900",
+    "tenthMonthPriceDate": "2006-06-30"
+  },
+  {
+    "date": "2006-08-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 13.823000000000002,
+    "tenthMonthPrice": "14.0000",
+    "tenthMonthPriceDate": "2006-07-31"
+  },
+  {
+    "date": "2006-08-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 16.933999999999997,
+    "tenthMonthPrice": "16.7300",
+    "tenthMonthPriceDate": "2006-07-31"
+  },
+  {
+    "date": "2006-08-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 18.587,
+    "tenthMonthPrice": "19.5800",
+    "tenthMonthPriceDate": "2006-07-31"
+  },
+  {
+    "date": "2006-09-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 13.951000000000002,
+    "tenthMonthPrice": "14.3300",
+    "tenthMonthPriceDate": "2006-08-31"
+  },
+  {
+    "date": "2006-09-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 17.095,
+    "tenthMonthPrice": "17.0900",
+    "tenthMonthPriceDate": "2006-08-31"
+  },
+  {
+    "date": "2006-09-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 18.958,
+    "tenthMonthPrice": "20.1200",
+    "tenthMonthPriceDate": "2006-08-31"
+  },
+  {
+    "date": "2006-10-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 14.066999999999998,
+    "tenthMonthPrice": "14.7000",
+    "tenthMonthPriceDate": "2006-09-29"
+  },
+  {
+    "date": "2006-10-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 17.198,
+    "tenthMonthPrice": "17.2400",
+    "tenthMonthPriceDate": "2006-09-29"
+  },
+  {
+    "date": "2006-10-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 19.291999999999998,
+    "tenthMonthPrice": "20.1500",
+    "tenthMonthPriceDate": "2006-09-29"
+  },
+  {
+    "date": "2006-11-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 14.23,
+    "tenthMonthPrice": "15.1800",
+    "tenthMonthPriceDate": "2006-10-31"
+  },
+  {
+    "date": "2006-11-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 17.381,
+    "tenthMonthPrice": "18.1000",
+    "tenthMonthPriceDate": "2006-10-31"
+  },
+  {
+    "date": "2006-11-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 19.626,
+    "tenthMonthPrice": "20.9300",
+    "tenthMonthPriceDate": "2006-10-31"
+  },
+  {
+    "date": "2006-12-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 14.386,
+    "tenthMonthPrice": "15.4700",
+    "tenthMonthPriceDate": "2006-11-30"
+  },
+  {
+    "date": "2006-12-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 17.519,
+    "tenthMonthPrice": "18.7400",
+    "tenthMonthPriceDate": "2006-11-30"
+  },
+  {
+    "date": "2006-12-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 19.914,
+    "tenthMonthPrice": "21.5500",
+    "tenthMonthPriceDate": "2006-11-30"
+  },
+  {
+    "date": "2007-01-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 14.560999999999998,
+    "tenthMonthPrice": "15.6900",
+    "tenthMonthPriceDate": "2006-12-29"
+  },
+  {
+    "date": "2007-01-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 17.676,
+    "tenthMonthPrice": "18.7600",
+    "tenthMonthPriceDate": "2006-12-29"
+  },
+  {
+    "date": "2007-01-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 20.274,
+    "tenthMonthPrice": "22.2200",
+    "tenthMonthPriceDate": "2006-12-29"
+  },
+  {
+    "date": "2007-02-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 14.742,
+    "tenthMonthPrice": "15.9300",
+    "tenthMonthPriceDate": "2007-01-31"
+  },
+  {
+    "date": "2007-02-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 17.826,
+    "tenthMonthPrice": "19.3500",
+    "tenthMonthPriceDate": "2007-01-31"
+  },
+  {
+    "date": "2007-02-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 20.601000000000003,
+    "tenthMonthPrice": "22.5100",
+    "tenthMonthPriceDate": "2007-01-31"
+  },
+  {
+    "date": "2007-03-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 14.873000000000001,
+    "tenthMonthPrice": "15.6200",
+    "tenthMonthPriceDate": "2007-02-28"
+  },
+  {
+    "date": "2007-03-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 17.965,
+    "tenthMonthPrice": "19.3000",
+    "tenthMonthPriceDate": "2007-02-28"
+  },
+  {
+    "date": "2007-03-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 20.839000000000002,
+    "tenthMonthPrice": "22.5500",
+    "tenthMonthPriceDate": "2007-02-28"
+  },
+  {
+    "date": "2007-04-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 15.062000000000001,
+    "tenthMonthPrice": "15.7900",
+    "tenthMonthPriceDate": "2007-03-30"
+  },
+  {
+    "date": "2007-04-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 18.203,
+    "tenthMonthPrice": "19.5100",
+    "tenthMonthPriceDate": "2007-03-30"
+  },
+  {
+    "date": "2007-04-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 21.213,
+    "tenthMonthPrice": "23.1300",
+    "tenthMonthPriceDate": "2007-03-30"
+  },
+  {
+    "date": "2007-05-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 15.320000000000002,
+    "tenthMonthPrice": "16.4900",
+    "tenthMonthPriceDate": "2007-04-30"
+  },
+  {
+    "date": "2007-05-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 18.482,
+    "tenthMonthPrice": "20.0000",
+    "tenthMonthPriceDate": "2007-04-30"
+  },
+  {
+    "date": "2007-05-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 21.674,
+    "tenthMonthPrice": "24.0000",
+    "tenthMonthPriceDate": "2007-04-30"
+  },
+  {
+    "date": "2007-06-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 15.627,
+    "tenthMonthPrice": "17.0700",
+    "tenthMonthPriceDate": "2007-05-31"
+  },
+  {
+    "date": "2007-06-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 18.897,
+    "tenthMonthPrice": "20.8800",
+    "tenthMonthPriceDate": "2007-05-31"
+  },
+  {
+    "date": "2007-06-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 22.177,
+    "tenthMonthPrice": "24.6100",
+    "tenthMonthPriceDate": "2007-05-31"
+  },
+  {
+    "date": "2007-07-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 15.872,
+    "tenthMonthPrice": "16.7800",
+    "tenthMonthPriceDate": "2007-06-29"
+  },
+  {
+    "date": "2007-07-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 19.244,
+    "tenthMonthPrice": "20.5600",
+    "tenthMonthPriceDate": "2007-06-29"
+  },
+  {
+    "date": "2007-07-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 22.630999999999997,
+    "tenthMonthPrice": "24.6600",
+    "tenthMonthPriceDate": "2007-06-29"
+  },
+  {
+    "date": "2007-08-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 16.028,
+    "tenthMonthPrice": "16.2600",
+    "tenthMonthPriceDate": "2007-07-31"
+  },
+  {
+    "date": "2007-08-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 19.482000000000003,
+    "tenthMonthPrice": "19.6200",
+    "tenthMonthPriceDate": "2007-07-31"
+  },
+  {
+    "date": "2007-08-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 23.023,
+    "tenthMonthPrice": "24.0700",
+    "tenthMonthPriceDate": "2007-07-31"
+  },
+  {
+    "date": "2007-09-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 16.160999999999998,
+    "tenthMonthPrice": "16.5100",
+    "tenthMonthPriceDate": "2007-08-31"
+  },
+  {
+    "date": "2007-09-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 19.661,
+    "tenthMonthPrice": "19.8900",
+    "tenthMonthPriceDate": "2007-08-31"
+  },
+  {
+    "date": "2007-09-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 23.32,
+    "tenthMonthPrice": "23.9000",
+    "tenthMonthPriceDate": "2007-08-31"
+  },
+  {
+    "date": "2007-10-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 16.326999999999998,
+    "tenthMonthPrice": "17.1300",
+    "tenthMonthPriceDate": "2007-09-28"
+  },
+  {
+    "date": "2007-10-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 19.835,
+    "tenthMonthPrice": "20.4800",
+    "tenthMonthPriceDate": "2007-09-28"
+  },
+  {
+    "date": "2007-10-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 23.683,
+    "tenthMonthPrice": "25.1800",
+    "tenthMonthPriceDate": "2007-09-28"
+  },
+  {
+    "date": "2007-11-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 16.498,
+    "tenthMonthPrice": "17.4000",
+    "tenthMonthPriceDate": "2007-10-31"
+  },
+  {
+    "date": "2007-11-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 20.065,
+    "tenthMonthPrice": "21.0600",
+    "tenthMonthPriceDate": "2007-10-31"
+  },
+  {
+    "date": "2007-11-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 24.092000000000002,
+    "tenthMonthPrice": "26.3100",
+    "tenthMonthPriceDate": "2007-10-31"
+  },
+  {
+    "date": "2007-12-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 16.572000000000003,
+    "tenthMonthPrice": "16.6700",
+    "tenthMonthPriceDate": "2007-11-30"
+  },
+  {
+    "date": "2007-12-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 20.116999999999997,
+    "tenthMonthPrice": "19.8700",
+    "tenthMonthPriceDate": "2007-11-30"
+  },
+  {
+    "date": "2007-12-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 24.374000000000002,
+    "tenthMonthPrice": "25.3300",
+    "tenthMonthPriceDate": "2007-11-30"
+  },
+  {
+    "date": "2008-01-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 16.666000000000004,
+    "tenthMonthPrice": "16.5600",
+    "tenthMonthPriceDate": "2007-12-31"
+  },
+  {
+    "date": "2008-01-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 20.166,
+    "tenthMonthPrice": "19.7900",
+    "tenthMonthPriceDate": "2007-12-31"
+  },
+  {
+    "date": "2008-01-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 24.595,
+    "tenthMonthPrice": "24.7600",
+    "tenthMonthPriceDate": "2007-12-31"
+  },
+  {
+    "date": "2008-02-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 16.644,
+    "tenthMonthPrice": "15.5700",
+    "tenthMonthPriceDate": "2008-01-31"
+  },
+  {
+    "date": "2008-02-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 20.07,
+    "tenthMonthPrice": "18.5500",
+    "tenthMonthPriceDate": "2008-01-31"
+  },
+  {
+    "date": "2008-02-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 24.547,
+    "tenthMonthPrice": "22.6500",
+    "tenthMonthPriceDate": "2008-01-31"
+  },
+  {
+    "date": "2008-03-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 16.500999999999998,
+    "tenthMonthPrice": "15.0600",
+    "tenthMonthPriceDate": "2008-02-29"
+  },
+  {
+    "date": "2008-03-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 19.887,
+    "tenthMonthPrice": "18.1700",
+    "tenthMonthPriceDate": "2008-02-29"
+  },
+  {
+    "date": "2008-03-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 24.397,
+    "tenthMonthPrice": "22.5000",
+    "tenthMonthPriceDate": "2008-02-29"
+  },
+  {
+    "date": "2008-04-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 16.293000000000003,
+    "tenthMonthPrice": "14.9900",
+    "tenthMonthPriceDate": "2008-03-31"
+  },
+  {
+    "date": "2008-04-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 19.59,
+    "tenthMonthPrice": "17.9100",
+    "tenthMonthPriceDate": "2008-03-31"
+  },
+  {
+    "date": "2008-04-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 24.189999999999998,
+    "tenthMonthPrice": "22.5400",
+    "tenthMonthPriceDate": "2008-03-31"
+  },
+  {
+    "date": "2008-05-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 16.188000000000002,
+    "tenthMonthPrice": "15.7300",
+    "tenthMonthPriceDate": "2008-04-30"
+  },
+  {
+    "date": "2008-05-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 19.419999999999998,
+    "tenthMonthPrice": "18.8600",
+    "tenthMonthPriceDate": "2008-04-30"
+  },
+  {
+    "date": "2008-05-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 24.103,
+    "tenthMonthPrice": "23.7900",
+    "tenthMonthPriceDate": "2008-04-30"
+  },
+  {
+    "date": "2008-06-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 16.155,
+    "tenthMonthPrice": "15.9300",
+    "tenthMonthPriceDate": "2008-05-30"
+  },
+  {
+    "date": "2008-06-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 19.436,
+    "tenthMonthPrice": "19.7800",
+    "tenthMonthPriceDate": "2008-05-30"
+  },
+  {
+    "date": "2008-06-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 24.101,
+    "tenthMonthPrice": "24.0500",
+    "tenthMonthPriceDate": "2008-05-30"
+  },
+  {
+    "date": "2008-07-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 15.963000000000003,
+    "tenthMonthPrice": "14.5900",
+    "tenthMonthPriceDate": "2008-06-30"
+  },
+  {
+    "date": "2008-07-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 19.274,
+    "tenthMonthPrice": "18.2700",
+    "tenthMonthPriceDate": "2008-06-30"
+  },
+  {
+    "date": "2008-07-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 23.919999999999998,
+    "tenthMonthPrice": "22.0900",
+    "tenthMonthPriceDate": "2008-06-30"
+  },
+  {
+    "date": "2008-08-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 15.69734,
+    "tenthMonthPrice": "14.4734",
+    "tenthMonthPriceDate": "2008-07-31"
+  },
+  {
+    "date": "2008-08-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 19.038649999999997,
+    "tenthMonthPrice": "18.1265",
+    "tenthMonthPriceDate": "2008-07-31"
+  },
+  {
+    "date": "2008-08-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 23.52876,
+    "tenthMonthPrice": "21.2676",
+    "tenthMonthPriceDate": "2008-07-31"
+  },
+  {
+    "date": "2008-09-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 15.425780000000003,
+    "tenthMonthPrice": "14.6844",
+    "tenthMonthPriceDate": "2008-08-29"
+  },
+  {
+    "date": "2008-09-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 18.7846,
+    "tenthMonthPrice": "18.5195",
+    "tenthMonthPriceDate": "2008-08-29"
+  },
+  {
+    "date": "2008-09-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 22.93609,
+    "tenthMonthPrice": "20.3833",
+    "tenthMonthPriceDate": "2008-08-29"
+  },
+  {
+    "date": "2008-10-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 15.096010000000001,
+    "tenthMonthPrice": "13.3723",
+    "tenthMonthPriceDate": "2008-09-30"
+  },
+  {
+    "date": "2008-10-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 18.45843,
+    "tenthMonthPrice": "16.6083",
+    "tenthMonthPriceDate": "2008-09-30"
+  },
+  {
+    "date": "2008-10-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 22.1906,
+    "tenthMonthPrice": "17.8751",
+    "tenthMonthPriceDate": "2008-09-30"
+  },
+  {
+    "date": "2008-11-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 14.552240000000001,
+    "tenthMonthPrice": "11.1223",
+    "tenthMonthPriceDate": "2008-10-31"
+  },
+  {
+    "date": "2008-11-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 17.791639999999994,
+    "tenthMonthPrice": "13.1221",
+    "tenthMonthPriceDate": "2008-10-31"
+  },
+  {
+    "date": "2008-11-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 21.134109999999996,
+    "tenthMonthPrice": "14.1951",
+    "tenthMonthPriceDate": "2008-10-31"
+  },
+  {
+    "date": "2008-12-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 14.02761,
+    "tenthMonthPrice": "10.3237",
+    "tenthMonthPriceDate": "2008-11-28"
+  },
+  {
+    "date": "2008-12-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 17.102809999999998,
+    "tenthMonthPrice": "11.6617",
+    "tenthMonthPriceDate": "2008-11-28"
+  },
+  {
+    "date": "2008-12-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 20.193219999999997,
+    "tenthMonthPrice": "13.2411",
+    "tenthMonthPriceDate": "2008-11-28"
+  },
+  {
+    "date": "2009-01-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 13.56504,
+    "tenthMonthPrice": "10.4343",
+    "tenthMonthPriceDate": "2008-12-31"
+  },
+  {
+    "date": "2009-01-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 16.506499999999996,
+    "tenthMonthPrice": "12.2069",
+    "tenthMonthPriceDate": "2008-12-31"
+  },
+  {
+    "date": "2009-01-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 19.36872,
+    "tenthMonthPrice": "14.2550",
+    "tenthMonthPriceDate": "2008-12-31"
+  },
+  {
+    "date": "2009-02-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 13.021749999999997,
+    "tenthMonthPrice": "9.5571",
+    "tenthMonthPriceDate": "2009-01-30"
+  },
+  {
+    "date": "2009-02-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 15.836219999999997,
+    "tenthMonthPrice": "11.2072",
+    "tenthMonthPriceDate": "2009-01-30"
+  },
+  {
+    "date": "2009-02-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 18.37022,
+    "tenthMonthPrice": "12.5550",
+    "tenthMonthPriceDate": "2009-01-30"
+  },
+  {
+    "date": "2009-03-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 12.30278,
+    "tenthMonthPrice": "8.5403",
+    "tenthMonthPriceDate": "2009-02-27"
+  },
+  {
+    "date": "2009-03-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 14.95642,
+    "tenthMonthPrice": "10.0620",
+    "tenthMonthPriceDate": "2009-02-27"
+  },
+  {
+    "date": "2009-03-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 17.118239999999997,
+    "tenthMonthPrice": "11.2702",
+    "tenthMonthPriceDate": "2009-02-27"
+  },
+  {
+    "date": "2009-04-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 11.63903,
+    "tenthMonthPrice": "9.2925",
+    "tenthMonthPriceDate": "2009-03-31"
+  },
+  {
+    "date": "2009-04-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 14.071520000000003,
+    "tenthMonthPrice": "10.9310",
+    "tenthMonthPriceDate": "2009-03-31"
+  },
+  {
+    "date": "2009-04-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 15.92137,
+    "tenthMonthPrice": "12.0813",
+    "tenthMonthPriceDate": "2009-03-31"
+  },
+  {
+    "date": "2009-05-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 11.198320000000002,
+    "tenthMonthPrice": "10.1829",
+    "tenthMonthPriceDate": "2009-04-30"
+  },
+  {
+    "date": "2009-05-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 13.50155,
+    "tenthMonthPrice": "12.5703",
+    "tenthMonthPriceDate": "2009-04-30"
+  },
+  {
+    "date": "2009-05-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 15.06704,
+    "tenthMonthPrice": "13.5467",
+    "tenthMonthPriceDate": "2009-04-30"
+  },
+  {
+    "date": "2009-06-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 10.826270000000001,
+    "tenthMonthPrice": "10.7529",
+    "tenthMonthPriceDate": "2009-05-29"
+  },
+  {
+    "date": "2009-06-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 12.99588,
+    "tenthMonthPrice": "13.0698",
+    "tenthMonthPriceDate": "2009-05-29"
+  },
+  {
+    "date": "2009-06-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 14.476589999999998,
+    "tenthMonthPrice": "15.3631",
+    "tenthMonthPriceDate": "2009-05-29"
+  },
+  {
+    "date": "2009-07-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 10.43568,
+    "tenthMonthPrice": "10.7785",
+    "tenthMonthPriceDate": "2009-06-30"
+  },
+  {
+    "date": "2009-07-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 12.4605,
+    "tenthMonthPrice": "13.1657",
+    "tenthMonthPriceDate": "2009-06-30"
+  },
+  {
+    "date": "2009-07-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 13.957910000000002,
+    "tenthMonthPrice": "15.1965",
+    "tenthMonthPriceDate": "2009-06-30"
+  },
+  {
+    "date": "2009-08-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 10.25798,
+    "tenthMonthPrice": "11.5953",
+    "tenthMonthPriceDate": "2009-07-31"
+  },
+  {
+    "date": "2009-08-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 12.23027,
+    "tenthMonthPrice": "14.3060",
+    "tenthMonthPriceDate": "2009-07-31"
+  },
+  {
+    "date": "2009-08-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 13.838080000000001,
+    "tenthMonthPrice": "16.6768",
+    "tenthMonthPriceDate": "2009-07-31"
+  },
+  {
+    "date": "2009-09-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 10.347249999999999,
+    "tenthMonthPrice": "12.0150",
+    "tenthMonthPriceDate": "2009-08-31"
+  },
+  {
+    "date": "2009-09-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 12.40376,
+    "tenthMonthPrice": "14.8570",
+    "tenthMonthPriceDate": "2009-08-31"
+  },
+  {
+    "date": "2009-09-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 14.16753,
+    "tenthMonthPrice": "17.4896",
+    "tenthMonthPriceDate": "2009-08-31"
+  },
+  {
+    "date": "2009-10-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 10.56129,
+    "tenthMonthPrice": "12.4641",
+    "tenthMonthPriceDate": "2009-09-30"
+  },
+  {
+    "date": "2009-10-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 12.811519999999998,
+    "tenthMonthPrice": "15.7393",
+    "tenthMonthPriceDate": "2009-09-30"
+  },
+  {
+    "date": "2009-10-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 14.65868,
+    "tenthMonthPrice": "18.1526",
+    "tenthMonthPriceDate": "2009-09-30"
+  },
+  {
+    "date": "2009-11-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 10.74111,
+    "tenthMonthPrice": "12.2325",
+    "tenthMonthPriceDate": "2009-10-30"
+  },
+  {
+    "date": "2009-11-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 13.078039999999998,
+    "tenthMonthPrice": "14.8721",
+    "tenthMonthPriceDate": "2009-10-30"
+  },
+  {
+    "date": "2009-11-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 15.004659999999998,
+    "tenthMonthPrice": "17.7148",
+    "tenthMonthPriceDate": "2009-10-30"
+  },
+  {
+    "date": "2009-12-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 11.081990000000001,
+    "tenthMonthPrice": "12.9659",
+    "tenthMonthPriceDate": "2009-11-30"
+  },
+  {
+    "date": "2009-12-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 13.501859999999999,
+    "tenthMonthPrice": "15.4454",
+    "tenthMonthPriceDate": "2009-11-30"
+  },
+  {
+    "date": "2009-12-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 15.57666,
+    "tenthMonthPrice": "18.2750",
+    "tenthMonthPriceDate": "2009-11-30"
+  },
+  {
+    "date": "2010-01-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 11.54973,
+    "tenthMonthPrice": "13.2177",
+    "tenthMonthPriceDate": "2009-12-31"
+  },
+  {
+    "date": "2010-01-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 14.141750000000002,
+    "tenthMonthPrice": "16.4609",
+    "tenthMonthPriceDate": "2009-12-31"
+  },
+  {
+    "date": "2010-01-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 16.303359999999998,
+    "tenthMonthPrice": "18.5372",
+    "tenthMonthPriceDate": "2009-12-31"
+  },
+  {
+    "date": "2010-02-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 11.89471,
+    "tenthMonthPrice": "12.7423",
+    "tenthMonthPriceDate": "2010-01-29"
+  },
+  {
+    "date": "2010-02-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 14.6548,
+    "tenthMonthPrice": "16.0615",
+    "tenthMonthPriceDate": "2010-01-29"
+  },
+  {
+    "date": "2010-02-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 16.853099999999998,
+    "tenthMonthPrice": "17.5787",
+    "tenthMonthPriceDate": "2010-01-29"
+  },
+  {
+    "date": "2010-03-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 12.190260000000002,
+    "tenthMonthPrice": "13.1384",
+    "tenthMonthPriceDate": "2010-02-26"
+  },
+  {
+    "date": "2010-03-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 15.082519999999999,
+    "tenthMonthPrice": "16.8475",
+    "tenthMonthPriceDate": "2010-02-26"
+  },
+  {
+    "date": "2010-03-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 17.25742,
+    "tenthMonthPrice": "17.5899",
+    "tenthMonthPriceDate": "2010-02-26"
+  },
+  {
+    "date": "2010-04-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 12.508140000000001,
+    "tenthMonthPrice": "13.9317",
+    "tenthMonthPriceDate": "2010-03-31"
+  },
+  {
+    "date": "2010-04-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 15.58476,
+    "tenthMonthPrice": "18.0922",
+    "tenthMonthPriceDate": "2010-03-31"
+  },
+  {
+    "date": "2010-04-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 17.590560000000004,
+    "tenthMonthPrice": "18.6945",
+    "tenthMonthPriceDate": "2010-03-31"
+  },
+  {
+    "date": "2010-05-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 12.845409999999998,
+    "tenthMonthPrice": "14.1512",
+    "tenthMonthPriceDate": "2010-04-30"
+  },
+  {
+    "date": "2010-05-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 16.164669999999997,
+    "tenthMonthPrice": "18.9648",
+    "tenthMonthPriceDate": "2010-04-30"
+  },
+  {
+    "date": "2010-05-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 17.89642,
+    "tenthMonthPrice": "18.2551",
+    "tenthMonthPriceDate": "2010-04-30"
+  },
+  {
+    "date": "2010-06-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 12.987950000000001,
+    "tenthMonthPrice": "13.0207",
+    "tenthMonthPriceDate": "2010-05-28"
+  },
+  {
+    "date": "2010-06-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 16.488139999999998,
+    "tenthMonthPrice": "17.5407",
+    "tenthMonthPriceDate": "2010-05-28"
+  },
+  {
+    "date": "2010-06-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 17.84988,
+    "tenthMonthPrice": "16.2114",
+    "tenthMonthPriceDate": "2010-05-28"
+  },
+  {
+    "date": "2010-07-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 13.020350000000002,
+    "tenthMonthPrice": "12.3390",
+    "tenthMonthPriceDate": "2010-06-30"
+  },
+  {
+    "date": "2010-07-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 16.635419999999996,
+    "tenthMonthPrice": "16.3298",
+    "tenthMonthPriceDate": "2010-06-30"
+  },
+  {
+    "date": "2010-07-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 17.69367,
+    "tenthMonthPrice": "15.9275",
+    "tenthMonthPriceDate": "2010-06-30"
+  },
+  {
+    "date": "2010-08-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 13.09429,
+    "tenthMonthPrice": "13.2035",
+    "tenthMonthPriceDate": "2010-07-30"
+  },
+  {
+    "date": "2010-08-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 16.80876,
+    "tenthMonthPrice": "17.4727",
+    "tenthMonthPriceDate": "2010-07-30"
+  },
+  {
+    "date": "2010-08-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 17.642900000000004,
+    "tenthMonthPrice": "17.6449",
+    "tenthMonthPriceDate": "2010-07-30"
+  },
+  {
+    "date": "2010-09-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 13.131780000000003,
+    "tenthMonthPrice": "12.6074",
+    "tenthMonthPriceDate": "2010-08-31"
+  },
+  {
+    "date": "2010-09-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 16.97107,
+    "tenthMonthPrice": "16.4952",
+    "tenthMonthPriceDate": "2010-08-31"
+  },
+  {
+    "date": "2010-09-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 17.58048,
+    "tenthMonthPrice": "17.0906",
+    "tenthMonthPriceDate": "2010-08-31"
+  },
+  {
+    "date": "2010-10-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 13.208430000000002,
+    "tenthMonthPrice": "13.7324",
+    "tenthMonthPriceDate": "2010-09-30"
+  },
+  {
+    "date": "2010-10-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 17.2652,
+    "tenthMonthPrice": "18.3867",
+    "tenthMonthPriceDate": "2010-09-30"
+  },
+  {
+    "date": "2010-10-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 17.6297,
+    "tenthMonthPrice": "18.7672",
+    "tenthMonthPriceDate": "2010-09-30"
+  },
+  {
+    "date": "2010-11-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 13.31211,
+    "tenthMonthPrice": "14.2545",
+    "tenthMonthPriceDate": "2010-10-29"
+  },
+  {
+    "date": "2010-11-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 17.54008,
+    "tenthMonthPrice": "19.2097",
+    "tenthMonthPriceDate": "2010-10-29"
+  },
+  {
+    "date": "2010-11-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 17.72074,
+    "tenthMonthPrice": "19.4476",
+    "tenthMonthPriceDate": "2010-10-29"
+  },
+  {
+    "date": "2010-12-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 13.46348,
+    "tenthMonthPrice": "14.2560",
+    "tenthMonthPriceDate": "2010-11-30"
+  },
+  {
+    "date": "2010-12-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 17.91244,
+    "tenthMonthPrice": "19.7851",
+    "tenthMonthPriceDate": "2010-11-30"
+  },
+  {
+    "date": "2010-12-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 17.813509999999997,
+    "tenthMonthPrice": "18.5064",
+    "tenthMonthPriceDate": "2010-11-30"
+  },
+  {
+    "date": "2011-01-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 13.670480000000001,
+    "tenthMonthPrice": "15.2084",
+    "tenthMonthPriceDate": "2010-12-31"
+  },
+  {
+    "date": "2011-01-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 18.35214,
+    "tenthMonthPrice": "21.2445",
+    "tenthMonthPriceDate": "2010-12-31"
+  },
+  {
+    "date": "2011-01-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 18.05541,
+    "tenthMonthPrice": "20.0089",
+    "tenthMonthPriceDate": "2010-12-31"
+  },
+  {
+    "date": "2011-02-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 13.834159999999997,
+    "tenthMonthPrice": "15.5685",
+    "tenthMonthPriceDate": "2011-01-31"
+  },
+  {
+    "date": "2011-02-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 18.693499999999997,
+    "tenthMonthPrice": "21.5058",
+    "tenthMonthPriceDate": "2011-01-31"
+  },
+  {
+    "date": "2011-02-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 18.235080000000004,
+    "tenthMonthPrice": "20.4912",
+    "tenthMonthPriceDate": "2011-01-31"
+  },
+  {
+    "date": "2011-03-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 14.02916,
+    "tenthMonthPrice": "16.1012",
+    "tenthMonthPriceDate": "2011-02-28"
+  },
+  {
+    "date": "2011-03-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 19.044909999999998,
+    "tenthMonthPrice": "22.4789",
+    "tenthMonthPriceDate": "2011-02-28"
+  },
+  {
+    "date": "2011-03-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 18.526829999999997,
+    "tenthMonthPrice": "21.1726",
+    "tenthMonthPriceDate": "2011-02-28"
+  },
+  {
+    "date": "2011-04-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 14.33781,
+    "tenthMonthPrice": "16.1072",
+    "tenthMonthPriceDate": "2011-03-31"
+  },
+  {
+    "date": "2011-04-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 19.585050000000003,
+    "tenthMonthPrice": "22.9421",
+    "tenthMonthPriceDate": "2011-03-31"
+  },
+  {
+    "date": "2011-04-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 18.97563,
+    "tenthMonthPrice": "20.6994",
+    "tenthMonthPriceDate": "2011-03-31"
+  },
+  {
+    "date": "2011-05-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 14.762319999999999,
+    "tenthMonthPrice": "16.5841",
+    "tenthMonthPriceDate": "2011-04-29"
+  },
+  {
+    "date": "2011-05-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 20.313820000000003,
+    "tenthMonthPrice": "23.6175",
+    "tenthMonthPriceDate": "2011-04-29"
+  },
+  {
+    "date": "2011-05-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 19.577719999999996,
+    "tenthMonthPrice": "21.9484",
+    "tenthMonthPriceDate": "2011-04-29"
+  },
+  {
+    "date": "2011-06-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 15.08157,
+    "tenthMonthPrice": "16.3960",
+    "tenthMonthPriceDate": "2011-05-31"
+  },
+  {
+    "date": "2011-06-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 20.898300000000003,
+    "tenthMonthPrice": "23.3175",
+    "tenthMonthPriceDate": "2011-05-31"
+  },
+  {
+    "date": "2011-06-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 19.944449999999996,
+    "tenthMonthPrice": "21.3122",
+    "tenthMonthPriceDate": "2011-05-31"
+  },
+  {
+    "date": "2011-07-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 15.433060000000001,
+    "tenthMonthPrice": "16.1223",
+    "tenthMonthPriceDate": "2011-06-30"
+  },
+  {
+    "date": "2011-07-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 21.52565,
+    "tenthMonthPrice": "22.7687",
+    "tenthMonthPriceDate": "2011-06-30"
+  },
+  {
+    "date": "2011-07-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 20.3419,
+    "tenthMonthPrice": "21.0651",
+    "tenthMonthPriceDate": "2011-06-30"
+  },
+  {
+    "date": "2011-08-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 15.639220000000003,
+    "tenthMonthPrice": "15.7940",
+    "tenthMonthPriceDate": "2011-07-29"
+  },
+  {
+    "date": "2011-08-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 21.89245,
+    "tenthMonthPrice": "22.0547",
+    "tenthMonthPriceDate": "2011-07-29"
+  },
+  {
+    "date": "2011-08-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 20.53799,
+    "tenthMonthPrice": "20.7281",
+    "tenthMonthPriceDate": "2011-07-29"
+  },
+  {
+    "date": "2011-09-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 15.70729,
+    "tenthMonthPrice": "14.9352",
+    "tenthMonthPriceDate": "2011-08-31"
+  },
+  {
+    "date": "2011-09-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 21.997809999999998,
+    "tenthMonthPrice": "20.2633",
+    "tenthMonthPriceDate": "2011-08-31"
+  },
+  {
+    "date": "2011-09-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 20.47891,
+    "tenthMonthPrice": "18.8568",
+    "tenthMonthPriceDate": "2011-08-31"
+  },
+  {
+    "date": "2011-10-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 15.67021,
+    "tenthMonthPrice": "13.8852",
+    "tenthMonthPriceDate": "2011-09-30"
+  },
+  {
+    "date": "2011-10-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 21.82819,
+    "tenthMonthPrice": "18.0889",
+    "tenthMonthPriceDate": "2011-09-30"
+  },
+  {
+    "date": "2011-10-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 20.315040000000003,
+    "tenthMonthPrice": "16.8677",
+    "tenthMonthPriceDate": "2011-09-30"
+  },
+  {
+    "date": "2011-11-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 15.68965,
+    "tenthMonthPrice": "15.4028",
+    "tenthMonthPriceDate": "2011-10-31"
+  },
+  {
+    "date": "2011-11-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 21.767579999999995,
+    "tenthMonthPrice": "20.6384",
+    "tenthMonthPriceDate": "2011-10-31"
+  },
+  {
+    "date": "2011-11-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 20.16086,
+    "tenthMonthPrice": "18.4671",
+    "tenthMonthPriceDate": "2011-10-31"
+  },
+  {
+    "date": "2011-12-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 15.669819999999998,
+    "tenthMonthPrice": "15.3702",
+    "tenthMonthPriceDate": "2011-11-30"
+  },
+  {
+    "date": "2011-12-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 21.67033,
+    "tenthMonthPrice": "20.5333",
+    "tenthMonthPriceDate": "2011-11-30"
+  },
+  {
+    "date": "2011-12-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 19.91294,
+    "tenthMonthPrice": "18.0120",
+    "tenthMonthPriceDate": "2011-11-30"
+  },
+  {
+    "date": "2012-01-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 15.612689999999997,
+    "tenthMonthPrice": "15.5299",
+    "tenthMonthPriceDate": "2011-12-30"
+  },
+  {
+    "date": "2012-01-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 21.47504,
+    "tenthMonthPrice": "20.5260",
+    "tenthMonthPriceDate": "2011-12-30"
+  },
+  {
+    "date": "2012-01-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 19.560270000000003,
+    "tenthMonthPrice": "17.6459",
+    "tenthMonthPriceDate": "2011-12-30"
+  },
+  {
+    "date": "2012-02-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 15.624860000000002,
+    "tenthMonthPrice": "16.2289",
+    "tenthMonthPriceDate": "2012-01-31"
+  },
+  {
+    "date": "2012-02-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 21.38915,
+    "tenthMonthPrice": "22.0832",
+    "tenthMonthPriceDate": "2012-01-31"
+  },
+  {
+    "date": "2012-02-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 19.34944,
+    "tenthMonthPrice": "18.5911",
+    "tenthMonthPriceDate": "2012-01-31"
+  },
+  {
+    "date": "2012-03-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 15.659720000000002,
+    "tenthMonthPrice": "16.9327",
+    "tenthMonthPriceDate": "2012-02-29"
+  },
+  {
+    "date": "2012-03-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 21.323850000000004,
+    "tenthMonthPrice": "22.9645",
+    "tenthMonthPriceDate": "2012-02-29"
+  },
+  {
+    "date": "2012-03-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 19.109250000000003,
+    "tenthMonthPrice": "19.5465",
+    "tenthMonthPriceDate": "2012-02-29"
+  },
+  {
+    "date": "2012-04-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 15.76933,
+    "tenthMonthPrice": "17.4921",
+    "tenthMonthPriceDate": "2012-03-30"
+  },
+  {
+    "date": "2012-04-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 21.34134,
+    "tenthMonthPrice": "23.4924",
+    "tenthMonthPriceDate": "2012-03-30"
+  },
+  {
+    "date": "2012-04-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 18.935170000000003,
+    "tenthMonthPrice": "19.5714",
+    "tenthMonthPriceDate": "2012-03-30"
+  },
+  {
+    "date": "2012-05-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 15.89554,
+    "tenthMonthPrice": "17.3844",
+    "tenthMonthPriceDate": "2012-04-30"
+  },
+  {
+    "date": "2012-05-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 21.396969999999996,
+    "tenthMonthPrice": "23.3250",
+    "tenthMonthPriceDate": "2012-04-30"
+  },
+  {
+    "date": "2012-05-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 18.749270000000003,
+    "tenthMonthPrice": "19.2061",
+    "tenthMonthPriceDate": "2012-04-30"
+  },
+  {
+    "date": "2012-06-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 15.95042,
+    "tenthMonthPrice": "16.3428",
+    "tenthMonthPriceDate": "2012-05-31"
+  },
+  {
+    "date": "2012-06-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 21.36271,
+    "tenthMonthPrice": "21.7121",
+    "tenthMonthPriceDate": "2012-05-31"
+  },
+  {
+    "date": "2012-06-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 18.378030000000003,
+    "tenthMonthPrice": "17.0157",
+    "tenthMonthPriceDate": "2012-05-31"
+  },
+  {
+    "date": "2012-07-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 16.158679999999997,
+    "tenthMonthPrice": "17.0178",
+    "tenthMonthPriceDate": "2012-06-29"
+  },
+  {
+    "date": "2012-07-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 21.57811,
+    "tenthMonthPrice": "22.4173",
+    "tenthMonthPriceDate": "2012-06-29"
+  },
+  {
+    "date": "2012-07-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 18.31433,
+    "tenthMonthPrice": "18.2198",
+    "tenthMonthPriceDate": "2012-06-29"
+  },
+  {
+    "date": "2012-08-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 16.49577,
+    "tenthMonthPrice": "17.2561",
+    "tenthMonthPriceDate": "2012-07-31"
+  },
+  {
+    "date": "2012-08-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 21.996959999999998,
+    "tenthMonthPrice": "22.2774",
+    "tenthMonthPriceDate": "2012-07-31"
+  },
+  {
+    "date": "2012-08-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 18.45975,
+    "tenthMonthPrice": "18.3219",
+    "tenthMonthPriceDate": "2012-07-31"
+  },
+  {
+    "date": "2012-09-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 16.71986,
+    "tenthMonthPrice": "17.6437",
+    "tenthMonthPriceDate": "2012-08-31"
+  },
+  {
+    "date": "2012-09-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 22.24044,
+    "tenthMonthPrice": "23.0732",
+    "tenthMonthPriceDate": "2012-08-31"
+  },
+  {
+    "date": "2012-09-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 18.505580000000002,
+    "tenthMonthPrice": "18.9254",
+    "tenthMonthPriceDate": "2012-08-31"
+  },
+  {
+    "date": "2012-10-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 16.992630000000002,
+    "tenthMonthPrice": "18.0979",
+    "tenthMonthPriceDate": "2012-09-28"
+  },
+  {
+    "date": "2012-10-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 22.55231,
+    "tenthMonthPrice": "23.6520",
+    "tenthMonthPriceDate": "2012-09-28"
+  },
+  {
+    "date": "2012-10-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 18.65291,
+    "tenthMonthPrice": "19.4853",
+    "tenthMonthPriceDate": "2012-09-28"
+  },
+  {
+    "date": "2012-11-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 17.21584,
+    "tenthMonthPrice": "17.7620",
+    "tenthMonthPriceDate": "2012-10-31"
+  },
+  {
+    "date": "2012-11-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 22.83403,
+    "tenthMonthPrice": "23.3432",
+    "tenthMonthPriceDate": "2012-10-31"
+  },
+  {
+    "date": "2012-11-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 18.85332,
+    "tenthMonthPrice": "19.6500",
+    "tenthMonthPriceDate": "2012-10-31"
+  },
+  {
+    "date": "2012-12-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 17.37928,
+    "tenthMonthPrice": "17.8633",
+    "tenthMonthPriceDate": "2012-11-30"
+  },
+  {
+    "date": "2012-12-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 22.995679999999997,
+    "tenthMonthPrice": "23.6997",
+    "tenthMonthPriceDate": "2012-11-30"
+  },
+  {
+    "date": "2012-12-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 19.006490000000003,
+    "tenthMonthPrice": "20.1228",
+    "tenthMonthPriceDate": "2012-11-30"
+  },
+  {
+    "date": "2013-01-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 17.48861,
+    "tenthMonthPrice": "18.0260",
+    "tenthMonthPriceDate": "2012-12-31"
+  },
+  {
+    "date": "2013-01-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 23.132959999999997,
+    "tenthMonthPrice": "24.3373",
+    "tenthMonthPriceDate": "2012-12-31"
+  },
+  {
+    "date": "2013-01-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 19.14498,
+    "tenthMonthPrice": "20.9314",
+    "tenthMonthPriceDate": "2012-12-31"
+  },
+  {
+    "date": "2013-02-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 17.63544,
+    "tenthMonthPrice": "18.9604",
+    "tenthMonthPriceDate": "2013-01-31"
+  },
+  {
+    "date": "2013-02-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 23.38674,
+    "tenthMonthPrice": "26.0302",
+    "tenthMonthPriceDate": "2013-01-31"
+  },
+  {
+    "date": "2013-02-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 19.37413,
+    "tenthMonthPrice": "21.8629",
+    "tenthMonthPriceDate": "2013-01-31"
+  },
+  {
+    "date": "2013-03-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 17.81879,
+    "tenthMonthPrice": "19.2179",
+    "tenthMonthPriceDate": "2013-02-28"
+  },
+  {
+    "date": "2013-03-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 23.683230000000002,
+    "tenthMonthPrice": "26.2899",
+    "tenthMonthPriceDate": "2013-02-28"
+  },
+  {
+    "date": "2013-03-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 19.61826,
+    "tenthMonthPrice": "21.6474",
+    "tenthMonthPriceDate": "2013-02-28"
+  },
+  {
+    "date": "2013-04-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 18.17834,
+    "tenthMonthPrice": "19.9383",
+    "tenthMonthPriceDate": "2013-03-28"
+  },
+  {
+    "date": "2013-04-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 24.26435,
+    "tenthMonthPrice": "27.5233",
+    "tenthMonthPriceDate": "2013-03-28"
+  },
+  {
+    "date": "2013-04-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 20.100569999999998,
+    "tenthMonthPrice": "21.8388",
+    "tenthMonthPriceDate": "2013-03-28"
+  },
+  {
+    "date": "2013-05-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 18.508789999999998,
+    "tenthMonthPrice": "20.3223",
+    "tenthMonthPriceDate": "2013-04-30"
+  },
+  {
+    "date": "2013-05-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 24.79275,
+    "tenthMonthPrice": "27.7013",
+    "tenthMonthPriceDate": "2013-04-30"
+  },
+  {
+    "date": "2013-05-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 20.57861,
+    "tenthMonthPrice": "23.0002",
+    "tenthMonthPriceDate": "2013-04-30"
+  },
+  {
+    "date": "2013-06-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 18.86299,
+    "tenthMonthPrice": "20.7981",
+    "tenthMonthPriceDate": "2013-05-31"
+  },
+  {
+    "date": "2013-06-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 25.410330000000002,
+    "tenthMonthPrice": "28.4532",
+    "tenthMonthPriceDate": "2013-05-31"
+  },
+  {
+    "date": "2013-06-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 20.97479,
+    "tenthMonthPrice": "22.2837",
+    "tenthMonthPriceDate": "2013-05-31"
+  },
+  {
+    "date": "2013-07-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 19.150550000000003,
+    "tenthMonthPrice": "20.5193",
+    "tenthMonthPriceDate": "2013-06-28"
+  },
+  {
+    "date": "2013-07-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 25.92004,
+    "tenthMonthPrice": "28.1703",
+    "tenthMonthPriceDate": "2013-06-28"
+  },
+  {
+    "date": "2013-07-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 21.248790000000003,
+    "tenthMonthPrice": "21.6654",
+    "tenthMonthPriceDate": "2013-06-28"
+  },
+  {
+    "date": "2013-08-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 19.49732,
+    "tenthMonthPrice": "21.5656",
+    "tenthMonthPriceDate": "2013-07-31"
+  },
+  {
+    "date": "2013-08-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 26.56578,
+    "tenthMonthPrice": "30.1094",
+    "tenthMonthPriceDate": "2013-07-31"
+  },
+  {
+    "date": "2013-08-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 21.581350000000004,
+    "tenthMonthPrice": "22.8109",
+    "tenthMonthPriceDate": "2013-07-31"
+  },
+  {
+    "date": "2013-09-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 19.81533,
+    "tenthMonthPrice": "20.9421",
+    "tenthMonthPriceDate": "2013-08-30"
+  },
+  {
+    "date": "2013-09-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 27.159270000000003,
+    "tenthMonthPrice": "29.2781",
+    "tenthMonthPriceDate": "2013-08-30"
+  },
+  {
+    "date": "2013-09-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 21.867670000000004,
+    "tenthMonthPrice": "22.5132",
+    "tenthMonthPriceDate": "2013-08-30"
+  },
+  {
+    "date": "2013-10-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 20.189010000000003,
+    "tenthMonthPrice": "21.6001",
+    "tenthMonthPriceDate": "2013-09-30"
+  },
+  {
+    "date": "2013-10-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 27.88968,
+    "tenthMonthPrice": "31.0038",
+    "tenthMonthPriceDate": "2013-09-30"
+  },
+  {
+    "date": "2013-10-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 22.273560000000003,
+    "tenthMonthPrice": "24.1817",
+    "tenthMonthPriceDate": "2013-09-30"
+  },
+  {
+    "date": "2013-11-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 20.645870000000002,
+    "tenthMonthPrice": "22.5946",
+    "tenthMonthPriceDate": "2013-10-31"
+  },
+  {
+    "date": "2013-11-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 28.647399999999998,
+    "tenthMonthPrice": "31.9145",
+    "tenthMonthPriceDate": "2013-10-31"
+  },
+  {
+    "date": "2013-11-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 22.68026,
+    "tenthMonthPrice": "24.9984",
+    "tenthMonthPriceDate": "2013-10-31"
+  },
+  {
+    "date": "2013-12-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 21.07822,
+    "tenthMonthPrice": "23.2839",
+    "tenthMonthPriceDate": "2013-11-29"
+  },
+  {
+    "date": "2013-12-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 29.315409999999996,
+    "tenthMonthPrice": "32.7103",
+    "tenthMonthPriceDate": "2013-11-29"
+  },
+  {
+    "date": "2013-12-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 23.01245,
+    "tenthMonthPrice": "25.1848",
+    "tenthMonthPriceDate": "2013-11-29"
+  },
+  {
+    "date": "2014-01-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 21.54395,
+    "tenthMonthPrice": "23.8752",
+    "tenthMonthPriceDate": "2013-12-31"
+  },
+  {
+    "date": "2014-01-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 30.053479999999997,
+    "tenthMonthPrice": "33.6706",
+    "tenthMonthPriceDate": "2013-12-31"
+  },
+  {
+    "date": "2014-01-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 23.40415,
+    "tenthMonthPrice": "25.5644",
+    "tenthMonthPriceDate": "2013-12-31"
+  },
+  {
+    "date": "2014-02-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 21.85527,
+    "tenthMonthPrice": "23.0515",
+    "tenthMonthPriceDate": "2014-01-31"
+  },
+  {
+    "date": "2014-02-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 30.60393,
+    "tenthMonthPrice": "33.0278",
+    "tenthMonthPriceDate": "2014-01-31"
+  },
+  {
+    "date": "2014-02-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 23.6736,
+    "tenthMonthPrice": "24.5333",
+    "tenthMonthPriceDate": "2014-01-31"
+  },
+  {
+    "date": "2014-03-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 22.23379,
+    "tenthMonthPrice": "24.1075",
+    "tenthMonthPriceDate": "2014-02-28"
+  },
+  {
+    "date": "2014-03-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 31.315909999999995,
+    "tenthMonthPrice": "34.8211",
+    "tenthMonthPriceDate": "2014-02-28"
+  },
+  {
+    "date": "2014-03-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 23.96389,
+    "tenthMonthPrice": "25.9031",
+    "tenthMonthPriceDate": "2014-02-28"
+  },
+  {
+    "date": "2014-04-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 22.58513,
+    "tenthMonthPrice": "24.3115",
+    "tenthMonthPriceDate": "2014-03-31"
+  },
+  {
+    "date": "2014-04-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 31.92872,
+    "tenthMonthPrice": "34.5813",
+    "tenthMonthPriceDate": "2014-03-31"
+  },
+  {
+    "date": "2014-04-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 24.31118,
+    "tenthMonthPrice": "25.7566",
+    "tenthMonthPriceDate": "2014-03-31"
+  },
+  {
+    "date": "2014-05-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 22.982550000000003,
+    "tenthMonthPrice": "24.4935",
+    "tenthMonthPriceDate": "2014-04-30"
+  },
+  {
+    "date": "2014-05-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 32.484429999999996,
+    "tenthMonthPrice": "33.7274",
+    "tenthMonthPriceDate": "2014-04-30"
+  },
+  {
+    "date": "2014-05-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 24.759319999999995,
+    "tenthMonthPrice": "26.1468",
+    "tenthMonthPriceDate": "2014-04-30"
+  },
+  {
+    "date": "2014-06-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 23.33297,
+    "tenthMonthPrice": "25.0698",
+    "tenthMonthPriceDate": "2014-05-30"
+  },
+  {
+    "date": "2014-06-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 32.897389999999994,
+    "tenthMonthPrice": "34.2390",
+    "tenthMonthPriceDate": "2014-05-30"
+  },
+  {
+    "date": "2014-06-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 25.137819999999998,
+    "tenthMonthPrice": "26.5959",
+    "tenthMonthPriceDate": "2014-05-30"
+  },
+  {
+    "date": "2014-07-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 23.79763,
+    "tenthMonthPrice": "25.5887",
+    "tenthMonthPriceDate": "2014-06-30"
+  },
+  {
+    "date": "2014-07-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 33.545719999999996,
+    "tenthMonthPrice": "35.7614",
+    "tenthMonthPriceDate": "2014-06-30"
+  },
+  {
+    "date": "2014-07-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 25.572359999999996,
+    "tenthMonthPrice": "26.8586",
+    "tenthMonthPriceDate": "2014-06-30"
+  },
+  {
+    "date": "2014-08-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 24.16141,
+    "tenthMonthPrice": "25.2379",
+    "tenthMonthPriceDate": "2014-07-31"
+  },
+  {
+    "date": "2014-08-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 33.864779999999996,
+    "tenthMonthPrice": "34.1944",
+    "tenthMonthPriceDate": "2014-07-31"
+  },
+  {
+    "date": "2014-08-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 25.787619999999997,
+    "tenthMonthPrice": "26.3343",
+    "tenthMonthPriceDate": "2014-07-31"
+  },
+  {
+    "date": "2014-09-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 24.52686,
+    "tenthMonthPrice": "26.2491",
+    "tenthMonthPriceDate": "2014-08-29"
+  },
+  {
+    "date": "2014-09-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 34.2632,
+    "tenthMonthPrice": "35.8987",
+    "tenthMonthPriceDate": "2014-08-29"
+  },
+  {
+    "date": "2014-09-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 25.917399999999997,
+    "tenthMonthPrice": "26.2962",
+    "tenthMonthPriceDate": "2014-08-29"
+  },
+  {
+    "date": "2014-10-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 24.786759999999997,
+    "tenthMonthPrice": "25.8829",
+    "tenthMonthPriceDate": "2014-09-30"
+  },
+  {
+    "date": "2014-10-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 34.39907000000001,
+    "tenthMonthPrice": "34.0690",
+    "tenthMonthPriceDate": "2014-09-30"
+  },
+  {
+    "date": "2014-10-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 25.928199999999997,
+    "tenthMonthPrice": "25.2928",
+    "tenthMonthPriceDate": "2014-09-30"
+  },
+  {
+    "date": "2014-11-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 25.050919999999998,
+    "tenthMonthPrice": "26.5168",
+    "tenthMonthPriceDate": "2014-10-31"
+  },
+  {
+    "date": "2014-11-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 34.57885,
+    "tenthMonthPrice": "35.4684",
+    "tenthMonthPriceDate": "2014-10-31"
+  },
+  {
+    "date": "2014-11-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 25.885110000000005,
+    "tenthMonthPrice": "25.1335",
+    "tenthMonthPriceDate": "2014-10-31"
+  },
+  {
+    "date": "2014-12-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 25.46898,
+    "tenthMonthPrice": "27.2321",
+    "tenthMonthPriceDate": "2014-11-28"
+  },
+  {
+    "date": "2014-12-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 34.87008000000001,
+    "tenthMonthPrice": "35.9401",
+    "tenthMonthPriceDate": "2014-11-28"
+  },
+  {
+    "date": "2014-12-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 25.957839999999997,
+    "tenthMonthPrice": "25.2606",
+    "tenthMonthPriceDate": "2014-11-28"
+  },
+  {
+    "date": "2015-01-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 25.77478,
+    "tenthMonthPrice": "27.1655",
+    "tenthMonthPriceDate": "2014-12-31"
+  },
+  {
+    "date": "2015-01-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 35.017610000000005,
+    "tenthMonthPrice": "36.2964",
+    "tenthMonthPriceDate": "2014-12-31"
+  },
+  {
+    "date": "2015-01-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 25.78936,
+    "tenthMonthPrice": "24.2183",
+    "tenthMonthPriceDate": "2014-12-31"
+  },
+  {
+    "date": "2015-02-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 25.97883,
+    "tenthMonthPrice": "26.3520",
+    "tenthMonthPriceDate": "2015-01-30"
+  },
+  {
+    "date": "2015-02-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 35.122020000000006,
+    "tenthMonthPrice": "35.6254",
+    "tenthMonthPriceDate": "2015-01-30"
+  },
+  {
+    "date": "2015-02-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 25.66447,
+    "tenthMonthPrice": "24.5077",
+    "tenthMonthPriceDate": "2015-01-30"
+  },
+  {
+    "date": "2015-03-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 26.31621,
+    "tenthMonthPrice": "27.8673",
+    "tenthMonthPriceDate": "2015-02-27"
+  },
+  {
+    "date": "2015-03-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 35.52745,
+    "tenthMonthPrice": "37.7817",
+    "tenthMonthPriceDate": "2015-02-27"
+  },
+  {
+    "date": "2015-03-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 25.64696,
+    "tenthMonthPrice": "25.9717",
+    "tenthMonthPriceDate": "2015-02-27"
+  },
+  {
+    "date": "2015-04-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 26.552069999999997,
+    "tenthMonthPrice": "27.4284",
+    "tenthMonthPriceDate": "2015-03-31"
+  },
+  {
+    "date": "2015-04-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 35.92871,
+    "tenthMonthPrice": "38.2516",
+    "tenthMonthPriceDate": "2015-03-31"
+  },
+  {
+    "date": "2015-04-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 25.5473,
+    "tenthMonthPrice": "25.5993",
+    "tenthMonthPriceDate": "2015-03-31"
+  },
+  {
+    "date": "2015-05-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 26.76248,
+    "tenthMonthPrice": "27.6928",
+    "tenthMonthPriceDate": "2015-04-30"
+  },
+  {
+    "date": "2015-05-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 36.12039,
+    "tenthMonthPrice": "37.6782",
+    "tenthMonthPriceDate": "2015-04-30"
+  },
+  {
+    "date": "2015-05-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 25.52669,
+    "tenthMonthPrice": "26.6525",
+    "tenthMonthPriceDate": "2015-04-30"
+  },
+  {
+    "date": "2015-06-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 27.04372,
+    "tenthMonthPrice": "28.0503",
+    "tenthMonthPriceDate": "2015-05-29"
+  },
+  {
+    "date": "2015-06-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 36.53796,
+    "tenthMonthPrice": "38.3701",
+    "tenthMonthPriceDate": "2015-05-29"
+  },
+  {
+    "date": "2015-06-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 25.547279999999997,
+    "tenthMonthPrice": "26.5402",
+    "tenthMonthPriceDate": "2015-05-29"
+  },
+  {
+    "date": "2015-07-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 27.169710000000002,
+    "tenthMonthPrice": "27.5090",
+    "tenthMonthPriceDate": "2015-06-30"
+  },
+  {
+    "date": "2015-07-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 36.75789999999999,
+    "tenthMonthPrice": "38.0981",
+    "tenthMonthPriceDate": "2015-06-30"
+  },
+  {
+    "date": "2015-07-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 25.497359999999997,
+    "tenthMonthPrice": "25.7970",
+    "tenthMonthPriceDate": "2015-06-30"
+  },
+  {
+    "date": "2015-08-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 27.39016,
+    "tenthMonthPrice": "28.0874",
+    "tenthMonthPriceDate": "2015-07-31"
+  },
+  {
+    "date": "2015-08-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 37.156060000000004,
+    "tenthMonthPrice": "38.0506",
+    "tenthMonthPriceDate": "2015-07-31"
+  },
+  {
+    "date": "2015-08-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 25.60142,
+    "tenthMonthPrice": "26.3334",
+    "tenthMonthPriceDate": "2015-07-31"
+  },
+  {
+    "date": "2015-09-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 27.37783,
+    "tenthMonthPrice": "26.3935",
+    "tenthMonthPriceDate": "2015-08-31"
+  },
+  {
+    "date": "2015-09-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 37.193749999999994,
+    "tenthMonthPrice": "35.8453",
+    "tenthMonthPriceDate": "2015-08-31"
+  },
+  {
+    "date": "2015-09-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 25.527499999999996,
+    "tenthMonthPrice": "24.3943",
+    "tenthMonthPriceDate": "2015-08-31"
+  },
+  {
+    "date": "2015-10-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 27.228839999999998,
+    "tenthMonthPrice": "25.7422",
+    "tenthMonthPriceDate": "2015-09-30"
+  },
+  {
+    "date": "2015-10-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 37.01229,
+    "tenthMonthPrice": "34.1255",
+    "tenthMonthPriceDate": "2015-09-30"
+  },
+  {
+    "date": "2015-10-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 25.318410000000004,
+    "tenthMonthPrice": "23.1697",
+    "tenthMonthPriceDate": "2015-09-30"
+  },
+  {
+    "date": "2015-11-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 27.303909999999995,
+    "tenthMonthPrice": "27.9162",
+    "tenthMonthPriceDate": "2015-10-30"
+  },
+  {
+    "date": "2015-11-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 36.986520000000006,
+    "tenthMonthPrice": "36.0387",
+    "tenthMonthPriceDate": "2015-10-30"
+  },
+  {
+    "date": "2015-11-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 25.37731,
+    "tenthMonthPrice": "24.8073",
+    "tenthMonthPriceDate": "2015-10-30"
+  },
+  {
+    "date": "2015-12-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 27.468899999999998,
+    "tenthMonthPrice": "28.0019",
+    "tenthMonthPriceDate": "2015-11-30"
+  },
+  {
+    "date": "2015-12-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 37.09087,
+    "tenthMonthPrice": "36.6689",
+    "tenthMonthPriceDate": "2015-11-30"
+  },
+  {
+    "date": "2015-12-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 25.385920000000006,
+    "tenthMonthPrice": "24.5938",
+    "tenthMonthPriceDate": "2015-11-30"
+  },
+  {
+    "date": "2016-01-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 27.43839,
+    "tenthMonthPrice": "27.5622",
+    "tenthMonthPriceDate": "2015-12-31"
+  },
+  {
+    "date": "2016-01-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 36.83626,
+    "tenthMonthPrice": "35.2356",
+    "tenthMonthPriceDate": "2015-12-31"
+  },
+  {
+    "date": "2016-01-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 25.198270000000004,
+    "tenthMonthPrice": "24.0952",
+    "tenthMonthPriceDate": "2015-12-31"
+  },
+  {
+    "date": "2016-02-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 27.315179999999998,
+    "tenthMonthPrice": "26.1963",
+    "tenthMonthPriceDate": "2016-01-29"
+  },
+  {
+    "date": "2016-02-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 36.22726,
+    "tenthMonthPrice": "32.1616",
+    "tenthMonthPriceDate": "2016-01-29"
+  },
+  {
+    "date": "2016-02-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 24.912430000000004,
+    "tenthMonthPrice": "22.7409",
+    "tenthMonthPriceDate": "2016-01-29"
+  },
+  {
+    "date": "2016-03-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 27.16232,
+    "tenthMonthPrice": "26.1642",
+    "tenthMonthPriceDate": "2016-02-29"
+  },
+  {
+    "date": "2016-03-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 35.69178,
+    "tenthMonthPrice": "32.3234",
+    "tenthMonthPriceDate": "2016-02-29"
+  },
+  {
+    "date": "2016-03-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 24.4572,
+    "tenthMonthPrice": "22.1002",
+    "tenthMonthPriceDate": "2016-02-29"
+  },
+  {
+    "date": "2016-04-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 27.151370000000004,
+    "tenthMonthPrice": "27.9408",
+    "tenthMonthPriceDate": "2016-03-31"
+  },
+  {
+    "date": "2016-04-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 35.353570000000005,
+    "tenthMonthPrice": "34.9880",
+    "tenthMonthPriceDate": "2016-03-31"
+  },
+  {
+    "date": "2016-04-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 24.158790000000003,
+    "tenthMonthPrice": "23.5561",
+    "tenthMonthPriceDate": "2016-03-31"
+  },
+  {
+    "date": "2016-05-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 27.20539,
+    "tenthMonthPrice": "28.0492",
+    "tenthMonthPriceDate": "2016-04-29"
+  },
+  {
+    "date": "2016-05-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 35.1032,
+    "tenthMonthPrice": "35.5944",
+    "tenthMonthPriceDate": "2016-04-29"
+  },
+  {
+    "date": "2016-05-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 23.97931,
+    "tenthMonthPrice": "24.0022",
+    "tenthMonthPriceDate": "2016-04-29"
+  },
+  {
+    "date": "2016-06-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 27.25199,
+    "tenthMonthPrice": "28.5534",
+    "tenthMonthPriceDate": "2016-05-31"
+  },
+  {
+    "date": "2016-06-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 34.92199,
+    "tenthMonthPrice": "36.2385",
+    "tenthMonthPriceDate": "2016-05-31"
+  },
+  {
+    "date": "2016-06-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 23.7527,
+    "tenthMonthPrice": "24.0673",
+    "tenthMonthPriceDate": "2016-05-31"
+  },
+  {
+    "date": "2016-07-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 27.475459999999998,
+    "tenthMonthPrice": "28.6282",
+    "tenthMonthPriceDate": "2016-06-30"
+  },
+  {
+    "date": "2016-07-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 34.95661,
+    "tenthMonthPrice": "36.1915",
+    "tenthMonthPriceDate": "2016-06-30"
+  },
+  {
+    "date": "2016-07-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 23.639909999999997,
+    "tenthMonthPrice": "23.2664",
+    "tenthMonthPriceDate": "2016-06-30"
+  },
+  {
+    "date": "2016-08-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 27.86965,
+    "tenthMonthPrice": "29.6841",
+    "tenthMonthPriceDate": "2016-07-29"
+  },
+  {
+    "date": "2016-08-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 35.35873,
+    "tenthMonthPrice": "38.1467",
+    "tenthMonthPriceDate": "2016-07-29"
+  },
+  {
+    "date": "2016-08-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 23.767599999999995,
+    "tenthMonthPrice": "24.4466",
+    "tenthMonthPriceDate": "2016-07-29"
+  },
+  {
+    "date": "2016-09-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 28.05066,
+    "tenthMonthPrice": "29.7263",
+    "tenthMonthPriceDate": "2016-08-31"
+  },
+  {
+    "date": "2016-09-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 35.60013,
+    "tenthMonthPrice": "38.4527",
+    "tenthMonthPriceDate": "2016-08-31"
+  },
+  {
+    "date": "2016-09-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 23.73352,
+    "tenthMonthPrice": "24.4665",
+    "tenthMonthPriceDate": "2016-08-31"
+  },
+  {
+    "date": "2016-10-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 28.223660000000002,
+    "tenthMonthPrice": "29.7319",
+    "tenthMonthPriceDate": "2016-09-30"
+  },
+  {
+    "date": "2016-10-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 35.812979999999996,
+    "tenthMonthPrice": "38.7974",
+    "tenthMonthPriceDate": "2016-09-30"
+  },
+  {
+    "date": "2016-10-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 23.75107,
+    "tenthMonthPrice": "24.7693",
+    "tenthMonthPriceDate": "2016-09-30"
+  },
+  {
+    "date": "2016-11-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 28.38644,
+    "tenthMonthPrice": "29.1900",
+    "tenthMonthPriceDate": "2016-10-31"
+  },
+  {
+    "date": "2016-11-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 36.019510000000004,
+    "tenthMonthPrice": "37.3009",
+    "tenthMonthPriceDate": "2016-10-31"
+  },
+  {
+    "date": "2016-11-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 23.76811,
+    "tenthMonthPrice": "24.2656",
+    "tenthMonthPriceDate": "2016-10-31"
+  },
+  {
+    "date": "2016-12-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 28.794130000000003,
+    "tenthMonthPrice": "30.2732",
+    "tenthMonthPriceDate": "2016-11-30"
+  },
+  {
+    "date": "2016-12-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 36.83001,
+    "tenthMonthPrice": "40.2666",
+    "tenthMonthPriceDate": "2016-11-30"
+  },
+  {
+    "date": "2016-12-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 23.87237,
+    "tenthMonthPrice": "23.7835",
+    "tenthMonthPriceDate": "2016-11-30"
+  },
+  {
+    "date": "2017-01-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 29.264979999999998,
+    "tenthMonthPrice": "30.8727",
+    "tenthMonthPriceDate": "2016-12-30"
+  },
+  {
+    "date": "2017-01-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 37.697269999999996,
+    "tenthMonthPrice": "40.9960",
+    "tenthMonthPriceDate": "2016-12-30"
+  },
+  {
+    "date": "2017-01-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 24.122530000000005,
+    "tenthMonthPrice": "24.6018",
+    "tenthMonthPriceDate": "2016-12-30"
+  },
+  {
+    "date": "2017-02-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 29.61679,
+    "tenthMonthPrice": "31.4589",
+    "tenthMonthPriceDate": "2017-01-31"
+  },
+  {
+    "date": "2017-02-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 38.38655,
+    "tenthMonthPrice": "41.8808",
+    "tenthMonthPriceDate": "2017-01-31"
+  },
+  {
+    "date": "2017-02-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 24.29829,
+    "tenthMonthPrice": "25.3137",
+    "tenthMonthPriceDate": "2017-01-31"
+  },
+  {
+    "date": "2017-03-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 30.08274,
+    "tenthMonthPrice": "32.7087",
+    "tenthMonthPriceDate": "2017-02-28"
+  },
+  {
+    "date": "2017-03-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 39.11765,
+    "tenthMonthPrice": "42.9054",
+    "tenthMonthPriceDate": "2017-02-28"
+  },
+  {
+    "date": "2017-03-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 24.465880000000002,
+    "tenthMonthPrice": "25.6781",
+    "tenthMonthPriceDate": "2017-02-28"
+  },
+  {
+    "date": "2017-04-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 30.50212,
+    "tenthMonthPrice": "32.7472",
+    "tenthMonthPriceDate": "2017-03-31"
+  },
+  {
+    "date": "2017-04-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 39.780829999999995,
+    "tenthMonthPrice": "42.8703",
+    "tenthMonthPriceDate": "2017-03-31"
+  },
+  {
+    "date": "2017-04-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 24.70024,
+    "tenthMonthPrice": "26.4109",
+    "tenthMonthPriceDate": "2017-03-31"
+  },
+  {
+    "date": "2017-05-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 30.94768,
+    "tenthMonthPrice": "33.0838",
+    "tenthMonthPriceDate": "2017-04-28"
+  },
+  {
+    "date": "2017-05-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 40.49804999999999,
+    "tenthMonthPrice": "43.3637",
+    "tenthMonthPriceDate": "2017-04-28"
+  },
+  {
+    "date": "2017-05-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 25.08378,
+    "tenthMonthPrice": "27.1018",
+    "tenthMonthPriceDate": "2017-04-28"
+  },
+  {
+    "date": "2017-06-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 31.334139999999998,
+    "tenthMonthPrice": "33.5487",
+    "tenthMonthPriceDate": "2017-05-31"
+  },
+  {
+    "date": "2017-06-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 40.98643,
+    "tenthMonthPrice": "43.0305",
+    "tenthMonthPriceDate": "2017-05-31"
+  },
+  {
+    "date": "2017-06-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 25.451240000000002,
+    "tenthMonthPrice": "28.1212",
+    "tenthMonthPriceDate": "2017-05-31"
+  },
+  {
+    "date": "2017-07-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 31.73725,
+    "tenthMonthPrice": "33.7574",
+    "tenthMonthPriceDate": "2017-06-30"
+  },
+  {
+    "date": "2017-07-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 41.544619999999995,
+    "tenthMonthPrice": "44.0346",
+    "tenthMonthPriceDate": "2017-06-30"
+  },
+  {
+    "date": "2017-07-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 25.81158,
+    "tenthMonthPrice": "28.0699",
+    "tenthMonthPriceDate": "2017-06-30"
+  },
+  {
+    "date": "2017-08-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 32.209140000000005,
+    "tenthMonthPrice": "34.4508",
+    "tenthMonthPriceDate": "2017-07-31"
+  },
+  {
+    "date": "2017-08-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 42.1173,
+    "tenthMonthPrice": "44.5242",
+    "tenthMonthPriceDate": "2017-07-31"
+  },
+  {
+    "date": "2017-08-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 26.222559999999998,
+    "tenthMonthPrice": "28.8791",
+    "tenthMonthPriceDate": "2017-07-31"
+  },
+  {
+    "date": "2017-09-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 32.745670000000004,
+    "tenthMonthPrice": "34.5553",
+    "tenthMonthPriceDate": "2017-08-31"
+  },
+  {
+    "date": "2017-09-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 42.82124,
+    "tenthMonthPrice": "44.3403",
+    "tenthMonthPriceDate": "2017-08-31"
+  },
+  {
+    "date": "2017-09-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 26.682940000000002,
+    "tenthMonthPrice": "28.8694",
+    "tenthMonthPriceDate": "2017-08-31"
+  },
+  {
+    "date": "2017-10-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 33.2452,
+    "tenthMonthPrice": "35.2685",
+    "tenthMonthPriceDate": "2017-09-29"
+  },
+  {
+    "date": "2017-10-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 43.41733000000001,
+    "tenthMonthPrice": "46.2275",
+    "tenthMonthPriceDate": "2017-09-29"
+  },
+  {
+    "date": "2017-10-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 27.264160000000004,
+    "tenthMonthPrice": "29.5957",
+    "tenthMonthPriceDate": "2017-09-29"
+  },
+  {
+    "date": "2017-11-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 33.76705,
+    "tenthMonthPrice": "36.0912",
+    "tenthMonthPriceDate": "2017-10-31"
+  },
+  {
+    "date": "2017-11-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 44.00555000000001,
+    "tenthMonthPrice": "46.8782",
+    "tenthMonthPriceDate": "2017-10-31"
+  },
+  {
+    "date": "2017-11-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 27.809089999999998,
+    "tenthMonthPrice": "30.0511",
+    "tenthMonthPriceDate": "2017-10-31"
+  },
+  {
+    "date": "2017-12-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 34.340909999999994,
+    "tenthMonthPrice": "37.1975",
+    "tenthMonthPriceDate": "2017-11-30"
+  },
+  {
+    "date": "2017-12-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 44.641450000000006,
+    "tenthMonthPrice": "48.2398",
+    "tenthMonthPriceDate": "2017-11-30"
+  },
+  {
+    "date": "2017-12-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 28.31462,
+    "tenthMonthPrice": "30.3690",
+    "tenthMonthPriceDate": "2017-11-30"
+  },
+  {
+    "date": "2018-01-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 34.83107,
+    "tenthMonthPrice": "37.6103",
+    "tenthMonthPriceDate": "2017-12-29"
+  },
+  {
+    "date": "2018-01-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 45.197520000000004,
+    "tenthMonthPrice": "48.4661",
+    "tenthMonthPriceDate": "2017-12-29"
+  },
+  {
+    "date": "2018-01-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 28.832370000000004,
+    "tenthMonthPrice": "30.8556",
+    "tenthMonthPriceDate": "2017-12-29"
+  },
+  {
+    "date": "2018-02-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 35.532669999999996,
+    "tenthMonthPrice": "39.7632",
+    "tenthMonthPriceDate": "2018-01-31"
+  },
+  {
+    "date": "2018-02-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 45.919180000000004,
+    "tenthMonthPrice": "50.0869",
+    "tenthMonthPriceDate": "2018-01-31"
+  },
+  {
+    "date": "2018-02-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 29.43108,
+    "tenthMonthPrice": "32.3980",
+    "tenthMonthPriceDate": "2018-01-31"
+  },
+  {
+    "date": "2018-03-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 36.053749999999994,
+    "tenthMonthPrice": "38.2946",
+    "tenthMonthPriceDate": "2018-02-28"
+  },
+  {
+    "date": "2018-03-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 46.4015,
+    "tenthMonthPrice": "48.1869",
+    "tenthMonthPriceDate": "2018-02-28"
+  },
+  {
+    "date": "2018-03-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 29.79645,
+    "tenthMonthPrice": "30.7555",
+    "tenthMonthPriceDate": "2018-02-28"
+  },
+  {
+    "date": "2018-04-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 36.4308,
+    "tenthMonthPrice": "37.3192",
+    "tenthMonthPriceDate": "2018-03-29"
+  },
+  {
+    "date": "2018-04-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 46.950379999999996,
+    "tenthMonthPrice": "48.5193",
+    "tenthMonthPriceDate": "2018-03-29"
+  },
+  {
+    "date": "2018-04-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 30.036469999999998,
+    "tenthMonthPrice": "30.5214",
+    "tenthMonthPriceDate": "2018-03-29"
+  },
+  {
+    "date": "2018-05-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 36.80120000000001,
+    "tenthMonthPrice": "37.4614",
+    "tenthMonthPriceDate": "2018-04-30"
+  },
+  {
+    "date": "2018-05-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 47.412369999999996,
+    "tenthMonthPrice": "48.6545",
+    "tenthMonthPriceDate": "2018-04-30"
+  },
+  {
+    "date": "2018-05-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 30.342959999999998,
+    "tenthMonthPrice": "31.1348",
+    "tenthMonthPriceDate": "2018-04-30"
+  },
+  {
+    "date": "2018-06-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 37.1924,
+    "tenthMonthPrice": "38.3628",
+    "tenthMonthPriceDate": "2018-05-31"
+  },
+  {
+    "date": "2018-06-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 48.06141,
+    "tenthMonthPrice": "51.0146",
+    "tenthMonthPriceDate": "2018-05-31"
+  },
+  {
+    "date": "2018-06-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 30.50213,
+    "tenthMonthPrice": "30.4708",
+    "tenthMonthPriceDate": "2018-05-31"
+  },
+  {
+    "date": "2018-07-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 37.59672,
+    "tenthMonthPrice": "38.5985",
+    "tenthMonthPriceDate": "2018-06-29"
+  },
+  {
+    "date": "2018-07-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 48.77289,
+    "tenthMonthPrice": "51.4551",
+    "tenthMonthPriceDate": "2018-06-29"
+  },
+  {
+    "date": "2018-07-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 30.625580000000003,
+    "tenthMonthPrice": "30.1039",
+    "tenthMonthPriceDate": "2018-06-29"
+  },
+  {
+    "date": "2018-08-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 38.073319999999995,
+    "tenthMonthPrice": "40.0345",
+    "tenthMonthPriceDate": "2018-07-31"
+  },
+  {
+    "date": "2018-08-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 49.38,
+    "tenthMonthPrice": "52.2986",
+    "tenthMonthPriceDate": "2018-07-31"
+  },
+  {
+    "date": "2018-08-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 30.750189999999996,
+    "tenthMonthPrice": "30.8418",
+    "tenthMonthPriceDate": "2018-07-31"
+  },
+  {
+    "date": "2018-09-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 38.598079999999996,
+    "tenthMonthPrice": "41.3388",
+    "tenthMonthPriceDate": "2018-08-31"
+  },
+  {
+    "date": "2018-09-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 50.16103,
+    "tenthMonthPrice": "54.6885",
+    "tenthMonthPriceDate": "2018-08-31"
+  },
+  {
+    "date": "2018-09-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 30.770349999999997,
+    "tenthMonthPrice": "30.2527",
+    "tenthMonthPriceDate": "2018-08-31"
+  },
+  {
+    "date": "2018-10-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 39.03573999999999,
+    "tenthMonthPrice": "41.5741",
+    "tenthMonthPriceDate": "2018-09-28"
+  },
+  {
+    "date": "2018-10-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 50.709700000000005,
+    "tenthMonthPrice": "53.7265",
+    "tenthMonthPriceDate": "2018-09-28"
+  },
+  {
+    "date": "2018-10-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 30.786270000000002,
+    "tenthMonthPrice": "30.5282",
+    "tenthMonthPriceDate": "2018-09-28"
+  },
+  {
+    "date": "2018-11-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 39.147859999999994,
+    "tenthMonthPrice": "38.7315",
+    "tenthMonthPriceDate": "2018-10-31"
+  },
+  {
+    "date": "2018-11-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 50.69501999999999,
+    "tenthMonthPrice": "48.3193",
+    "tenthMonthPriceDate": "2018-10-31"
+  },
+  {
+    "date": "2018-11-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 30.511070000000007,
+    "tenthMonthPrice": "28.1036",
+    "tenthMonthPriceDate": "2018-10-31"
+  },
+  {
+    "date": "2018-12-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 39.12355,
+    "tenthMonthPrice": "39.5201",
+    "tenthMonthPriceDate": "2018-11-30"
+  },
+  {
+    "date": "2018-12-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 50.61081,
+    "tenthMonthPrice": "49.2448",
+    "tenthMonthPriceDate": "2018-11-30"
+  },
+  {
+    "date": "2018-12-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 30.07796,
+    "tenthMonthPrice": "28.0669",
+    "tenthMonthPriceDate": "2018-11-30"
+  },
+  {
+    "date": "2019-01-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 38.88932,
+    "tenthMonthPrice": "35.9523",
+    "tenthMonthPriceDate": "2018-12-31"
+  },
+  {
+    "date": "2019-01-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 50.18984,
+    "tenthMonthPrice": "43.9772",
+    "tenthMonthPriceDate": "2018-12-31"
+  },
+  {
+    "date": "2019-01-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 29.673719999999996,
+    "tenthMonthPrice": "26.7131",
+    "tenthMonthPriceDate": "2018-12-31"
+  },
+  {
+    "date": "2019-02-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 39.04069,
+    "tenthMonthPrice": "38.8329",
+    "tenthMonthPriceDate": "2019-01-31"
+  },
+  {
+    "date": "2019-02-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 50.24749999999999,
+    "tenthMonthPrice": "49.0959",
+    "tenthMonthPriceDate": "2019-01-31"
+  },
+  {
+    "date": "2019-02-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 29.469170000000002,
+    "tenthMonthPrice": "28.4759",
+    "tenthMonthPriceDate": "2019-01-31"
+  },
+  {
+    "date": "2019-03-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 39.30234,
+    "tenthMonthPrice": "40.0779",
+    "tenthMonthPriceDate": "2019-02-28"
+  },
+  {
+    "date": "2019-03-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 50.535970000000006,
+    "tenthMonthPrice": "51.5392",
+    "tenthMonthPriceDate": "2019-02-28"
+  },
+  {
+    "date": "2019-03-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 29.275920000000003,
+    "tenthMonthPrice": "29.2023",
+    "tenthMonthPriceDate": "2019-02-28"
+  },
+  {
+    "date": "2019-04-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 39.55195,
+    "tenthMonthPrice": "40.8589",
+    "tenthMonthPriceDate": "2019-03-29"
+  },
+  {
+    "date": "2019-04-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 50.53534,
+    "tenthMonthPrice": "51.0083",
+    "tenthMonthPriceDate": "2019-03-29"
+  },
+  {
+    "date": "2019-04-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 29.1698,
+    "tenthMonthPrice": "29.4096",
+    "tenthMonthPriceDate": "2019-03-29"
+  },
+  {
+    "date": "2019-05-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 39.943400000000004,
+    "tenthMonthPrice": "42.5130",
+    "tenthMonthPriceDate": "2019-04-30"
+  },
+  {
+    "date": "2019-05-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 50.679069999999996,
+    "tenthMonthPrice": "52.8924",
+    "tenthMonthPriceDate": "2019-04-30"
+  },
+  {
+    "date": "2019-05-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 29.186339999999994,
+    "tenthMonthPrice": "30.2693",
+    "tenthMonthPriceDate": "2019-04-30"
+  },
+  {
+    "date": "2019-06-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 39.920939999999995,
+    "tenthMonthPrice": "39.8099",
+    "tenthMonthPriceDate": "2019-05-31"
+  },
+  {
+    "date": "2019-06-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 50.368939999999995,
+    "tenthMonthPrice": "49.1973",
+    "tenthMonthPriceDate": "2019-05-31"
+  },
+  {
+    "date": "2019-06-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 28.987230000000004,
+    "tenthMonthPrice": "28.8507",
+    "tenthMonthPriceDate": "2019-05-31"
+  },
+  {
+    "date": "2019-07-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 40.0485,
+    "tenthMonthPrice": "42.6144",
+    "tenthMonthPriceDate": "2019-06-28"
+  },
+  {
+    "date": "2019-07-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 50.15442,
+    "tenthMonthPrice": "52.5433",
+    "tenthMonthPriceDate": "2019-06-28"
+  },
+  {
+    "date": "2019-07-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 29.018440000000005,
+    "tenthMonthPrice": "30.5648",
+    "tenthMonthPriceDate": "2019-06-28"
+  },
+  {
+    "date": "2019-08-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 40.21377,
+    "tenthMonthPrice": "43.2268",
+    "tenthMonthPriceDate": "2019-07-31"
+  },
+  {
+    "date": "2019-08-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 50.12202,
+    "tenthMonthPrice": "53.4025",
+    "tenthMonthPriceDate": "2019-07-31"
+  },
+  {
+    "date": "2019-08-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 28.95821,
+    "tenthMonthPrice": "29.9259",
+    "tenthMonthPriceDate": "2019-07-31"
+  },
+  {
+    "date": "2019-09-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 40.59465,
+    "tenthMonthPrice": "42.5403",
+    "tenthMonthPriceDate": "2019-08-30"
+  },
+  {
+    "date": "2019-09-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 50.40632,
+    "tenthMonthPrice": "51.1623",
+    "tenthMonthPriceDate": "2019-08-30"
+  },
+  {
+    "date": "2019-09-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 29.08743,
+    "tenthMonthPrice": "29.3958",
+    "tenthMonthPriceDate": "2019-08-30"
+  },
+  {
+    "date": "2019-10-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 40.976220000000005,
+    "tenthMonthPrice": "43.3358",
+    "tenthMonthPriceDate": "2019-09-30"
+  },
+  {
+    "date": "2019-10-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 50.65212000000001,
+    "tenthMonthPrice": "51.7028",
+    "tenthMonthPriceDate": "2019-09-30"
+  },
+  {
+    "date": "2019-10-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 29.304809999999996,
+    "tenthMonthPrice": "30.2407",
+    "tenthMonthPriceDate": "2019-09-30"
+  },
+  {
+    "date": "2019-11-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 41.80820000000001,
+    "tenthMonthPrice": "44.2721",
+    "tenthMonthPriceDate": "2019-10-31"
+  },
+  {
+    "date": "2019-11-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 51.524390000000004,
+    "tenthMonthPrice": "52.6999",
+    "tenthMonthPriceDate": "2019-10-31"
+  },
+  {
+    "date": "2019-11-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 29.766389999999994,
+    "tenthMonthPrice": "31.3289",
+    "tenthMonthPriceDate": "2019-10-31"
+  },
+  {
+    "date": "2019-12-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 42.512660000000004,
+    "tenthMonthPrice": "45.8775",
+    "tenthMonthPriceDate": "2019-11-29"
+  },
+  {
+    "date": "2019-12-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 52.12392,
+    "tenthMonthPrice": "55.0912",
+    "tenthMonthPriceDate": "2019-11-29"
+  },
+  {
+    "date": "2019-12-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 30.087799999999998,
+    "tenthMonthPrice": "31.6900",
+    "tenthMonthPriceDate": "2019-11-29"
+  },
+  {
+    "date": "2020-01-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 43.23089,
+    "tenthMonthPrice": "47.2602",
+    "tenthMonthPriceDate": "2019-12-31"
+  },
+  {
+    "date": "2020-01-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 52.59759000000001,
+    "tenthMonthPrice": "56.2759",
+    "tenthMonthPriceDate": "2019-12-31"
+  },
+  {
+    "date": "2020-01-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 30.43923000000001,
+    "tenthMonthPrice": "32.7166",
+    "tenthMonthPriceDate": "2019-12-31"
+  },
+  {
+    "date": "2020-02-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 43.868950000000005,
+    "tenthMonthPrice": "47.2395",
+    "tenthMonthPriceDate": "2020-01-31"
+  },
+  {
+    "date": "2020-02-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 53.08969,
+    "tenthMonthPrice": "55.9293",
+    "tenthMonthPriceDate": "2020-01-31"
+  },
+  {
+    "date": "2020-02-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 30.680710000000005,
+    "tenthMonthPrice": "31.8244",
+    "tenthMonthPriceDate": "2020-01-31"
+  },
+  {
+    "date": "2020-03-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 43.952439999999996,
+    "tenthMonthPrice": "43.3479",
+    "tenthMonthPriceDate": "2020-02-28"
+  },
+  {
+    "date": "2020-03-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 52.945440000000005,
+    "tenthMonthPrice": "51.4499",
+    "tenthMonthPriceDate": "2020-02-28"
+  },
+  {
+    "date": "2020-03-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 30.590030000000002,
+    "tenthMonthPrice": "29.3625",
+    "tenthMonthPriceDate": "2020-02-28"
+  },
+  {
+    "date": "2020-04-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 43.76884,
+    "tenthMonthPrice": "37.9739",
+    "tenthMonthPriceDate": "2020-03-31"
+  },
+  {
+    "date": "2020-04-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 52.06949000000001,
+    "tenthMonthPrice": "40.4378",
+    "tenthMonthPriceDate": "2020-03-31"
+  },
+  {
+    "date": "2020-04-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 30.23383,
+    "tenthMonthPrice": "25.2887",
+    "tenthMonthPriceDate": "2020-03-31"
+  },
+  {
+    "date": "2020-05-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 43.79135,
+    "tenthMonthPrice": "42.8395",
+    "tenthMonthPriceDate": "2020-04-30"
+  },
+  {
+    "date": "2020-05-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 51.49839000000001,
+    "tenthMonthPrice": "46.8323",
+    "tenthMonthPriceDate": "2020-04-30"
+  },
+  {
+    "date": "2020-05-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 29.86861,
+    "tenthMonthPrice": "26.9126",
+    "tenthMonthPriceDate": "2020-04-30"
+  },
+  {
+    "date": "2020-06-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 43.956739999999996,
+    "tenthMonthPrice": "44.8807",
+    "tenthMonthPriceDate": "2020-05-29"
+  },
+  {
+    "date": "2020-06-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 51.25294,
+    "tenthMonthPrice": "50.9480",
+    "tenthMonthPriceDate": "2020-05-29"
+  },
+  {
+    "date": "2020-06-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 29.688350000000003,
+    "tenthMonthPrice": "28.1233",
+    "tenthMonthPriceDate": "2020-05-29"
+  },
+  {
+    "date": "2020-07-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 44.279889999999995,
+    "tenthMonthPrice": "45.7718",
+    "tenthMonthPriceDate": "2020-06-30"
+  },
+  {
+    "date": "2020-07-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 51.4353,
+    "tenthMonthPrice": "52.9859",
+    "tenthMonthPriceDate": "2020-06-30"
+  },
+  {
+    "date": "2020-07-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 29.65786,
+    "tenthMonthPrice": "29.0909",
+    "tenthMonthPriceDate": "2020-06-30"
+  },
+  {
+    "date": "2020-08-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 44.78161999999999,
+    "tenthMonthPrice": "48.3531",
+    "tenthMonthPriceDate": "2020-07-31"
+  },
+  {
+    "date": "2020-08-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 51.866099999999996,
+    "tenthMonthPrice": "56.0108",
+    "tenthMonthPriceDate": "2020-07-31"
+  },
+  {
+    "date": "2020-08-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 29.610660000000003,
+    "tenthMonthPrice": "29.7687",
+    "tenthMonthPriceDate": "2020-07-31"
+  },
+  {
+    "date": "2020-09-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 45.537209999999995,
+    "tenthMonthPrice": "51.8280",
+    "tenthMonthPriceDate": "2020-08-31"
+  },
+  {
+    "date": "2020-09-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 52.60071000000001,
+    "tenthMonthPrice": "60.0460",
+    "tenthMonthPriceDate": "2020-08-31"
+  },
+  {
+    "date": "2020-09-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 29.607059999999997,
+    "tenthMonthPrice": "31.2929",
+    "tenthMonthPriceDate": "2020-08-31"
+  },
+  {
+    "date": "2020-10-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 45.93522,
+    "tenthMonthPrice": "49.8576",
+    "tenthMonthPriceDate": "2020-09-30"
+  },
+  {
+    "date": "2020-10-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 52.91337,
+    "tenthMonthPrice": "58.2178",
+    "tenthMonthPriceDate": "2020-09-30"
+  },
+  {
+    "date": "2020-10-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 29.486139999999995,
+    "tenthMonthPrice": "30.4808",
+    "tenthMonthPriceDate": "2020-09-30"
+  },
+  {
+    "date": "2020-11-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 46.06215999999999,
+    "tenthMonthPrice": "48.5296",
+    "tenthMonthPriceDate": "2020-10-30"
+  },
+  {
+    "date": "2020-11-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 53.13651000000001,
+    "tenthMonthPrice": "58.5073",
+    "tenthMonthPriceDate": "2020-10-30"
+  },
+  {
+    "date": "2020-11-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 29.141490000000005,
+    "tenthMonthPrice": "29.2701",
+    "tenthMonthPriceDate": "2020-10-30"
+  },
+  {
+    "date": "2020-12-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 46.72247,
+    "tenthMonthPrice": "53.8426",
+    "tenthMonthPriceDate": "2020-11-30"
+  },
+  {
+    "date": "2020-12-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 54.46265000000001,
+    "tenthMonthPrice": "69.1907",
+    "tenthMonthPriceDate": "2020-11-30"
+  },
+  {
+    "date": "2020-12-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 29.340989999999998,
+    "tenthMonthPrice": "33.8194",
+    "tenthMonthPriceDate": "2020-11-30"
+  },
+  {
+    "date": "2021-01-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 47.97886999999999,
+    "tenthMonthPrice": "55.9119",
+    "tenthMonthPriceDate": "2020-12-31"
+  },
+  {
+    "date": "2021-01-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 56.73777,
+    "tenthMonthPrice": "74.2011",
+    "tenthMonthPriceDate": "2020-12-31"
+  },
+  {
+    "date": "2021-01-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 29.943620000000003,
+    "tenthMonthPrice": "35.3888",
+    "tenthMonthPriceDate": "2020-12-31"
+  },
+  {
+    "date": "2021-02-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 49.716010000000004,
+    "tenthMonthPrice": "55.3453",
+    "tenthMonthPriceDate": "2021-01-29"
+  },
+  {
+    "date": "2021-02-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 60.325720000000004,
+    "tenthMonthPrice": "76.3173",
+    "tenthMonthPriceDate": "2021-01-29"
+  },
+  {
+    "date": "2021-02-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 30.915080000000007,
+    "tenthMonthPrice": "35.0033",
+    "tenthMonthPriceDate": "2021-01-29"
+  },
+  {
+    "date": "2021-03-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 51.11927,
+    "tenthMonthPrice": "56.8721",
+    "tenthMonthPriceDate": "2021-02-26"
+  },
+  {
+    "date": "2021-03-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 63.672109999999996,
+    "tenthMonthPrice": "80.2962",
+    "tenthMonthPriceDate": "2021-02-26"
+  },
+  {
+    "date": "2021-03-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 31.80337,
+    "tenthMonthPrice": "35.7955",
+    "tenthMonthPriceDate": "2021-02-26"
+  },
+  {
+    "date": "2021-04-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 52.567359999999994,
+    "tenthMonthPrice": "59.3616",
+    "tenthMonthPriceDate": "2021-03-31"
+  },
+  {
+    "date": "2021-04-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 66.57536999999999,
+    "tenthMonthPrice": "79.9806",
+    "tenthMonthPriceDate": "2021-03-31"
+  },
+  {
+    "date": "2021-04-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 32.65461,
+    "tenthMonthPrice": "36.6357",
+    "tenthMonthPriceDate": "2021-03-31"
+  },
+  {
+    "date": "2021-05-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 54.24302,
+    "tenthMonthPrice": "62.5284",
+    "tenthMonthPriceDate": "2021-04-30"
+  },
+  {
+    "date": "2021-05-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 69.61281,
+    "tenthMonthPrice": "83.3603",
+    "tenthMonthPriceDate": "2021-04-30"
+  },
+  {
+    "date": "2021-05-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 33.52242,
+    "tenthMonthPrice": "37.7690",
+    "tenthMonthPriceDate": "2021-04-30"
+  },
+  {
+    "date": "2021-06-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 55.70399,
+    "tenthMonthPrice": "62.9628",
+    "tenthMonthPriceDate": "2021-05-28"
+  },
+  {
+    "date": "2021-06-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 72.29287,
+    "tenthMonthPrice": "82.8114",
+    "tenthMonthPriceDate": "2021-05-28"
+  },
+  {
+    "date": "2021-06-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 34.45897000000001,
+    "tenthMonthPrice": "39.1342",
+    "tenthMonthPriceDate": "2021-05-28"
+  },
+  {
+    "date": "2021-07-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 56.96443000000001,
+    "tenthMonthPrice": "64.4324",
+    "tenthMonthPriceDate": "2021-06-30"
+  },
+  {
+    "date": "2021-07-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 74.85602,
+    "tenthMonthPrice": "85.6775",
+    "tenthMonthPriceDate": "2021-06-30"
+  },
+  {
+    "date": "2021-07-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 35.186620000000005,
+    "tenthMonthPrice": "38.5694",
+    "tenthMonthPriceDate": "2021-06-30"
+  },
+  {
+    "date": "2021-08-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 58.57489,
+    "tenthMonthPrice": "65.9622",
+    "tenthMonthPriceDate": "2021-07-30"
+  },
+  {
+    "date": "2021-08-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 77.49605,
+    "tenthMonthPrice": "84.6181",
+    "tenthMonthPriceDate": "2021-07-30"
+  },
+  {
+    "date": "2021-08-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 36.023070000000004,
+    "tenthMonthPrice": "38.8453",
+    "tenthMonthPriceDate": "2021-07-30"
+  },
+  {
+    "date": "2021-09-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 60.51832999999999,
+    "tenthMonthPrice": "67.9640",
+    "tenthMonthPriceDate": "2021-08-31"
+  },
+  {
+    "date": "2021-09-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 80.27598,
+    "tenthMonthPrice": "86.3066",
+    "tenthMonthPriceDate": "2021-08-31"
+  },
+  {
+    "date": "2021-09-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 37.04887,
+    "tenthMonthPrice": "39.5281",
+    "tenthMonthPriceDate": "2021-08-31"
+  },
+  {
+    "date": "2021-10-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 61.61441,
+    "tenthMonthPrice": "64.8034",
+    "tenthMonthPriceDate": "2021-09-30"
+  },
+  {
+    "date": "2021-10-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 81.6425,
+    "tenthMonthPrice": "82.8559",
+    "tenthMonthPriceDate": "2021-09-30"
+  },
+  {
+    "date": "2021-10-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 37.5086,
+    "tenthMonthPrice": "38.4167",
+    "tenthMonthPriceDate": "2021-09-30"
+  },
+  {
+    "date": "2021-11-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 62.957280000000004,
+    "tenthMonthPrice": "69.3406",
+    "tenthMonthPriceDate": "2021-10-29"
+  },
+  {
+    "date": "2021-11-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 82.95791999999999,
+    "tenthMonthPrice": "87.3553",
+    "tenthMonthPriceDate": "2021-10-29"
+  },
+  {
+    "date": "2021-11-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 37.90604,
+    "tenthMonthPrice": "39.3632",
+    "tenthMonthPriceDate": "2021-10-29"
+  },
+  {
+    "date": "2021-12-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 64.30879,
+    "tenthMonthPrice": "68.8604",
+    "tenthMonthPriceDate": "2021-11-30"
+  },
+  {
+    "date": "2021-12-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 83.62192999999999,
+    "tenthMonthPrice": "82.9574",
+    "tenthMonthPriceDate": "2021-11-30"
+  },
+  {
+    "date": "2021-12-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 38.15849,
+    "tenthMonthPrice": "37.5278",
+    "tenthMonthPriceDate": "2021-11-30"
+  },
+  {
+    "date": "2022-01-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 65.81627999999999,
+    "tenthMonthPrice": "71.9470",
+    "tenthMonthPriceDate": "2021-12-31"
+  },
+  {
+    "date": "2022-01-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 83.93641,
+    "tenthMonthPrice": "83.4410",
+    "tenthMonthPriceDate": "2021-12-31"
+  },
+  {
+    "date": "2022-01-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": true,
+    "tenMonthAverage": 38.5231,
+    "tenthMonthPrice": "39.4416",
+    "tenthMonthPriceDate": "2021-12-31"
+  },
+  {
+    "date": "2022-02-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 66.70243,
+    "tenthMonthPrice": "68.2231",
+    "tenthMonthPriceDate": "2022-01-31"
+  },
+  {
+    "date": "2022-02-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 83.44221000000002,
+    "tenthMonthPrice": "75.0386",
+    "tenthMonthPriceDate": "2022-01-31"
+  },
+  {
+    "date": "2022-02-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 38.64761,
+    "tenthMonthPrice": "37.8808",
+    "tenthMonthPriceDate": "2022-01-31"
+  },
+  {
+    "date": "2022-03-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 67.06779,
+    "tenthMonthPrice": "66.1820",
+    "tenthMonthPriceDate": "2022-02-28"
+  },
+  {
+    "date": "2022-03-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 82.61198,
+    "tenthMonthPrice": "75.0580",
+    "tenthMonthPriceDate": "2022-02-28"
+  },
+  {
+    "date": "2022-03-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 38.559740000000005,
+    "tenthMonthPrice": "36.8903",
+    "tenthMonthPriceDate": "2022-02-28"
+  },
+  {
+    "date": "2022-04-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 67.63567,
+    "tenthMonthPrice": "68.6416",
+    "tenthMonthPriceDate": "2022-03-31"
+  },
+  {
+    "date": "2022-04-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 81.90428,
+    "tenthMonthPrice": "75.7344",
+    "tenthMonthPriceDate": "2022-03-31"
+  },
+  {
+    "date": "2022-04-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 38.32327,
+    "tenthMonthPrice": "36.7695",
+    "tenthMonthPriceDate": "2022-03-31"
+  },
+  {
+    "date": "2022-05-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 67.45821,
+    "tenthMonthPrice": "62.6578",
+    "tenthMonthPriceDate": "2022-04-29"
+  },
+  {
+    "date": "2022-05-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 80.10974999999999,
+    "tenthMonthPrice": "67.7322",
+    "tenthMonthPriceDate": "2022-04-29"
+  },
+  {
+    "date": "2022-05-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 37.90832,
+    "tenthMonthPrice": "34.4199",
+    "tenthMonthPriceDate": "2022-04-29"
+  },
+  {
+    "date": "2022-06-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 67.02450999999999,
+    "tenthMonthPrice": "61.6252",
+    "tenthMonthPriceDate": "2022-05-31"
+  },
+  {
+    "date": "2022-06-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 78.182,
+    "tenthMonthPrice": "65.3406",
+    "tenthMonthPriceDate": "2022-05-31"
+  },
+  {
+    "date": "2022-06-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 37.506809999999994,
+    "tenthMonthPrice": "34.8302",
+    "tenthMonthPriceDate": "2022-05-31"
+  },
+  {
+    "date": "2022-07-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 65.98704,
+    "tenthMonthPrice": "57.5893",
+    "tenthMonthPriceDate": "2022-06-30"
+  },
+  {
+    "date": "2022-07-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 75.56569999999999,
+    "tenthMonthPrice": "60.1436",
+    "tenthMonthPriceDate": "2022-06-30"
+  },
+  {
+    "date": "2022-07-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 36.750919999999994,
+    "tenthMonthPrice": "31.9692",
+    "tenthMonthPriceDate": "2022-06-30"
+  },
+  {
+    "date": "2022-08-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": false,
+    "tenMonthAverage": 65.79652999999999,
+    "tenthMonthPrice": "62.8983",
+    "tenthMonthPriceDate": "2022-07-29"
+  },
+  {
+    "date": "2022-08-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": false,
+    "tenMonthAverage": 73.91534,
+    "tenthMonthPrice": "66.3523",
+    "tenthMonthPriceDate": "2022-07-29"
+  },
+  {
+    "date": "2022-08-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 36.27095,
+    "tenthMonthPrice": "33.6170",
+    "tenthMonthPriceDate": "2022-07-29"
+  }
+]

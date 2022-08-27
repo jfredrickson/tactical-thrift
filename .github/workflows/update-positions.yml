@@ -1,14 +1,14 @@
-name: Update TSP share price data
+name: Update monthly investment positions
 
 on:
   schedule:
-    # 6:00 and 12:00 UTC daily
-    - cron: "0 6,12 * * *"
+    # 6:30 and 12:30 UTC daily
+    - cron: "30 6,12 * * *"
     # Every 5 minutes, only for testing
     # - cron: "*/5 * * * *"
 
 jobs:
-  scheduled-prices-update:
+  scheduled-positions-update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -18,9 +18,9 @@ jobs:
         with:
           node-version: "18"
       - run: npm install
-      - run: npm run update-prices
+      - run: npm run update-positions
       - uses: EndBug/add-and-commit@v9
         with:
-          add: _data/prices.json
-          message: update prices.json
+          add: _data/positions.json
+          message: update positions.json
           push: true

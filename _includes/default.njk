@@ -7,7 +7,7 @@
   <title>Tactial Thrift</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous" />
-  <link rel="stylesheet" href="/stylesheets/styles.css">
+  <link rel="stylesheet" href="{{ '/assets/stylesheets/styles.css' | url }}">
 </head>
 <body class="d-flex flex-column min-vh-100">
   <div class="container">
@@ -29,21 +29,21 @@
       <a class="navbar-brand" href="/">&nbsp;</a>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item {{#if homeActive }}active{{/if}}">
-            <a class="nav-link" href="/"><span>Home</span></a>
+          <li class="nav-item {% if title == "Home" %}active{% endif %}">
+            <a class="nav-link" href="{{ '/' | url }}"><span>Home</span></a>
           </li>
-          <li class="nav-item {{#if chartsActive }}active{{/if}}">
-            <a class="nav-link" href="/charts"><span>Charts</span></a>
+          <li class="nav-item {% if title == "Charts" %}active{% endif %}">
+            <a class="nav-link" href="{{ '/charts' | url }}"><span>Charts</span></a>
           </li>
-          <li class="nav-item {{#if historyActive }}active{{/if}}">
-            <a class="nav-link" href="/history"><span>History</span></a>
+          <li class="nav-item {% if title == "History" %}active{% endif %}">
+            <a class="nav-link" href="{{ '/history' | url }}"><span>History</span></a>
           </li>
         </ul>
       </div>
     </nav>
   </div>
 
-  {{{body}}}
+  {{ content | safe }}
 
   <footer class="mt-auto">
     <div class="container">
@@ -51,7 +51,7 @@
         <div class="col-sm-12">
           <div class="footer-section">
             <p class="footer-github">
-              <a href="https://github.com/jfredrickson/tactical-thrift"><img class="icon" src="/images/github.png"></a>
+              <a href="https://github.com/jfredrickson/tactical-thrift"><img class="icon" src="{{ '/assets/images/github.png' | url }}"></a>
               <a href="https://github.com/jfredrickson/tactical-thrift">Fork this app on GitHub</a>
             </p>
           </div>
@@ -60,9 +60,9 @@
     </div>
   </footer>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js" integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg==" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.bundle.min.js" integrity="sha512-SuxO9djzjML6b9w9/I07IWnLnQhgyYVSpHZx0JV97kGBfTIsUYlWflyuW4ypnvhBrslz1yJ3R+S14fdCWmSmSA==" crossorigin="anonymous"></script>
-  <script src="/javascripts/charts.js"></script>
+  <script src="{{ '/assets/javascripts/charts.js' | url }}"></script>
 </body>
 </html>
