@@ -3,9 +3,9 @@ name: Update monthly investment positions
 on:
   schedule:
     # 6:30 and 12:30 UTC daily
-    # - cron: "30 6,12 * * *"
+    - cron: "30 6,12 * * *"
     # Every 5 minutes, only for testing
-    - cron: "*/5 * * * *"
+    # - cron: "*/5 * * * *"
 
 jobs:
   scheduled-positions-update:
