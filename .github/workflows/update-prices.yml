@@ -23,4 +23,3 @@ jobs:
         with:
           add: _data/prices.json
           message: update prices.json
-          push: true
