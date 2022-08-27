@@ -1,0 +1,17 @@
+[
+  {
+    "name": "C",
+    "description": "U.S. large cap fund",
+    "inceptionDate": "1988-01-29T00:00:00.000+00:00"
+  },
+  {
+    "name": "S",
+    "description": "U.S. small/medium cap fund",
+    "inceptionDate": "2001-05-01T00:00:00.000+00:00"
+  },
+  {
+    "name": "I",
+    "description": "International stock fund",
+    "inceptionDate": "2001-05-01T00:00:00.000+00:00"
+  }
+]
