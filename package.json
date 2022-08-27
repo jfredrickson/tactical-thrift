@@ -6,6 +6,7 @@
   "scripts": {
     "start": "concurrently npm:serve npm:sass",
     "serve": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy",
     "sass": "sass --watch _sass/styles.scss assets/stylesheets/styles.css",
     "update-prices": "node bin/update-prices",
     "update-positions": "node bin/update-positions"
