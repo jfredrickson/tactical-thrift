@@ -2,6 +2,6 @@
 title: Redirect
 ---
 
-Tactical Thrift has moved to a different website. The new URL is: **[https://tactical-thrift.tensouth.net/](https://tactical-thrift.tensouth.net/)**
+Tactical Thrift has moved to a different website. The new URL is: <a target="_parent" href="https://tactical-thrift.tensouth.net/">https://tactical-thrift.tensouth.net/</a>
 
 Please update your bookmarks.
