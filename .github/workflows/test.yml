@@ -1,12 +1,7 @@
-name: Update TSP share price data
+name: Test app token
 
 on:
-  # pull_request: # temporary for testing
-  schedule:
-    # 6:00 and 12:00 UTC daily
-    - cron: "0 6,12 * * *"
-    # Every 5 minutes, only for testing
-    # - cron: "*/5 * * * *"
+  pull_request:
 
 jobs:
   scheduled-prices-update:
@@ -25,8 +20,8 @@ jobs:
         with:
           node-version: "18"
       - run: npm install
-      - run: npm run update-prices
+      - run: date >> test.txt
       - uses: EndBug/add-and-commit@v9
         with:
-          add: _data/prices.json
-          message: update prices.json
+          add: test.txt
+          message: test update
