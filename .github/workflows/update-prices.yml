@@ -1,6 +1,7 @@
 name: Update TSP share price data
 
 on:
+  pull_request: # temporary for testing
   schedule:
     # 6:00 and 12:00 UTC daily
     - cron: "0 6,12 * * *"
@@ -11,9 +12,15 @@ jobs:
   scheduled-prices-update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/create-github-app-token@v1
+        id: appToken
+        with:
+          app-id: ${{ vars.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+      - uses: actions/checkout@v4
         with:
           ref: main
+          token: ${{ steps.appToken.outputs.token }}
       - uses: actions/setup-node@v3
         with:
           node-version: "18"
