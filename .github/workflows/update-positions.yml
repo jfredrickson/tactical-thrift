@@ -11,11 +11,15 @@ jobs:
   scheduled-positions-update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/create-github-app-token@v1
+        id: appToken
+        with:
+          app-id: ${{ vars.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+      - uses: actions/checkout@v4
         with:
           ref: main
-          # Use a PAT instead of a built-in token so that the commit/push triggers the deploy workflow
-          token: ${{ secrets.TOKEN }}
+          token: ${{ steps.appToken.outputs.token }}
       - uses: actions/setup-node@v3
         with:
           node-version: "18"
@@ -24,4 +28,4 @@ jobs:
       - uses: EndBug/add-and-commit@v9
         with:
           add: _data/positions.json
-          message: update positions.json
+          message: update investment positions
