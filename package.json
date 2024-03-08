@@ -1,6 +1,6 @@
 {
   "name": "tactical-thrift",
-  "version": "3.0.1",
+  "version": "3.1.0",
   "description": "Suggests a possible Thrift Savings Plan allocation.",
   "main": "app.js",
   "type": "module",
