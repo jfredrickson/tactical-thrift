@@ -3,6 +3,7 @@
   "version": "3.0.1",
   "description": "Suggests a possible Thrift Savings Plan allocation.",
   "main": "app.js",
+  "type": "module",
   "scripts": {
     "start": "concurrently npm:serve npm:sass",
     "serve": "npx @11ty/eleventy --serve",
@@ -22,15 +23,13 @@
   },
   "homepage": "https://github.com/jfredrickson/tactical-thrift#readme",
   "engines": {
-    "node": "20.x"
-  },
-  "dependencies": {
+    "node": ">=20.11.1"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "concurrently": "^8.2.2",
     "dayjs": "^1.11.10",
     "sass": "^1.71.1",
-    "tsp-scraper": "^1.2.0"
+    "csv-parse": "^5.5.5"
   }
 }

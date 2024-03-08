@@ -1,20 +1,20 @@
 #!/usr/bin/env node
 
-const path = require('path')
-const fs = require('fs')
-const dayjs = require('dayjs');
-const utc = require('dayjs/plugin/utc');
-const isBetween = require('dayjs/plugin/isBetween');
-const prices = require('../_data/prices.json');
-const funds = require('../_data/funds.json');
+import { join } from 'path';
+import { writeFileSync } from 'fs';
+import dayjs from 'dayjs';
+import utc from 'dayjs/plugin/utc.js';
+import isBetween from 'dayjs/plugin/isBetween.js';
+import prices from '../_data/prices.json' with { type: 'json' };
+import funds from '../_data/funds.json' with { type: 'json' };
 
 dayjs.extend(utc);
 dayjs.extend(isBetween);
 
-const positionsFile = path.join(__dirname, '..', '_data', 'positions.json')
+const POSITIONS_FILE_PATH = join(import.meta.dirname, '..', '_data', 'positions.json');
 
 // Earliest data available from TSP is June 2, 2003
-const earliestDate = dayjs.utc("2003-06-02");
+const earliestDate = dayjs.utc('2003-06-02');
 const latestDate = dayjs.utc().subtract(1, 'month').endOf('month');
 const numMonths = latestDate.diff(earliestDate, 'month');
 
@@ -71,4 +71,4 @@ for (const monthEndPrice of monthEndPrices) {
   }
 }
 
-fs.writeFileSync(positionsFile, JSON.stringify(positions, null, 2));
+writeFileSync(POSITIONS_FILE_PATH, JSON.stringify(positions, null, 2));
