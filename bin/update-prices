@@ -2,7 +2,7 @@
 
 import { join } from 'path';
 import { readFileSync, writeFileSync } from 'fs';
-import { parse } from 'csv-parse/sync';
+import { parse } from 'csv-parse/lib/sync';
 import dayjs from 'dayjs';
 
 const PRICES_FILE_PATH = join(import.meta.dirname, '..', '_data', 'prices.json');
@@ -11,11 +11,11 @@ const FUND_PRICE_URL = 'https://www.tsp.gov/data/fund-price-history.csv';
 
 function parseRecord(rawRecord) {
   const record = {
-    prices: []
+    prices: [],
   };
 
   Object.entries(rawRecord).forEach(([key, rawValue]) => {
-    if (!rawValue) { return }
+    if (!rawValue) { return; }
 
     if (key === 'Date') {
       const date = dayjs(rawValue);
@@ -27,7 +27,7 @@ function parseRecord(rawRecord) {
     }
   });
 
-  return record
+  return record;
 }
 
 function merge(csvData) {
@@ -35,30 +35,30 @@ function merge(csvData) {
   const existingPrices = JSON.parse(readFileSync(PRICES_FILE_PATH, 'utf-8'));
 
   const updatedPrices = rawData.reduce((prices, rawRecord) => {
-    if (!rawRecord.Date) { return prices }
+    if (!rawRecord.Date) { return prices; }
 
-    if (!existingPrices.some(existingPrice => existingPrice.date === rawRecord.Date)) {
+    if (!existingPrices.some((existingPrice) => existingPrice.date === rawRecord.Date)) {
       prices.push(parseRecord(rawRecord));
     }
 
-    return prices
+    return prices;
   }, [...existingPrices]);
 
-  writeFileSync(PRICES_FILE_PATH, JSON.stringify(updatedPrices, null, 2))
+  writeFileSync(PRICES_FILE_PATH, JSON.stringify(updatedPrices, null, 2));
 }
 
 async function fetchPrices() {
   const response = await fetch(FUND_PRICE_URL, {
     headers: {
-      'User-Agent': USER_AGENT
-    }
+      'User-Agent': USER_AGENT,
+    },
   });
 
   if (!response.ok) {
     throw new Error(`There was a problem fetching the share price file: HTTP ${response.status} ${response.statusText}`);
   }
 
-  return await response.text();
+  return response.text();
 }
 
 const csvData = await fetchPrices();

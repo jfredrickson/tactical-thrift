@@ -10,7 +10,8 @@
     "build": "npx @11ty/eleventy",
     "sass": "sass --watch _sass/styles.scss assets/stylesheets/styles.css",
     "update-prices": "node bin/update-prices",
-    "update-positions": "node bin/update-positions"
+    "update-positions": "node bin/update-positions",
+    "lint": "npx eslint bin/*"
   },
   "repository": {
     "type": "git",
@@ -25,11 +26,15 @@
   "engines": {
     "node": ">=20.11.1"
   },
+  "dependencies": {
+    "csv-parse": "^5.5.5",
+    "dayjs": "^1.11.10"
+  },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "concurrently": "^8.2.2",
-    "dayjs": "^1.11.10",
-    "sass": "^1.71.1",
-    "csv-parse": "^5.5.5"
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "sass": "^1.71.1"
   }
 }

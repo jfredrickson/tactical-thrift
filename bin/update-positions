@@ -1,15 +1,19 @@
 #!/usr/bin/env node
 
 import { join } from 'path';
-import { writeFileSync } from 'fs';
+import { readFileSync, writeFileSync } from 'fs';
 import dayjs from 'dayjs';
-import utc from 'dayjs/plugin/utc.js';
-import isBetween from 'dayjs/plugin/isBetween.js';
-import prices from '../_data/prices.json' with { type: 'json' };
-import funds from '../_data/funds.json' with { type: 'json' };
+import utc from 'dayjs/plugin/utc.js'; // eslint-disable-line import/extensions
+import isBetween from 'dayjs/plugin/isBetween.js'; // eslint-disable-line import/extensions
 
 dayjs.extend(utc);
 dayjs.extend(isBetween);
+
+const pricesUrl = new URL('../_data/prices.json', import.meta.url);
+const prices = JSON.parse(readFileSync(pricesUrl, 'utf8'));
+
+const fundsUrl = new URL('../_data/funds.json', import.meta.url);
+const funds = JSON.parse(readFileSync(fundsUrl, 'utf8'));
 
 const POSITIONS_FILE_PATH = join(import.meta.dirname, '..', '_data', 'positions.json');
 
@@ -23,38 +27,34 @@ const monthEndPrices = [];
 for (let i = numMonths; i > 0; i--) {
   const startDate = dayjs.utc().subtract(i, 'month').startOf('month');
   const endDate = dayjs.utc().subtract(i, 'month').endOf('month');
-  const monthlyData = prices.filter(price => {
-    return dayjs.utc(price.date).isBetween(startDate, endDate, 'day', '[]');
-  });
-  monthlyData.sort((price1, price2) => {
-    return price1.date.localeCompare(price2.date);
-  });
+  const monthlyData = prices.filter((price) => dayjs.utc(price.date).isBetween(startDate, endDate, 'day', '[]'));
+  monthlyData.sort((price1, price2) => price1.date.localeCompare(price2.date));
   monthlyData.reverse();
   const monthEndPrice = monthlyData[0];
   monthEndPrices.push(monthEndPrice);
 }
 
 // Get all fund names
-const fundNames = funds.map(fund => fund.name);
+const fundNames = funds.map((fund) => fund.name);
 
-let positions = [];
+const positions = [];
 let index = 0;
-for (const monthEndPrice of monthEndPrices) {
+monthEndPrices.forEach((monthEndPrice) => {
   index++;
   // Don't calculate positions the first 9 months of fund price history
   // since we need at least 10 months of history to determine a position
-  if (index < 10) { continue }
+  if (index < 10) { return; }
 
   const date = dayjs.utc(monthEndPrice.date).add(1, 'month').startOf('month');
   const tenMonthPrices = monthEndPrices.slice(index - 10, index);
 
-  for (const fund of fundNames) {
+  fundNames.forEach((fund) => {
     const tenMonthAverage = tenMonthPrices.reduce((sum, daily) => {
-      const price = Number(daily.prices.find(item => item.fund === fund).price);
+      const price = Number(daily.prices.find((item) => item.fund === fund).price);
       return sum + price;
     }, 0) / 10;
 
-    const tenthMonthPrice = tenMonthPrices.at(-1).prices.find(item => item.fund === fund).price;
+    const tenthMonthPrice = tenMonthPrices.at(-1).prices.find((item) => item.fund === fund).price;
     const tenthMonthPriceDate = tenMonthPrices.at(-1).date;
     const invested = tenthMonthPrice >= tenMonthAverage;
 
@@ -64,11 +64,11 @@ for (const monthEndPrice of monthEndPrices) {
       invested,
       tenMonthAverage,
       tenthMonthPrice,
-      tenthMonthPriceDate
+      tenthMonthPriceDate,
     };
 
     positions.push(position);
-  }
-}
+  });
+});
 
 writeFileSync(POSITIONS_FILE_PATH, JSON.stringify(positions, null, 2));
