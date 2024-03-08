@@ -2,7 +2,7 @@
 
 import { join } from 'path';
 import { readFileSync, writeFileSync } from 'fs';
-import { parse } from 'csv-parse/lib/sync';
+import { parse } from 'csv-parse/sync';
 import dayjs from 'dayjs';
 
 const PRICES_FILE_PATH = join(import.meta.dirname, '..', '_data', 'prices.json');
