@@ -25,7 +25,9 @@ jobs:
           node-version-file: .nvmrc
       - run: npm install
       - run: npm run update-positions
-      - uses: EndBug/add-and-commit@v9
+      - run: git add _data/positions.json
+      - uses: dsanders11/github-app-commit-action@v1
         with:
-          add: _data/positions.json
           message: update investment positions
+          token: ${{ steps.appToken.outputs.token }}
+          fail-on-no-changes: false
