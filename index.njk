@@ -11,10 +11,10 @@ layout: default
         <div class="card-body">
           <p class="card-text">{{ position.description }}</p>
           {% if position.invested %}
-            <img class="fund-status-icon" src="{{ '/assets/images/in.svg' | url }}">
+            <img class="fund-status-icon" src="{{ '/assets/images/in.svg' | url }}" alt="Green check mark">
             <p class="card-text"><strong>Invested</strong> as of {{ position.date | formatDate("MMM D, YYYY") }}</p>
           {% else %}
-            <img class="fund-status-icon" src="{{ '/assets/images/out.svg' | url }}">
+            <img class="fund-status-icon" src="{{ '/assets/images/out.svg' | url }}" alt="Red X mark">
             <p class="card-text"><strong>Moved to G Fund</strong> as of {{ position.date | formatDate("MMM D, YYYY") }}</p>
           {% endif %}
           <hr>

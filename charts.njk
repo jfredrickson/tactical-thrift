@@ -7,7 +7,11 @@ layout: default
   {% for fund in funds %}
     <h2>{{ fund.name }} Fund</h2>
     <div class="chart-wrapper">
-      <canvas class="chart" data-fund="{{ fund.name }}"></canvas>
+      <canvas class="chart" data-fund="{{ fund.name }}" >
+        <p>
+          This chart displays the price and 10-month SMA for the {{ fund.name }} Fund. Visit the <a href="{{ '/history' | url }}">History</a> page to see the same data in tabular format.
+        </p>
+      </canvas>
     </div>
   {% endfor %}
 </div>
