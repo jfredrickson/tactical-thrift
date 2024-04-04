@@ -1,23 +1,22 @@
-$(document).ready(function () {
-  var charts = [];
+(function () {
 
   function buildChartData(fundName, allPositions) {
     const positions = allPositions
       .filter(position => position.fund === fundName)
       .slice(-12);
 
-    var data = {
+    const data = {
       labels: [],
       datasets: []
     };
-    var smaDataset = {
+    const smaDataset = {
       type: "line",
       label: "10-month SMA",
       data: [],
       fill: false,
       borderColor: "rgb(33, 133, 181)"
     };
-    var priceDataset = {
+    const priceDataset = {
       type: "line",
       label: "Price",
       data: [],
@@ -25,8 +24,8 @@ $(document).ready(function () {
       borderColor: "rgb(35, 139, 69)"
     };
     positions.forEach(function (position) {
-      var date = formatDate(position.date);
-      var status = position.invested ? "Invested" : "Move to G";
+      const date = formatDate(position.date);
+      const status = position.invested ? "Invested" : "Move to G";
       data.labels.push([date, status]);
       smaDataset.data.push(position.tenMonthAverage);
       priceDataset.data.push(position.tenthMonthPrice);
@@ -36,27 +35,37 @@ $(document).ready(function () {
     return data;
   }
 
-  function renderChart(targetElement, data) {
-    var chart = new Chart(targetElement, {
+  function renderChart(chartCanvas, data) {
+    new Chart(chartCanvas, {
       type: "line",
       data: data
     });
   }
 
+  function renderError(chartCanvas, error) {
+    console.error("Error fetching positions data:", error);
+    chartCanvas.getContext("2d").fillText("Error loading chart data.", 10, 10);
+  }
+
   function formatDate(isoDate) {
-    var monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-    var dateComponents = isoDate.split("-");
-    var year = dateComponents[0];
-    var month = parseInt(dateComponents[1]);
+    const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    const dateComponents = isoDate.split("-");
+    const year = dateComponents[0];
+    const month = parseInt(dateComponents[1]);
     return monthNames[month - 1] + " " + year;
   }
 
-  $("canvas.chart").each(function () {
-    var fundName = $(this).data("fund");
-    var targetElement = $(this);
-    $.getJSON("/data/positions.json", function (positions) {
-      var data = buildChartData(fundName, positions);
-      renderChart(targetElement, data);
-    });
+  document.querySelectorAll("canvas.chart").forEach(function (chartCanvas) {
+    const fundName = chartCanvas.dataset.fund;
+    fetch("/data/positions.json")
+      .then(response => response.json())
+      .then(positions => {
+        const chartData = buildChartData(fundName, positions);
+        renderChart(chartCanvas, chartData);
+      })
+      .catch(error => {
+        renderError(chartCanvas, error);
+      });
   });
-});
+
+})();
