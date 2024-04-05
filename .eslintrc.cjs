@@ -1,18 +1,12 @@
 module.exports = {
-  'settings': {
-    'import/resolver': {
-      'node': {
-        'extensions': ['.js', '.ts'],
-      },
-    },
-  },
   'plugins': [
-    '@typescript-eslint',
+    'import',
   ],
   'env': {
     'es2023': true,
+    'browser': true,
   },
-  'extends': 'airbnb-base',
+  'extends': 'eslint:recommended',
   'overrides': [
     {
       'env': {
@@ -31,6 +25,5 @@ module.exports = {
     'sourceType': 'module',
   },
   'rules': {
-    'no-plusplus': 'off',
   },
 };

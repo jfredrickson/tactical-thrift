@@ -34,7 +34,7 @@
     "@11ty/eleventy": "^2.0.1",
     "concurrently": "^8.2.2",
     "eslint": "^8.57.0",
-    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
     "sass": "^1.71.1"
   }
 }
