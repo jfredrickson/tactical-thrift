@@ -1,8 +1,6 @@
 {
   "name": "tactical-thrift",
-  "version": "3.1.0",
   "description": "Suggests a possible Thrift Savings Plan allocation.",
-  "main": "app.js",
   "type": "module",
   "scripts": {
     "start": "concurrently npm:serve npm:sass",
@@ -28,13 +26,13 @@
   },
   "dependencies": {
     "csv-parse": "^5.5.5",
-    "dayjs": "^1.11.10"
+    "dayjs": "^1.11.11"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "concurrently": "^8.2.2",
     "eslint": "^8.57.0",
     "eslint-plugin-import": "^2.29.1",
-    "sass": "^1.71.1"
+    "sass": "^1.76.0"
   }
 }
