@@ -5926,5 +5926,29 @@
     "tenMonthAverage": 42.83092,
     "tenthMonthPrice": "43.1207",
     "tenthMonthPriceDate": "2024-10-31"
+  },
+  {
+    "date": "2024-12-01T00:00:00.000Z",
+    "fund": "C",
+    "invested": true,
+    "tenMonthAverage": 86.07041000000001,
+    "tenthMonthPrice": "95.2050",
+    "tenthMonthPriceDate": "2024-11-29"
+  },
+  {
+    "date": "2024-12-01T00:00:00.000Z",
+    "fund": "S",
+    "invested": true,
+    "tenMonthAverage": 83.77149,
+    "tenthMonthPrice": "96.9849",
+    "tenthMonthPriceDate": "2024-11-29"
+  },
+  {
+    "date": "2024-12-01T00:00:00.000Z",
+    "fund": "I",
+    "invested": false,
+    "tenMonthAverage": 43.13324,
+    "tenthMonthPrice": "43.1145",
+    "tenthMonthPriceDate": "2024-11-29"
   }
 ]
