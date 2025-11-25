@@ -4,7 +4,7 @@ A website that tracks the Thrift Savings Plan's 10-month moving average, and sug
 
 ## License
 
-Copyright (C) 2016-2022 Jeff Fredrickson
+Copyright (C) 2016-2025 Jeff Fredrickson
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
