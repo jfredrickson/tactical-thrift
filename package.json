@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/jfredrickson/tactical-thrift#readme",
   "engines": {
-    "node": ">=v24.10.0"
+    "node": ">=v24.13.0"
   },
   "dependencies": {
     "csv-parse": "^5.6.0",
