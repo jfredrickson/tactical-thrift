@@ -6,22 +6,28 @@ on:
     - cron: "0 6,12 * * *"
     # Every 5 minutes, only for testing
     # - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read  # Required for checkout
 
 jobs:
   scheduled-prices-update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/create-github-app-token@v1
+      - uses: actions/create-github-app-token@v2
         id: appToken
         with:
           app-id: ${{ vars.APP_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           ref: main
-      - uses: actions/setup-node@v4
+          token: ${{ steps.appToken.outputs.token }}
+      - uses: actions/setup-node@v6
         with:
           node-version-file: .nvmrc
+          cache: npm
       - run: npm install
       - run: npm run update-prices
       - run: git add _data/prices.json
