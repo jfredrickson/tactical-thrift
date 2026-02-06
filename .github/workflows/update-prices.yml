@@ -6,6 +6,7 @@ on:
     - cron: "0 6,12 * * *"
     # Every 5 minutes, only for testing
     # - cron: "*/5 * * * *"
+  workflow_dispatch:
 
 permissions:
   contents: read  # Required for checkout
@@ -26,6 +27,7 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version-file: .nvmrc
+          cache: npm
       - run: npm install
       - run: npm run update-prices
       - run: git add _data/prices.json
