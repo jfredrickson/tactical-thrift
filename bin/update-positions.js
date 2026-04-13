@@ -3,8 +3,8 @@
 import { join } from 'path';
 import { readFileSync, writeFileSync } from 'fs';
 import dayjs from 'dayjs';
-import utc from 'dayjs/plugin/utc.js'; // eslint-disable-line import/extensions
-import isBetween from 'dayjs/plugin/isBetween.js'; // eslint-disable-line import/extensions
+import utc from 'dayjs/plugin/utc.js';
+import isBetween from 'dayjs/plugin/isBetween.js';
 
 dayjs.extend(utc);
 dayjs.extend(isBetween);

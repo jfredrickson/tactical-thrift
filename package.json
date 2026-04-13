@@ -7,8 +7,8 @@
     "serve": "npx @11ty/eleventy --serve",
     "build": "npx @11ty/eleventy",
     "sass": "sass --watch _sass/styles.scss assets/stylesheets/styles.css",
-    "update-prices": "node bin/update-prices",
-    "update-positions": "node bin/update-positions",
+    "update-prices": "node bin/update-prices.js",
+    "update-positions": "node bin/update-positions.js",
     "lint": "npx eslint bin/*"
   },
   "repository": {
@@ -30,9 +30,10 @@
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.2",
+    "@eslint/js": "^10.0.1",
     "concurrently": "^8.2.2",
-    "eslint": "^8.57.1",
-    "eslint-plugin-import": "^2.32.0",
+    "eslint": "^10.2.0",
+    "globals": "^17.5.0",
     "sass": "^1.94.2"
   }
 }
