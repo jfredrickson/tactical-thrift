@@ -9,7 +9,7 @@
     "sass": "sass --watch _sass/styles.scss assets/stylesheets/styles.css",
     "update-prices": "node bin/update-prices.js",
     "update-positions": "node bin/update-positions.js",
-    "lint": "npx eslint bin/*",
+    "lint": "npx eslint bin/* assets/javascripts/*",
     "format": "npx prettier --write ."
   },
   "repository": {

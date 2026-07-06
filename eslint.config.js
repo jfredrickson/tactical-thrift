@@ -12,4 +12,13 @@ export default [
       },
     },
   },
+  {
+    files: ["assets/javascripts/**/*.js"],
+    languageOptions: {
+      globals: {
+        ...globals.browser,
+        Chart: "readonly",
+      },
+    },
+  },
 ];
