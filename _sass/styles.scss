@@ -1,122 +1,122 @@
 body {
-  font-family: "Lato", sans-serif;
+	font-family: "Lato", sans-serif;
 }
 
 h1,
 h2,
 h3,
 h4 {
-  margin-top: 2em;
+	margin-top: 2em;
 }
 
 .site-header {
-  margin: 1.5em 0;
-  text-align: center;
+	margin: 1.5em 0;
+	text-align: center;
 
-  h1 {
-    margin: 0;
-    font-size: 3em;
-    font-weight: bold;
-  }
+	h1 {
+		margin: 0;
+		font-size: 3em;
+		font-weight: bold;
+	}
 }
 
 nav {
-  margin-bottom: 2em;
+	margin-bottom: 2em;
 
-  a span {
-    padding-bottom: 3px;
-  }
+	a span {
+		padding-bottom: 3px;
+	}
 
-  .active a span {
-    border-bottom: 3px solid #1468cc;
-  }
+	.active a span {
+		border-bottom: 3px solid #1468cc;
+	}
 }
 
 .navbar-brand {
-  width: 0;
-  margin: 0;
+	width: 0;
+	margin: 0;
 }
 
 .fund-card {
-  border-color: white;
-  background-color: #f6f6f6;
-  text-align: center;
-  margin-top: 1em;
-  margin-bottom: 1em;
+	border-color: white;
+	background-color: #f6f6f6;
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
 
-  h2 {
-    margin: 0;
-    font-size: 3em;
-    color: white;
-    background-color: #1468cc;
-    font-weight: lighter;
-  }
+	h2 {
+		margin: 0;
+		font-size: 3em;
+		color: white;
+		background-color: #1468cc;
+		font-weight: lighter;
+	}
 
-  b {
-    font-weight: bold;
-  }
+	b {
+		font-weight: bold;
+	}
 
-  .fund-status-icon {
-    height: 80px;
-    width: auto;
-  }
+	.fund-status-icon {
+		height: 80px;
+		width: auto;
+	}
 
-  .details-price,
-  .details-sma {
-    margin: 1em 0;
-  }
+	.details-price,
+	.details-sma {
+		margin: 1em 0;
+	}
 
-  .details-price-amount,
-  .details-sma-amount {
-    font-weight: bold;
-  }
+	.details-price-amount,
+	.details-sma-amount {
+		font-weight: bold;
+	}
 }
 
 section#about {
-  margin: 4em 0;
+	margin: 4em 0;
 
-  h2 {
-    text-align: center;
-    margin: 1em auto;
-  }
+	h2 {
+		text-align: center;
+		margin: 1em auto;
+	}
 }
 
 footer {
-  margin-top: 2em;
-  padding: 2em 0;
-  color: white;
-  background-color: #333;
+	margin-top: 2em;
+	padding: 2em 0;
+	color: white;
+	background-color: #333;
 
-  p {
-    margin: 0;
-  }
+	p {
+		margin: 0;
+	}
 
-  a,
-  a:hover,
-  a:active,
-  a:visited {
-    color: lighten(#0275d8, 40%);
-  }
+	a,
+	a:hover,
+	a:active,
+	a:visited {
+		color: lighten(#0275d8, 40%);
+	}
 
-  img.icon {
-    vertical-align: middle;
-    height: 25px;
-    width: auto;
-  }
+	img.icon {
+		vertical-align: middle;
+		height: 25px;
+		width: auto;
+	}
 
-  .footer-section {
-    text-align: center;
-  }
+	.footer-section {
+		text-align: center;
+	}
 
-  @media (min-width: 598px) {
-    .footer-github {
-      text-align: left;
-    }
-  }
+	@media (min-width: 598px) {
+		.footer-github {
+			text-align: left;
+		}
+	}
 }
 
 .chart-wrapper {
-  border: 1px solid #ddd;
-  padding: 1em;
-  margin: 1em auto 2em;
+	border: 1px solid #ddd;
+	padding: 1em;
+	margin: 1em auto 2em;
 }

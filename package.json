@@ -1,41 +1,41 @@
 {
-  "name": "tactical-thrift",
-  "description": "Suggests a possible Thrift Savings Plan allocation.",
-  "type": "module",
-  "scripts": {
-    "start": "concurrently npm:serve npm:sass",
-    "serve": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy",
-    "sass": "sass --watch _sass/styles.scss assets/stylesheets/styles.css",
-    "update-prices": "node bin/update-prices.js",
-    "update-positions": "node bin/update-positions.js",
-    "lint": "npx eslint bin/* assets/javascripts/*",
-    "format": "npx prettier --write ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jfredrickson/tactical-thrift.git"
-  },
-  "author": "Jeff Fredrickson <jeff.fredrickson@gmail.com>",
-  "license": "AGPL-3.0",
-  "bugs": {
-    "url": "https://github.com/jfredrickson/tactical-thrift/issues"
-  },
-  "homepage": "https://github.com/jfredrickson/tactical-thrift#readme",
-  "engines": {
-    "node": ">=v24.13.0"
-  },
-  "dependencies": {
-    "csv-parse": "^5.6.0",
-    "dayjs": "^1.11.20"
-  },
-  "devDependencies": {
-    "@11ty/eleventy": "^3.1.5",
-    "@eslint/js": "^10.0.1",
-    "concurrently": "^10.0.3",
-    "eslint": "^10.2.0",
-    "globals": "^17.5.0",
-    "prettier": "^3.9.4",
-    "sass": "^1.99.0"
-  }
+	"name": "tactical-thrift",
+	"description": "Suggests a possible Thrift Savings Plan allocation.",
+	"type": "module",
+	"scripts": {
+		"start": "concurrently npm:serve npm:sass",
+		"serve": "npx @11ty/eleventy --serve",
+		"build": "npx @11ty/eleventy",
+		"sass": "sass --watch _sass/styles.scss assets/stylesheets/styles.css",
+		"update-prices": "node bin/update-prices.js",
+		"update-positions": "node bin/update-positions.js",
+		"lint": "npx eslint bin/* assets/javascripts/*",
+		"format": "npx prettier --write ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jfredrickson/tactical-thrift.git"
+	},
+	"author": "Jeff Fredrickson <jeff.fredrickson@gmail.com>",
+	"license": "AGPL-3.0",
+	"bugs": {
+		"url": "https://github.com/jfredrickson/tactical-thrift/issues"
+	},
+	"homepage": "https://github.com/jfredrickson/tactical-thrift#readme",
+	"engines": {
+		"node": ">=v24.13.0"
+	},
+	"dependencies": {
+		"csv-parse": "^5.6.0",
+		"dayjs": "^1.11.20"
+	},
+	"devDependencies": {
+		"@11ty/eleventy": "^3.1.5",
+		"@eslint/js": "^10.0.1",
+		"concurrently": "^10.0.3",
+		"eslint": "^10.2.0",
+		"globals": "^17.5.0",
+		"prettier": "^3.9.4",
+		"sass": "^1.99.0"
+	}
 }

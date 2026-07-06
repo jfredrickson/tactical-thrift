@@ -1,38 +1,38 @@
 name: Update monthly investment positions
 
 on:
-  schedule:
-    # 6:30 and 12:30 UTC daily
-    - cron: "30 6,12 * * *"
-    # Every 5 minutes, only for testing
-    # - cron: "*/5 * * * *"
-  workflow_dispatch:
+    schedule:
+        # 6:30 and 12:30 UTC daily
+        - cron: "30 6,12 * * *"
+        # Every 5 minutes, only for testing
+        # - cron: "*/5 * * * *"
+    workflow_dispatch:
 
 permissions:
-  contents: read # All write operations use app token
+    contents: read # All write operations use app token
 
 jobs:
-  scheduled-positions-update:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/create-github-app-token@v2
-        id: appToken
-        with:
-          app-id: ${{ vars.APP_ID }}
-          private-key: ${{ secrets.APP_PRIVATE_KEY }}
-      - uses: actions/checkout@v6
-        with:
-          ref: main
-          token: ${{ steps.appToken.outputs.token }}
-      - uses: actions/setup-node@v6
-        with:
-          node-version-file: .nvmrc
-          cache: npm
-      - run: npm install
-      - run: npm run update-positions
-      - run: git add _data/positions.json
-      - uses: dsanders11/github-app-commit-action@v1
-        with:
-          message: update investment positions
-          token: ${{ steps.appToken.outputs.token }}
-          fail-on-no-changes: false
+    scheduled-positions-update:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/create-github-app-token@v2
+              id: appToken
+              with:
+                  app-id: ${{ vars.APP_ID }}
+                  private-key: ${{ secrets.APP_PRIVATE_KEY }}
+            - uses: actions/checkout@v6
+              with:
+                  ref: main
+                  token: ${{ steps.appToken.outputs.token }}
+            - uses: actions/setup-node@v6
+              with:
+                  node-version-file: .nvmrc
+                  cache: npm
+            - run: npm install
+            - run: npm run update-positions
+            - run: git add _data/positions.json
+            - uses: dsanders11/github-app-commit-action@v1
+              with:
+                  message: update investment positions
+                  token: ${{ steps.appToken.outputs.token }}
+                  fail-on-no-changes: false
