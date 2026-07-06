@@ -2,7 +2,10 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   margin-top: 2em;
 }
 
@@ -52,10 +55,12 @@ nav .active a span {
   height: 80px;
   width: auto;
 }
-.fund-card .details-price, .fund-card .details-sma {
+.fund-card .details-price,
+.fund-card .details-sma {
   margin: 1em 0;
 }
-.fund-card .details-price-amount, .fund-card .details-sma-amount {
+.fund-card .details-price-amount,
+.fund-card .details-sma-amount {
   font-weight: bold;
 }
 
@@ -76,7 +81,10 @@ footer {
 footer p {
   margin: 0;
 }
-footer a, footer a:hover, footer a:active, footer a:visited {
+footer a,
+footer a:hover,
+footer a:active,
+footer a:visited {
   color: #a8d6fe;
 }
 footer img.icon {

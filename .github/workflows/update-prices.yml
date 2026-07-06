@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read  # Required for checkout
+  contents: read # Required for checkout
 
 jobs:
   scheduled-prices-update:

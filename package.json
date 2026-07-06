@@ -9,7 +9,8 @@
     "sass": "sass --watch _sass/styles.scss assets/stylesheets/styles.css",
     "update-prices": "node bin/update-prices.js",
     "update-positions": "node bin/update-positions.js",
-    "lint": "npx eslint bin/*"
+    "lint": "npx eslint bin/*",
+    "format": "npx prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -34,6 +35,7 @@
     "concurrently": "^10.0.3",
     "eslint": "^10.2.0",
     "globals": "^17.5.0",
+    "prettier": "^3.9.4",
     "sass": "^1.99.0"
   }
 }

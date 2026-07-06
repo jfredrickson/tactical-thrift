@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read  # All write operations use app token
+  contents: read # All write operations use app token
 
 jobs:
   scheduled-positions-update:
