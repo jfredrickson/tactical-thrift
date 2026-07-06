@@ -1,4 +1,4 @@
-(function () {
+(async function () {
 	function buildChartData(fundName, allPositions) {
 		const positions = allPositions
 			.filter((position) => position.fund === fundName)
@@ -69,16 +69,22 @@
 		return monthNames[month - 1] + " " + year;
 	}
 
+	let positions;
+	try {
+		const response = await fetch("/data/positions.json");
+		positions = await response.json();
+	} catch (err) {
+		document
+			.querySelectorAll("canvas.chart")
+			.forEach(function (chartCanvas) {
+				renderError(chartCanvas, err);
+			});
+		return;
+	}
+
 	document.querySelectorAll("canvas.chart").forEach(function (chartCanvas) {
 		const fundName = chartCanvas.dataset.fund;
-		fetch("/data/positions.json")
-			.then((response) => response.json())
-			.then((positions) => {
-				const chartData = buildChartData(fundName, positions);
-				renderChart(chartCanvas, chartData);
-			})
-			.catch((error) => {
-				renderError(chartCanvas, error);
-			});
+		const chartData = buildChartData(fundName, positions);
+		renderChart(chartCanvas, chartData);
 	});
 })();
