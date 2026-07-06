@@ -7,7 +7,7 @@ layout: default
   <div class="card-deck">
     {% for position in currentPositions %}
       <div class="card fund-card">
-        <h2 class="card-header"><b>{{ position.fund }}</b> Fund</h3>
+        <h2 class="card-header"><b>{{ position.fund }}</b> Fund</h2>
         <div class="card-body">
           <p class="card-text">{{ position.description }}</p>
           {% if position.invested %}
